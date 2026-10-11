@@ -9,7 +9,7 @@ import { projectRoot, readProjectData, validateRelations, validateSchema, datase
 
 const config = { schemaVersion: '1.0.0', name: 'Lisbon Bitcoin Community', countryCode: 'PT', country: 'Portugal', city: 'Lisbon', language: 'en', accent: '#f7931a', mission: 'Independent education and a welcoming local community.', status: 'draft' };
 function template() {
-  return { files: { 'package.json': '{}', 'dist/index.html': '<html></html>', 'dist/app.js': '// source', 'dist/lib/kit.js': '// source', 'scripts/build.mjs': '// source', 'docs/API.md': '# API', '.gitignore': 'node_modules', '.github/workflows/check.yml': 'name: checks', '.openai/project.json': 'PRIVATE ID', '.env': 'SECRET', 'docs/credentials.json': 'SECRET', 'dist/downloads/archive.zip': 'STALE', 'dist/source-template.json': 'RECURSIVE' } };
+  return { files: { 'package.json': '{}', 'dist/index.html': '<html></html>', 'dist/app.js': '// source', 'dist/lib/kit.js': '// source', 'scripts/build.mjs': '// source', 'dist/data/dbe-public.json': '{"datasetType":"origin-reference","organization":{"name":"Dutch Bitcoin Embassy"}}', 'docs/API.md': '# API', '.gitignore': 'node_modules', '.github/workflows/check.yml': 'name: checks', '.openai/project.json': 'PRIVATE ID', '.env': 'SECRET', 'docs/credentials.json': 'SECRET', 'dist/downloads/archive.zip': 'STALE', 'dist/source-template.json': 'RECURSIVE' } };
 }
 
 test('CRC-32 matches a standard known vector', () => {
@@ -74,6 +74,7 @@ test('country starter contains only local draft and removes private identity and
   assert.match(registry.chapters[0].id, /^pt-[a-z0-9-]+$/);
   assert.ok(files['README.local.md']);
   assert.ok(files['.github/workflows/check.yml']);
+  assert.equal(files['dist/data/dbe-public.json'], source.files['dist/data/dbe-public.json'], 'separate origin reference is preserved unchanged');
   for (const path of ['.openai/project.json', '.env', 'docs/credentials.json', 'dist/source-template.json', 'dist/downloads/archive.zip']) assert.equal(files[path], undefined, path);
   assert.equal(source.files['.openai/project.json'], 'PRIVATE ID', 'input template is unchanged');
 });
@@ -114,6 +115,26 @@ test('validation catches duplicate records, false template links and manifest co
   data.registry.chapters.push({ ...data.registry.chapters[0], id: 'demo-relation-test', status: 'template', website: 'https://example.com', source: { url: null, accessedAt: data.registry.updatedAt, rights: 'Original demo, CC0-1.0' } });
   assert.ok(validateRelations(data).some(error => error.includes('demonstration template')));
   assert.ok(validateRelations(data).some(error => error.includes('manifest.stats')));
+});
+
+test('public DBE reference contains cited source facts and explicitly historical events', async () => {
+  const data = await readProjectData(), reference = data['dbe-public'];
+  assert.equal(reference.datasetType, 'origin-reference');
+  assert.equal(reference.organization.name, 'Dutch Bitcoin Embassy');
+  assert.equal(reference.organization.city, 'Den Haag');
+  assert.equal(reference.source.url, 'https://www.dutchbitcoinembassy.com/');
+  assert.equal(reference.source.accessedAt, '2026-10-11');
+  assert.match(reference.source.rights, /No open license is claimed/);
+  assert.deepEqual(reference.circles.map(circle => circle.name), ['Open Circle', 'Builders Circle', 'Business Club Circle']);
+  assert.deepEqual(reference.events.map(event => [event.date, event.venue, event.city, event.status]), [
+    ['2025-11-22', 'Flora Theater', 'Den Haag', 'past'],
+    ['2026-01-15', 'Paviljoen de Witte', 'Den Haag', 'past']
+  ]);
+  for (const event of reference.events) assert.deepEqual(Object.keys(event).sort(), ['city', 'date', 'id', 'status', 'venue']);
+  reference.events[0].date = '2027-01-01';
+  assert.ok(validateRelations(data).some(error => error.includes('must precede')));
+  reference.organization.website = 'https://example.com';
+  assert.ok(validateRelations(data).some(error => error.includes('official source')));
 });
 
 test('schema checker catches real date, coordinate, bounds, required and unknown-property errors', async () => {

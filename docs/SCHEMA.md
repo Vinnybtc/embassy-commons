@@ -37,6 +37,12 @@ Categories are `community`, `education`, `operations`, `business`, `governance`,
 
 Each section is `{title: {nl, en}, paragraphs: {nl: [text], en: [text]}}`. Checklists are `{nl: [text], en: [text]}`. Both languages must be present and nonempty. Markdown exports retain attribution and license instructions. No actual wallet credentials, participant lists or payment records belong in this dataset.
 
+## Public origin reference
+
+`dbe-public.json` is `{schemaVersion, updatedAt, datasetType, source, organization, circles, events}`. Its type is `origin-reference`, distinguishing public origin facts from each country's local registry and current activities. Source metadata is `{url, accessedAt, rights}`. Organization contains `{name, city, website, summary: {nl, en}}`. Circles contain `{id, name, summary: {nl, en}}`. Events contain `{id, date, venue, city, status: "past"}`.
+
+Circle and event IDs must be unique within their respective lists. The organization's website must match the official source URL. Historical event dates must precede the source access date, and the rights statement explicitly identifies externally sourced public facts. The dataset has no fields for prices, named individuals, participants or private records. Its source's content and branding are not assigned an open license by this project. Country forks preserve this separate reference file while replacing the local registry.
+
 ## Manifest and cross-record checks
 
 The manifest specifies endpoint paths, schema paths, licenses, capabilities, counts and dataset SHA-256 hashes. Code is MIT, original resources are CC-BY-4.0, and original demo data is CC0-1.0. External-fact rights are stated separately. `stats` must match actual chapter/resource counts and statuses. Endpoint/schema paths must match the documented names. URLs cannot embed login credentials.

@@ -18,6 +18,7 @@ Open `http://127.0.0.1:4173`. De HTTP-server serveert alleen `dist/`. Dubbelklik
 
 - Responsive website met Nederlands en Engels en zes pagina’s: overzicht, landregister, kennisbank, startergenerator, open data en voorstel.
 - Zoekbaar landregister met een openbare Nederlandse bronverwijzing en drie expliciet gemarkeerde voorbeeldtemplates. Er zijn geen bevestigde internationale partners opgenomen.
+- Gestructureerde openbare DBE-brondata: de drie circles en twee historische bijeenkomsten, inclusief herkomst en rechten. Dit is een afzonderlijke bronreferentie en bevat geen ledengegevens.
 - Acht originele playbooks in beide talen, met leesvenster en Markdown-download.
 - Drie stappen om naam, land, stad, taal, kleur en missie in te vullen. De generator levert de volledige broncode, documentatie en een lokale landconfiguratie als ZIP.
 - Openbare JSON-bestanden, JSON Schema’s, datavalidatie en een onafhankelijke CLI voor het genereren van een starter.

@@ -1,0 +1,184 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Embassy Commons public DBE origin reference 1.0.0",
+  "description": "Public facts from a cited official source, separate from local chapter data. Additional validation checks unique ids, source-to-organization URL agreement and historical event dates.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0.0"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date"
+    },
+    "datasetType": {
+      "const": "origin-reference"
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "accessedAt": {
+          "type": "string",
+          "format": "date"
+        },
+        "rights": {
+          "type": "string",
+          "minLength": 30,
+          "maxLength": 2000
+        }
+      },
+      "required": [
+        "url",
+        "accessedAt",
+        "rights"
+      ]
+    },
+    "organization": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 3,
+          "maxLength": 100
+        },
+        "city": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 100
+        },
+        "website": {
+          "type": "string",
+          "format": "uri"
+        },
+        "summary": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "nl": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 2000
+            },
+            "en": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 2000
+            }
+          },
+          "required": [
+            "nl",
+            "en"
+          ]
+        }
+      },
+      "required": [
+        "name",
+        "city",
+        "website",
+        "summary"
+      ]
+    },
+    "circles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "maxLength": 100
+          },
+          "name": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 100
+          },
+          "summary": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "nl": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 2000
+              },
+              "en": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 2000
+              }
+            },
+            "required": [
+              "nl",
+              "en"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "summary"
+        ]
+      },
+      "minItems": 1,
+      "maxItems": 100
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "maxLength": 100
+          },
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "venue": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 100
+          },
+          "city": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 100
+          },
+          "status": {
+            "const": "past"
+          }
+        },
+        "required": [
+          "id",
+          "date",
+          "venue",
+          "city",
+          "status"
+        ]
+      },
+      "minItems": 1,
+      "maxItems": 100
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "updatedAt",
+    "datasetType",
+    "source",
+    "organization",
+    "circles",
+    "events"
+  ]
+}

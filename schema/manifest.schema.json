@@ -153,6 +153,10 @@
         "sourceArchive": {
           "type": "string",
           "pattern": "^(?!/)(?!.*\\.\\.)(?!.*\\\\)[a-zA-Z0-9_./-]+$"
+        },
+        "dbe-public": {
+          "type": "string",
+          "const": "data/dbe-public.json"
         }
       },
       "required": [
@@ -161,7 +165,8 @@
         "resources",
         "config",
         "sourceTemplate",
-        "sourceArchive"
+        "sourceArchive",
+        "dbe-public"
       ]
     },
     "schemas": {
@@ -183,13 +188,18 @@
         "manifest": {
           "type": "string",
           "pattern": "^(?!/)(?!.*\\.\\.)(?!.*\\\\)[a-zA-Z0-9_./-]+$"
+        },
+        "dbe-public": {
+          "type": "string",
+          "const": "schema/dbe-public.schema.json"
         }
       },
       "required": [
         "registry",
         "resources",
         "config",
-        "manifest"
+        "manifest",
+        "dbe-public"
       ]
     },
     "capabilities": {

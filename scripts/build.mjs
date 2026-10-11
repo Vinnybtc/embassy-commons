@@ -74,7 +74,7 @@ export async function buildProject(root = projectRoot) {
   errors.push(...validateRelations(data));
   if (errors.length) throw new Error(errors.join('\n'));
   data.manifest.integrity = {};
-  for (const name of ['config', 'registry', 'resources']) {
+  for (const name of ['config', 'registry', 'resources', 'dbe-public']) {
     data.manifest.integrity[`data/${name}.json`] = createHash('sha256').update(await readFile(resolve(root, `dist/data/${name}.json`))).digest('hex');
   }
   await writeFile(resolve(root, 'dist/data/manifest.json'), JSON.stringify(data.manifest, null, 2) + '\n');

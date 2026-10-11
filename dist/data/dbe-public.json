@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "1.0.0",
+  "updatedAt": "2026-10-11",
+  "datasetType": "origin-reference",
+  "source": {
+    "url": "https://www.dutchbitcoinembassy.com/",
+    "accessedAt": "2026-10-11",
+    "rights": "Externally sourced public facts from the official website. Descriptions are independently written. No open license is claimed for the source website, brand, logo or other third-party content. This origin-reference dataset contains no private records or personal data."
+  },
+  "organization": {
+    "name": "Dutch Bitcoin Embassy",
+    "city": "Den Haag",
+    "website": "https://www.dutchbitcoinembassy.com/",
+    "summary": {
+      "nl": "Een openbaar beschreven initiatief in Den Haag voor ontmoeting, Bitcoin-educatie en samenwerking. Deze bronreferentie maakt het initiatief niet automatisch lid van Embassy Commons.",
+      "en": "A publicly described initiative in The Hague for meeting others, Bitcoin education and collaboration. This source reference does not automatically make the initiative a member of Embassy Commons."
+    }
+  },
+  "circles": [
+    {
+      "id": "open-circle",
+      "name": "Open Circle",
+      "summary": {
+        "nl": "Een ingang voor mensen die elkaar willen ontmoeten, vragen stellen en meer over Bitcoin leren.",
+        "en": "An entry point for people who want to meet others, ask questions and learn more about Bitcoin."
+      }
+    },
+    {
+      "id": "builders-circle",
+      "name": "Builders Circle",
+      "summary": {
+        "nl": "Een kring voor mensen die praktische projecten rond Bitcoin willen verkennen en eraan willen werken.",
+        "en": "A circle for people who want to explore and work on practical projects around Bitcoin."
+      }
+    },
+    {
+      "id": "business-club-circle",
+      "name": "Business Club Circle",
+      "summary": {
+        "nl": "Een kring voor ondernemers om elkaar te ontmoeten en zakelijke toepassingen en vragen rond Bitcoin te bespreken.",
+        "en": "A circle for business owners to meet and discuss business applications and questions around Bitcoin."
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "dbe-2025-11-22-flora-theater",
+      "date": "2025-11-22",
+      "venue": "Flora Theater",
+      "city": "Den Haag",
+      "status": "past"
+    },
+    {
+      "id": "dbe-2026-01-15-paviljoen-de-witte",
+      "date": "2026-01-15",
+      "venue": "Paviljoen de Witte",
+      "city": "Den Haag",
+      "status": "past"
+    }
+  ]
+}

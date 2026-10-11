@@ -47,6 +47,8 @@ npm start
 
 The output directory must not already exist. The generator refuses to overwrite it, including an empty existing directory. A local fork receives only its own draft registry record. Its country name and mission initially use the chosen config text for both language fields; translate those fields before publication. An independently operated fork is not automatic membership, official representation or permission to use any third-party brand.
 
+The separate `dist/data/dbe-public.json` remains an origin-reference dataset in the fork. It documents public Dutch Bitcoin Embassy facts and historical events from the cited official website. It does not describe the local fork's current organization or scheduled events, and it includes no private data or live connection to Dutch Bitcoin Embassy systems.
+
 ## Edit and publish
 
 Edit `dist/data/config.json` for name, country, city, mission, language and accent. Dutch and English are currently supported; new country codes work with either available interface language. Additional interface languages need corresponding UI strings, resource translations, schemas and validators.

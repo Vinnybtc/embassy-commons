@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 import { validateConfig } from '../dist/lib/kit.js';
 
 export const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-export const datasetNames = ['config', 'registry', 'resources', 'manifest'];
+export const datasetNames = ['config', 'registry', 'resources', 'dbe-public', 'manifest'];
 const own = (object, key) => Object.hasOwn(object, key);
 
 // Implements exactly the JSON Schema keywords used by our checked-in schemas.
@@ -71,6 +71,15 @@ export function validateRelations(data) {
   const errors = [], chapters = data.registry?.chapters, resources = data.resources?.resources;
   errors.push(...validateConfig(data.config));
   errors.push(...duplicateErrors(chapters, 'id', 'registry'), ...duplicateErrors(resources, 'id', 'resources'));
+  const reference = data['dbe-public'];
+  if (reference) {
+    errors.push(...duplicateErrors(reference.circles, 'id', 'dbe-public.circles'), ...duplicateErrors(reference.events, 'id', 'dbe-public.events'));
+    if (reference.source?.url !== reference.organization?.website) errors.push('dbe-public: organization website must match the cited official source');
+    if (!/externally sourced public facts/i.test(reference.source?.rights ?? '')) errors.push('dbe-public: source rights must distinguish external public facts');
+    for (const event of reference.events ?? []) {
+      if (event.status !== 'past' || event.date >= reference.source.accessedAt) errors.push(`dbe-public.${event.id}: a past event must precede the source access date`);
+    }
+  }
   for (const chapter of chapters ?? []) {
     errors.push(...duplicateErrors(chapter.languages, null, chapter.id));
     if (chapter.status === 'source' && (!chapter.website || !chapter.source?.url || !chapter.coordinates)) errors.push(`${chapter.id}: source record requires a website, source URL and city coordinates`);
@@ -110,7 +119,7 @@ export async function validateProject(root = projectRoot, { checkIntegrity = tru
   }
   for (const [name, relative] of Object.entries(data.manifest.schemas ?? {})) if (relative !== `schema/${name}.schema.json`) errors.push(`manifest.schemas.${name}: expected matching schema path`);
   if (checkIntegrity) for (const [relative, digest] of Object.entries(data.manifest.integrity ?? {})) {
-    if (!/^data\/(config|registry|resources)\.json$/.test(relative)) { errors.push(`integrity: unsupported path ${relative}`); continue; }
+    if (!/^data\/(config|registry|resources|dbe-public)\.json$/.test(relative)) { errors.push(`integrity: unsupported path ${relative}`); continue; }
     const actual = createHash('sha256').update(await readFile(resolve(root, 'dist', relative))).digest('hex');
     if (actual !== digest) errors.push(`integrity: ${relative} SHA-256 mismatch; run npm run build`);
   }
