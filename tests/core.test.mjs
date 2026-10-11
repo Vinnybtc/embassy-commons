@@ -1,3 +1,4 @@
+import { isCommonsPublisher } from '../dist/lib/publisher.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
@@ -84,6 +85,16 @@ test('country starter rejects malicious template paths and incomplete source', (
   assert.throws(() => createStarterFiles({ files: { 'package.json': '{}' } }, config), /Incomplete source template/);
 });
 
+test('a valid long name generates a schema-valid registry when truncation lands on a separator', async () => {
+  const longConfig = { ...config, name: 'a'.repeat(59) + ' Builders' };
+  assert.deepEqual(validateConfig(longConfig), []);
+  const files = createStarterFiles(template(), longConfig);
+  const registry = JSON.parse(files['dist/data/registry.json']);
+  const schema = JSON.parse(await readFile(resolve(projectRoot, 'schema/registry.schema.json'), 'utf8'));
+  assert.equal(registry.chapters[0].id, 'pt-' + 'a'.repeat(59));
+  assert.deepEqual(validateSchema(registry, schema), []);
+});
+
 test('source packaging permits canonical public files and excludes identity, secrets and generated copies', () => {
   for (const path of ['README.md', 'CONTENT-LICENSE.md', 'DATA-LICENSE.md', 'SECURITY.md', 'CONTRIBUTING.md', 'CODE_OF_CONDUCT.md', 'docs/API.md', 'dist/data/resources.json', 'schema/config.schema.json', 'tests/core.test.mjs']) assert.equal(includeSourceFile(path), true, path);
   for (const path of ['.openai/project.json', '.env', 'credentials.json', 'docs/credentials.json', 'dist/data/secrets.json', 'dist/source-template.json', 'dist/docs/API.md', 'dist/schema/config.schema.json', 'dist/downloads/x.zip', 'node_modules/x.json', 'work/private.md']) assert.equal(includeSourceFile(path), false, path);
@@ -125,9 +136,9 @@ test('public DBE reference contains cited source facts and explicitly historical
   assert.equal(reference.source.url, 'https://www.dutchbitcoinembassy.com/');
   assert.equal(reference.source.accessedAt, '2026-10-11');
   assert.match(reference.source.rights, /No open license is claimed/);
-  assert.deepEqual(reference.circles.map(circle => circle.name), ['Open Circle', 'Builders Circle', 'Business Club Circle']);
+  assert.deepEqual(reference.circles.map(circle => circle.name), ['Open Circle', 'Builders Circle', 'Business Club']);
   assert.deepEqual(reference.events.map(event => [event.date, event.venue, event.city, event.status]), [
-    ['2025-11-22', 'Flora Theater', 'Den Haag', 'past'],
+    ['2025-11-22', 'Flora Filmtheater', 'Den Haag', 'past'],
     ['2026-01-15', 'Paviljoen de Witte', 'Den Haag', 'past']
   ]);
   for (const event of reference.events) assert.deepEqual(Object.keys(event).sort(), ['city', 'date', 'id', 'status', 'venue']);
@@ -160,4 +171,21 @@ test('all schema validation keywords are implemented by the minimal validator', 
     for (const entry of [...(schema.anyOf ?? []), ...(schema.prefixItems ?? [])]) visit(entry);
   }
   for (const name of datasetNames) visit(JSON.parse(await readFile(resolve(projectRoot, `schema/${name}.schema.json`), 'utf8')));
+});
+
+test('configuration character limits match JSON Schema for non-BMP text', async () => {
+  const schema = JSON.parse(await readFile(resolve(projectRoot, 'schema/config.schema.json'), 'utf8'));
+  const tooShort = { ...config, name: '\u{10400}\u{10401}' };
+  assert.ok(validateConfig(tooShort).some(error => error.includes('name')));
+  assert.ok(validateSchema(tooShort, schema).some(error => error.includes('name')));
+  const atLimit = { ...config, name: '\u{10400}'.repeat(100) };
+  assert.deepEqual(validateConfig(atLimit), []);
+  assert.deepEqual(validateSchema(atLimit, schema), []);
+});
+
+test('a generated local fork cannot inherit publisher branding by choosing the publisher name', () => {
+  const localConfig = { ...config, name: 'Embassy Commons' };
+  const localRegistry = JSON.parse(createStarterFiles(template(), localConfig)['dist/data/registry.json']);
+  assert.equal(isCommonsPublisher(localConfig, localRegistry), false);
+  assert.equal(isCommonsPublisher({name:'Embassy Commons'}, {chapters:[{id:'nl-dutch-bitcoin-embassy',status:'source'}]}), true);
 });

@@ -21,7 +21,7 @@ Bitcoin Embassy is a description of a community initiative. Participants present
 | Community maintainer | Code of conduct, onboarding and independent handling of complaints | Moderates project channels with a reasoned decision |
 | Local maintainer | Local website, content, programme and organisation | Decides on local publication and changes |
 
-Roles may be combined during the pilot. New real data and substantial content changes require review by someone other than the author. A second, independent contact must be available for complaints about a maintainer. Names and contact channels may be placed in the project environment as voluntary organisational contact details; they do not automatically belong in an open dataset.
+Roles may be combined during the pilot. For publication in the shared Commons release, new real data and substantial content changes require review by someone other than the author. Local forks set their own processes. A second, independent contact must be available for complaints about a maintainer. Names and contact channels may be placed in the project environment as voluntary organisational contact details; they do not automatically belong in an open dataset.
 
 ## Decisions and contributions
 
@@ -29,7 +29,7 @@ Small software bugs, link corrections and editorial improvements go through an i
 
 A change to the data schema, governance, licence choice, brand policy or directory admission rules starts with a public proposal. The proposal identifies the problem, alternatives, migration and effects on local teams. Allow at least fourteen calendar days for responses to such ordinary decisions. The responsible role records the decision and reasoning in the repository. Security measures may be taken sooner; the maintainer then publishes an appropriate explanation without sensitive details.
 
-The initial publisher makes the final pilot decisions. Once multiple independent teams actively contribute, a network council with local representation and limited authority over shared standards may be proposed. That is a future decision, not an existing organisation. A council cannot take over local ownership, funds or policies.
+The initial publisher makes the final decisions for its own release and voluntary pilot, with no authority over independent forks. Once multiple independent teams actively contribute, a network council with local representation and limited authority over shared standards may be proposed. That is a future decision, not an existing organisation. A council cannot take over local ownership, funds or policies.
 
 ## Federation as a later phase
 
@@ -67,3 +67,7 @@ Sponsors and donors receive no automatic influence over content or directory lab
 Release management requires at least a replacement route when a maintainer leaves. The publisher keeps a handover register covering repository management, hosting, releases and private reporting channels outside open data. A new maintainer receives only the necessary access through a controlled process.
 
 A content dispute starts in the issue or proposal with sources and a concrete requested change. A conduct complaint uses the private channel in [the code of conduct](../CODE_OF_CONDUCT.md). A security or data breach report uses [SECURITY.md](../SECURITY.md). An appeal is handled by someone who did not make the original decision. The outcome describes the decision and correction route while protecting the people involved.
+
+## Voluntary purpose
+
+The foundation is voluntarily shared to help people and Bitcoin. The supplied software runs without a DBE account, subscription, central service, exclusivity, continuing permission or compulsory contribution. A local team manages its own hosting, data, programme and funding. An introduction is optional for assistance and collaboration; volunteer availability may limit support, but never the granted reuse rights.

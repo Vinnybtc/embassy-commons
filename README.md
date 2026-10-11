@@ -17,9 +17,10 @@ Open `http://127.0.0.1:4173`. The HTTP server serves only `dist/`. Opening `inde
 ## What works
 
 - The DBE brand style: original typography, colours, logo, rings, navigation and component dimensions. Fonts work locally and include their OFL licences; DBE brand assets have separately reserved rights. See [BRAND.md](docs/BRAND.md).
-- A responsive English interface with six pages: overview, country registry, library, starter generator, open data and proposal. Public guidance and documentation are in English.
+- A responsive English interface with overview, an open-source introduction, an email introduction form and the pilot toolkit views: country registry, library, starter generator, open data and proposal. Guidance and documentation are in English.
 - A searchable country registry with one public Netherlands source reference and three explicitly marked example templates. No confirmed international partners are listed.
 - Structured public DBE source data: three circles and two historical gatherings, with provenance and rights. This is a separate origin reference and contains no member data.
+- A short introduction form prepares an email for the applicant to review and send to the official DBE contact. It sends nothing automatically, grants no access and stores no application on a server.
 - Eight original playbooks, displayed and downloaded in English. Existing Dutch/English translations remain in the source datasets as reusable material.
 - Three steps to enter a name, country, city, colour and mission. The generator provides the complete source, documentation and an English local country configuration as a ZIP. The data schema and CLI retain support for Dutch configurations.
 - Public JSON files, JSON Schemas, data validation and an independent CLI for generating a starter.
@@ -82,3 +83,13 @@ After building, upload the contents of `dist/` to a static host. The website nee
 The original starter is public on [GitHub: Vinnybtc/embassy-commons](https://github.com/Vinnybtc/embassy-commons). The owner's preview is private. The downloadable source package works independently. Controlled release of existing DBE content is a separate next step.
 
 Read the [full proposal](docs/VOORSTEL.md), [governance](docs/GOVERNANCE.md), [contribution guide](CONTRIBUTING.md), [data policy](docs/DATA-POLICY.md) and [launch playbook](docs/LAUNCH-PLAYBOOK.md).
+
+## Introduction and access
+
+The owner preview is protected by Sites access control, including direct JSON, source-template and ZIP paths. Removing links or replacing navigation is not access control. The next pilot is introduced through an English Open source page and an Apply to start an embassy route; participation, assistance and unreleased materials are arranged after a conversation. Previously granted MIT and Creative Commons rights are unchanged. See [placement and introduction copy](docs/OPEN-SOURCE-INTRODUCTION.md). The main Dutch Bitcoin Embassy website has not been edited by this starter.
+
+## Voluntarily shared, independently run
+
+We share this work voluntarily to help people and Bitcoin. Every team controls its own repository, website, hosting, data and decisions. No DBE account, subscription, central database, continuing permission, exclusivity or contribution back is required. The introduction form is an optional route to assistance, not permission to use the licensed source. Volunteer support depends on availability.
+
+The main-site introduction has a separate build in `dist/public-introduction/`, containing only introduction UI and branding. It does not include toolkit JSON, the source template, ZIP downloads or internal documentation. Publish only that folder for a standalone public `/commons/` introduction; keep the full review `dist/` behind the hosting access policy. The source remains public on GitHub. Local forks do not automatically build the DBE publisher introduction.

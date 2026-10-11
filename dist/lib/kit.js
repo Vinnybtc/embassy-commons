@@ -10,7 +10,7 @@ export function validateConfig(config) {
   if (config.schemaVersion !== '1.0.0') errors.push('schemaVersion must be 1.0.0.');
   for (const [key, [min, max]] of Object.entries(textLimits)) {
     const value = config[key];
-    if (typeof value !== 'string' || value.trim().length < min || value.length > max || /[\u0000-\u001f\u007f<>]/.test(value)) errors.push(`${key} must contain ${min}–${max} plain text characters.`);
+    if (typeof value !== 'string' || [...value.trim()].length < min || [...value].length > max || /[\u0000-\u001f\u007f<>]/.test(value)) errors.push(`${key} must contain ${min}–${max} plain text characters.`);
   }
   if (typeof config.countryCode !== 'string' || !/^[A-Z]{2}$/.test(config.countryCode)) errors.push('countryCode must be a two-letter uppercase country code.');
   if (!['nl', 'en'].includes(config.language)) errors.push('language must be nl or en.');
@@ -20,7 +20,7 @@ export function validateConfig(config) {
 }
 
 function localId(config) {
-  const slug = config.name.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60) || 'embassy';
+  const slug = config.name.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60).replace(/-$/g, '') || 'embassy';
   return `${config.countryCode.toLowerCase()}-${slug}`;
 }
 

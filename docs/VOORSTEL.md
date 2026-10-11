@@ -137,3 +137,15 @@ A concrete first public starter release consists of the validated starter packag
 - [Data policy](DATA-POLICY.md) describes which records may be made public and how errors are corrected.
 - [Launch playbook](LAUNCH-PLAYBOOK.md) takes a local team from download to its first activity.
 - [Contributing](../CONTRIBUTING.md), [code of conduct](../CODE_OF_CONDUCT.md) and [security reports](../SECURITY.md) support everyday maintenance.
+
+## Introduction before the next pilot
+
+The next pilot starts with a short introduction and a conversation. The Commons interface includes an English Open source explanation and a form that prepares an email to the official DBE contact for the applicant to review and send. This is optional volunteer assistance, not permission to use the open-source toolkit. It does not claim a message has been received, issue membership or unlock files automatically. The owner preview and its direct file routes are protected by the hosting access policy; changing buttons is not an access boundary.
+
+On the main DBE website, the introduction belongs immediately after the three circles on the Community page, with a short homepage teaser and an Embassy Commons footer link. The final English landing page is proposed at `/commons/`; that main website has not been modified. Ready copy and the access boundaries are in [OPEN-SOURCE-INTRODUCTION.md](OPEN-SOURCE-INTRODUCTION.md). Existing open licence rights remain in effect.
+
+## Voluntary help and full local autonomy
+
+The purpose is to help people and Bitcoin. Each team owns and runs its website, source repository, hosting, records, programme and decisions. No DBE account, subscription, central service, ongoing permission, exclusivity or compulsory contribution is required. The publisher may review its own shared releases and optional collaboration, but does not control local forks.
+
+Public integration uses the separate minimal introduction build, not the full review application. That protects unpublished review material without implying that the publicly licensed code can no longer be reused. The existing website has not yet been modified.

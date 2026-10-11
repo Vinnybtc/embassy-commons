@@ -64,3 +64,9 @@ Do not put secrets anywhere under `dist/`. A static host makes every deployed fi
 Commit your local public source to a repository and record your upstream version. Review upstream changes before merging them, especially content licenses, source facts and config. Keep local branding and content in separate commits so changes can be reviewed. There is no automatic remote synchronization or central approval service.
 
 The project can be deployed by any static host; no hosting account is configured or provisioned here. Local-server MIME types, HEAD, traversal protection and symlink checks are tested. Configure equivalent security headers and HTTPS on your public host.
+
+## Public introduction for the publisher
+
+The publisher build also creates `dist/public-introduction/`, a separate minimal introduction for the existing DBE website. It contains no toolkit datasets, source template, source ZIP or internal documentation. For a public `/commons/` page, publish only this folder, preserving its subfolders. Do not publish the full review `dist/` in place of it. The introduction deliberately links to the public open-source repository and provides optional volunteer contact. Integration into the existing website has not been performed.
+
+A generated local fork keeps its own identity and skips this publisher introduction, even if its chosen name is Embassy Commons. Its source includes the introduction builder so it can adapt the code independently.

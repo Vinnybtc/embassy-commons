@@ -3,10 +3,12 @@ import { createHash } from 'node:crypto';
 import { resolve, relative, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { zipFiles } from '../dist/lib/zip.js';
+import { buildPublicIntroduction } from './build-introduction.mjs';
+import { isCommonsPublisher } from '../dist/lib/publisher.js';
 import { projectRoot, readProjectData, validateSchema, validateRelations, datasetNames } from './validate.mjs';
 
 const allowedRootFiles = new Set(['README.md', 'README.local.md', 'LICENSE', 'CONTENT-LICENSE.md', 'DATA-LICENSE.md', 'SECURITY.md', 'CONTRIBUTING.md', 'CODE_OF_CONDUCT.md', 'NOTICE', 'package.json', 'CITATION.cff', 'Dockerfile', 'compose.yaml', '.gitignore']);
-const allowedRoots = new Set(['dist', 'scripts', 'schema', 'tests', 'docs', '.github']);
+const allowedRoots = new Set(['dist', 'scripts', 'schema', 'tests', 'docs', 'introduction', '.github']);
 const textExtensions = new Set(['.html', '.js', '.mjs', '.css', '.json', '.md', '.svg', '.txt', '.yml', '.yaml', '.cff']);
 
 export function includeSourceFile(path) {
@@ -16,7 +18,7 @@ export function includeSourceFile(path) {
   if (segments.some(part => ['node_modules', 'downloads', 'coverage', '.openai', '.git'].includes(part))) return false;
   if (segments.some(part => part.startsWith('.') && part !== '.github')) return false;
   if (segments.some(part => /^(credentials?|secrets?|tokens?|service[-_]account)([._-]|$)/i.test(part))) return false;
-  if (path === 'dist/source-template.json' || path.startsWith('dist/docs/') || path.startsWith('dist/schema/')) return false;
+  if (path === 'dist/source-template.json' || path.startsWith('dist/docs/') || path.startsWith('dist/schema/') || path.startsWith('dist/public-introduction/')) return false;
   const extension = path.slice(path.lastIndexOf('.')).toLowerCase();
   return textExtensions.has(extension);
 }
@@ -30,7 +32,7 @@ async function walk(root, current = root) {
       const segments = path.split('/');
       if (segments.length === 1 && !allowedRoots.has(entry.name)) continue;
       if (segments.some(part => ['node_modules', 'downloads', 'coverage', '.openai', '.git'].includes(part))) continue;
-      if (path === 'dist/docs' || path === 'dist/schema') continue;
+      if (path === 'dist/docs' || path === 'dist/schema' || path === 'dist/public-introduction') continue;
       paths.push(...await walk(root, absolute));
     } else if (entry.isFile() && includeSourceFile(path)) paths.push(path);
   }
@@ -80,6 +82,8 @@ export async function buildProject(root = projectRoot) {
   await writeFile(resolve(root, 'dist/data/manifest.json'), JSON.stringify(data.manifest, null, 2) + '\n');
   await copyPublicDirectory(root, 'docs');
   await copyPublicDirectory(root, 'schema');
+  if (isCommonsPublisher(data.config,data.registry)) await buildPublicIntroduction(root);
+  else await rm(resolve(root, 'dist/public-introduction'), {recursive:true, force:true});
   const files = Object.create(null);
   for (const path of await walk(root)) {
     const bytes = await readFile(resolve(root, path));

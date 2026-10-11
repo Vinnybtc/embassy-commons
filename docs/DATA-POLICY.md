@@ -2,7 +2,7 @@
 
 Embassy Commons publishes only data deliberately selected for reuse. Open source code does not automatically make Dutch Bitcoin Embassy's existing private data public. Using a public website as a source does not automatically establish the right to republish or relicense its content either.
 
-This policy applies to the shared repository, release bundles and a future directory. Each local team applies the same publication checks to its own files. The policy is an operational agreement; local organisations assess their own responsibilities and any additional requirements.
+This policy applies to the shared repository, release bundles and a future directory maintained by the original publisher. Independent local teams can use these checks as guidance and choose their own publication process. Each local organisation assesses its own responsibilities and any additional requirements.
 
 ## Separate three types of material
 
@@ -69,3 +69,7 @@ The first release selects a small reviewed set. Further versions follow. Interna
 ## Responsible roles
 
 The author is responsible for the source and requested change. The data maintainer manages the rights and publication checks. The release maintainer ensures the reviewed version is the only version in the new bundle. The local maintainer is responsible for local additions. Before public use, the initial publisher establishes a reachable private reporting channel.
+
+## Local ownership
+
+This policy governs the shared publisher release. Independent forks decide their own publication processes and are responsible for their own data. No DBE system collects or synchronises their records by default. They choose whether to share any public improvements upstream. Private member data is excluded from the supplied open-source toolkit.

@@ -396,3 +396,10 @@ footer { background: var(--night); color: var(--on); padding: clamp(80px, 10vw, 
 
 .site-header.solid { border-bottom-color: var(--line); }
 .menu svg { display:block; width:22px; height:16px; }
+
+.commons-introduction { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: var(--paper-2); }
+.commons-introduction .hero-actions { flex-wrap: wrap; }
+.introduction-result { margin-top: 48px; scroll-margin-top: 90px; }
+.introduction-result .hero-actions { margin-top: 24px; flex-wrap: wrap; }
+.introduction-result .description a { text-decoration: underline; }
+.introduction-result h2 { margin-bottom: 16px; }

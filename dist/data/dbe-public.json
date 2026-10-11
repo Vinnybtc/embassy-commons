@@ -5,7 +5,7 @@
   "source": {
     "url": "https://www.dutchbitcoinembassy.com/",
     "accessedAt": "2026-10-11",
-    "rights": "Externally sourced public facts from the official website. Descriptions are independently written. No open license is claimed for the source website, brand, logo or other third-party content. This origin-reference dataset contains no private records or personal data. Original descriptions authored for Embassy Commons are offered under CC-BY-4.0; preserve attribution and this provenance."
+    "rights": "Externally sourced public facts from the official website. Descriptions are independently written. No open license is claimed for the source website, brand, logo or other third-party content. This origin-reference dataset contains no private records or personal data. Original descriptions authored for Embassy Commons are offered under CC-BY-4.0; preserve attribution and this provenance. Current circle names and historical event venues were also verified on https://www.dutchbitcoinembassy.com/community/ and https://www.dutchbitcoinembassy.com/events/ on 2026-10-11."
   },
   "organization": {
     "name": "Dutch Bitcoin Embassy",
@@ -35,7 +35,7 @@
     },
     {
       "id": "business-club-circle",
-      "name": "Business Club Circle",
+      "name": "Business Club",
       "summary": {
         "nl": "Een kring voor ondernemers om elkaar te ontmoeten en zakelijke toepassingen en vragen rond Bitcoin te bespreken.",
         "en": "A circle for business owners to meet and discuss business applications and questions around Bitcoin."
@@ -46,7 +46,7 @@
     {
       "id": "dbe-2025-11-22-flora-theater",
       "date": "2025-11-22",
-      "venue": "Flora Theater",
+      "venue": "Flora Filmtheater",
       "city": "Den Haag",
       "status": "past"
     },
