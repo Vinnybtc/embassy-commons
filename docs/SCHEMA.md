@@ -6,7 +6,7 @@ All public JSON documents use `schemaVersion: "1.0.0"`. Canonical machine-readab
 
 Required fields are `schemaVersion`, `name`, `countryCode`, `country`, `city`, `language`, `accent`, `mission`, and `status`. Unknown fields are rejected. New chapter status must be `draft`. `countryCode` is an uppercase two-letter code; the starter validates its form but does not maintain a current ISO country-code directory. Organizers must choose their real country's code.
 
-`language` is `nl` or `en`. Country support and language support are separate: every country can generate a starter, while this release contains two interface/content languages. Accent uses `#RRGGBB`. Name, country, city and mission must be plain text within the documented schema lengths; control characters and HTML brackets are rejected. Display code must still use text rendering rather than interpolate arbitrary data as HTML.
+`language` is `nl` or `en`. This field remains in the data contract for compatibility and local content metadata. The international interface is English and the browser generator uses English; the resource datasets retain Dutch and English translations for reuse. Accent uses `#RRGGBB`. Name, country, city and mission must be plain text within the documented schema lengths; control characters and HTML brackets are rejected. Display code must still use text rendering rather than interpolate arbitrary data as HTML.
 
 ## Registry
 

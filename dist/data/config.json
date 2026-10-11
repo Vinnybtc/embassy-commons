@@ -2,10 +2,10 @@
   "schemaVersion": "1.0.0",
   "name": "Embassy Commons",
   "countryCode": "NL",
-  "country": "Nederland",
-  "city": "Den Haag",
-  "language": "nl",
+  "country": "Netherlands",
+  "city": "The Hague",
+  "language": "en",
   "accent": "#f7931a",
-  "mission": "Een open startpakket waarmee lokale gemeenschappen zelfstandig Bitcoin-educatie, ontmoeting en samenwerking organiseren.",
+  "mission": "An open starter kit for local communities to independently organise Bitcoin education, gatherings and collaboration.",
   "status": "draft"
 }

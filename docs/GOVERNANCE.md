@@ -1,69 +1,69 @@
-# Governance van Embassy Commons
+# Embassy Commons governance
 
-Embassy Commons biedt een gemeenschappelijke open basis voor onafhankelijke lokale Bitcoin gemeenschappen. Dit document beschrijft het voorgestelde beheer voor de starterrelease en de eerste pilot. Het benoemen van een rol betekent nog niet dat iemand die rol heeft aanvaard. De eerste uitgever stelt de namen en private meldkanalen vast vóór een publieke communitylancering.
+Embassy Commons provides a shared open foundation for independent local Bitcoin communities. This document describes the proposed management of the starter release and first pilot. Naming a role does not mean anyone has accepted it yet. The initial publisher establishes the names and private reporting channels before a public community launch.
 
-## Onafhankelijkheid en het netwerk
+## Independence and the network
 
-Een lokaal team mag de gelicentieerde basis gebruiken, aanpassen en publiceren zonder lidmaatschap, registratie of terugkoppeling. Een eigen afgeleide versie is eigendom en verantwoordelijkheid van dat lokale team. Deelname aan een directory, gedeeld overleg of terugkoppeling naar de oorspronkelijke repository is afzonderlijk en vrijwillig.
+A local team may use, adapt and publish the licensed foundation without membership, registration or contributing back. Its own derivative version belongs to and is the responsibility of that local team. Participation in a directory, shared discussions or contributions to the original repository is separate and voluntary.
 
-Dutch Bitcoin Embassy verzorgt aanvankelijk de gezamenlijke basis. Het kan bijdragen aan die basis accepteren of weigeren. Die bevoegdheid geeft geen bestuur over lokale organisaties. Ieder land kiest zijn eigen rechtsvorm, leiding, programma en financiering. Een land kan meerdere onafhankelijke lokale initiatieven hebben; één vermelding verleent geen exclusief recht op een land.
+Dutch Bitcoin Embassy initially maintains the shared foundation. It may accept or reject contributions to that foundation. This authority does not give it control over local organisations. Each country chooses its own legal structure, leadership, programme and funding. A country may have multiple independent local initiatives; one listing does not grant an exclusive right to a country.
 
-Bitcoin Embassy is een aanduiding voor een gemeenschapsinitiatief. Deelnemers presenteren zich als onafhankelijk en suggereren geen diplomatieke status of overheidsaffiliatie. Open licenties verlenen geen toestemming om het Dutch Bitcoin Embassy merk als endorsement te gebruiken.
+Bitcoin Embassy is a description of a community initiative. Participants present themselves as independent and do not suggest diplomatic status or government affiliation. Open licences do not grant permission to use the Dutch Bitcoin Embassy brand as an endorsement.
 
-## Rollen in de pilot
+## Roles in the pilot
 
-| Rol | Verantwoordelijkheid | Bevoegdheid |
+| Role | Responsibility | Authority |
 | --- | --- | --- |
-| Nederlandse uitgever | Eerste publicatie, rechten, merk, capaciteit en pilotbesluit | Besluit over vrijgave van eigen Nederlandse materialen |
-| Releasebeheerder | Software, validatie, releases, terugdraaien en migraties | Publiceert een beoordeelde release |
-| Inhoudsbeheerder | Bronnen, lesmateriaal, draaiboeken en vertalingen | Accepteert inhoudelijke bijdragen binnen afgesproken scope |
-| Databeheerder | Herkomst, licenties, publiceerbaarheid en correcties | Houdt risicovolle records tegen totdat ze beoordeeld zijn |
-| Communitybeheerder | Gedragscode, onboarding en onafhankelijke klachtenbehandeling | Modereert projectkanalen met een gemotiveerd besluit |
-| Lokale beheerder | Eigen site, inhoud, programma en lokale organisatie | Besluit over eigen publicatie en lokale wijzigingen |
+| Dutch publisher | Initial publication, rights, brand, capacity and pilot decision | Decides on releasing its own Dutch material |
+| Release maintainer | Software, validation, releases, rollbacks and migrations | Publishes a reviewed release |
+| Content maintainer | Sources, educational material, playbooks and translations | Accepts content contributions within the agreed scope |
+| Data maintainer | Provenance, licences, suitability for publication and corrections | Holds back risky records until they have been reviewed |
+| Community maintainer | Code of conduct, onboarding and independent handling of complaints | Moderates project channels with a reasoned decision |
+| Local maintainer | Local website, content, programme and organisation | Decides on local publication and changes |
 
-Rollen mogen in de pilot gecombineerd worden. Nieuwe echte data en grotere inhoudelijke wijzigingen vragen review door iemand anders dan de auteur. Voor klachten over een beheerder moet een tweede, onafhankelijke contactpersoon beschikbaar zijn. Namen en contactkanalen mogen als vrijwillige zakelijke contactvermeldingen in de projectomgeving worden geplaatst; ze horen niet automatisch in een open dataset.
+Roles may be combined during the pilot. New real data and substantial content changes require review by someone other than the author. A second, independent contact must be available for complaints about a maintainer. Names and contact channels may be placed in the project environment as voluntary organisational contact details; they do not automatically belong in an open dataset.
 
-## Besluiten en bijdragen
+## Decisions and contributions
 
-Kleine softwarefouten, linkcorrecties en redactionele verbeteringen gaan via een issue of pull request. De relevante beheerder controleert de wijziging, de tests en de rechten voordat deze wordt samengevoegd. Een vertaling vraagt ook iemand die de doeltaal kan beoordelen.
+Small software bugs, link corrections and editorial improvements go through an issue or pull request. The relevant maintainer checks the change, tests and rights before merging. A translation also needs someone who can assess the target language.
 
-Een wijziging van het dataschema, de governance, een licentiekeuze, merkbeleid of toelatingsregels voor de directory begint met een openbaar voorstel. Het voorstel benoemt probleem, alternatieven, migratie en gevolgen voor lokale teams. Geef voor zulke normale besluiten minimaal veertien kalenderdagen voor reacties. De verantwoordelijke rol legt het besluit en de argumenten vast in de repository. Veiligheidsmaatregelen kunnen sneller worden genomen; de beheerder publiceert daarna een passende uitleg zonder gevoelige details.
+A change to the data schema, governance, licence choice, brand policy or directory admission rules starts with a public proposal. The proposal identifies the problem, alternatives, migration and effects on local teams. Allow at least fourteen calendar days for responses to such ordinary decisions. The responsible role records the decision and reasoning in the repository. Security measures may be taken sooner; the maintainer then publishes an appropriate explanation without sensitive details.
 
-De eerste uitgever neemt de definitieve pilotbesluiten. Zodra meerdere onafhankelijke teams actief bijdragen, kan een netwerkraad worden voorgesteld met lokale vertegenwoordiging en beperkte bevoegdheden over gedeelde standaarden. Dat is een vervolgbesluit, geen bestaande organisatie. Een raad kan geen lokale eigendom, kas of beleid overnemen.
+The initial publisher makes the final pilot decisions. Once multiple independent teams actively contribute, a network council with local representation and limited authority over shared standards may be proposed. That is a future decision, not an existing organisation. A council cannot take over local ownership, funds or policies.
 
-## De federatie als vervolgfase
+## Federation as a later phase
 
-De starterrelease bevat geen automatische federatie. Een toekomstige directory werkt met een door het lokale team aangeleverd openbaar manifest en uitdrukkelijke aanmelding. Het team kiest welke gegevens het deelt. Een verandering in dat manifest geeft geen schrijfrechten op de centrale repository.
+The starter release does not include automatic federation. A future directory uses a public manifest supplied by the local team and explicit registration. The team chooses which data to share. A change to that manifest does not grant write access to the central repository.
 
-Een directoryvermelding vereist een bereikbare eigen site, herleidbare beheerderrol, onafhankelijke status en een expliciete datalicentie. Het netwerk kan een vermelding weigeren of tijdelijk verbergen als ze misleidend, onbeheerd of schadelijk is. De reden en het correctiepad worden aan het lokale team uitgelegd. Dat team kan vrij blijven forken en hosten.
+A directory listing requires a reachable local website, a traceable maintainer role, independent status and an explicit data licence. The network may refuse or temporarily hide a listing if it is misleading, unmaintained or harmful. The reason and correction route are explained to the local team. That team remains free to fork and host.
 
-Uittreden verwijdert de directoryvermelding en stopt toekomstige verwerking in het netwerk. Reeds openbare releases en kopieën kunnen blijven bestaan. Teams moeten dat begrijpen voordat ze gegevens vrijgeven. Lokale geheimen, ledenlijsten en privéadministratie worden niet door het federatieprotocol uitgewisseld.
+Leaving removes the directory listing and stops future processing within the network. Previously published releases and copies may remain available. Teams must understand this before releasing data. Local secrets, membership lists and private administration are not exchanged through the federation protocol.
 
-## Betekenis van kwaliteitslabels
+## Meaning of quality labels
 
-| Label | Betekenis | Geen claim over |
+| Label | Meaning | Makes no claim about |
 | --- | --- | --- |
-| Voorbeeld | Fictieve of generieke illustratie van een structuur | Bestaan of activiteit van een echte organisatie |
-| Ingediend | Een voorstel wacht op inhoudelijke beoordeling | Juistheid of endorsement |
-| Inhoudelijk gecontroleerd | Een benoemde reviewerrol heeft de beschreven scope op een vermelde datum gecontroleerd | Juridische status, veiligheid, vergunning of algemene certificering |
-| Review nodig | Bron, vertaling of tijdgevoelige inhoud moet opnieuw worden bekeken | Automatische onbruikbaarheid van iedere eerdere versie |
-| Zelf aangemeld | Een organisatie heeft zichzelf bij een toekomstige directory aangemeld | Erkenning door Dutch Bitcoin Embassy |
-| Door het netwerk bevestigd | Alleen beschikbaar na een werkelijk vastgesteld toelatingsproces en een geregistreerd besluit | Overheidsstatus of landexclusiviteit |
+| Example | Fictional or generic illustration of a structure | Existence or activity of a real organisation |
+| Submitted | A proposal awaits substantive review | Accuracy or endorsement |
+| Content reviewed | A named reviewer role checked the described scope on a stated date | Legal status, safety, permits or general certification |
+| Needs review | A source, translation or time-sensitive content must be checked again | Every earlier version automatically becoming unusable |
+| Self-registered | An organisation registered itself in a future directory | Recognition by Dutch Bitcoin Embassy |
+| Network confirmed | Available only after an actual admission process has been established and a decision recorded | Government status or country exclusivity |
 
-Een label heeft een scope, datum en verantwoordelijke rol. De pilot begint met voorbeelden; er worden geen bestaande internationale partners verondersteld. Een lokale organisatie mag een eigen intern reviewlabel gebruiken, maar mag dat niet presenteren als een controle door de gezamenlijke basis.
+A label has a scope, date and responsible role. The pilot begins with examples; it does not assume existing international partners. A local organisation may use its own internal review label, but must not present it as a review by the shared foundation.
 
-## Versies en ondersteuning
+## Versions and support
 
-Software, schema en content hebben afzonderlijke versies. Een local fork vermeldt welke upstreamversie is gebruikt. Lokale wijzigingen blijven in eigen bestanden of branches. Upstreamupdates gaan door lokale review en validatie vóór publicatie. Een incompatibele schemawijziging vraagt een nieuwe major versie, migratievoorbeeld en duidelijke uitfasering.
+Software, schema and content have separate versions. A local fork states which upstream version it uses. Local changes remain in local files or branches. Upstream updates undergo local review and validation before publication. An incompatible schema change requires a new major version, migration example and clear phase-out plan.
 
-Er wordt geen onderhoudsduur of reactietijd beloofd die niet door bemande capaciteit kan worden gedragen. In de pilot wordt één starterlijn onderhouden. Bij de evaluatie worden ondersteuning, oudere versies en het overdrachtsplan voor beheerders vastgesteld.
+No maintenance period or response time is promised unless it can be supported by staffed capacity. One starter line is maintained during the pilot. Support, older versions and a maintainer handover plan are established at the evaluation.
 
-## Geld en belangen
+## Money and interests
 
-Sponsors en donateurs krijgen geen automatische invloed op inhoud of directorylabels. Beheerders vermelden relevante belangen bij een besluit en laten een betrokken inhoudelijk oordeel aan een andere reviewer over. Een eventuele gezamenlijke kas wordt afzonderlijk georganiseerd; lokale kassen blijven lokaal. De software beheert geen kas, wallets of betalingen.
+Sponsors and donors receive no automatic influence over content or directory labels. Maintainers disclose relevant interests in a decision and leave an affected content judgement to another reviewer. Any shared treasury is organised separately; local funds remain local. The software does not manage funds, wallets or payments.
 
-## Overdracht en geschillen
+## Handover and disputes
 
-Releasebeheer vereist minimaal een vervangingsroute voor vertrek van een beheerder. De uitgever houdt een overdrachtsregister met repositorybeheer, hosting, releases en private meldkanalen buiten open data. Een nieuwe beheerder krijgt gecontroleerd alleen de noodzakelijke toegang.
+Release management requires at least a replacement route when a maintainer leaves. The publisher keeps a handover register covering repository management, hosting, releases and private reporting channels outside open data. A new maintainer receives only the necessary access through a controlled process.
 
-Een inhoudelijk geschil begint bij het issue of voorstel met bronnen en een concrete gewenste wijziging. Een gedragsklacht gebruikt het private kanaal uit [de gedragscode](../CODE_OF_CONDUCT.md). Een veiligheids- of datalekmelding gebruikt [SECURITY.md](../SECURITY.md). Een beroep wordt door iemand behandeld die niet het oorspronkelijke besluit nam. De uitkomst beschrijft het genomen besluit en het correctiepad met bescherming van betrokken personen.
+A content dispute starts in the issue or proposal with sources and a concrete requested change. A conduct complaint uses the private channel in [the code of conduct](../CODE_OF_CONDUCT.md). A security or data breach report uses [SECURITY.md](../SECURITY.md). An appeal is handled by someone who did not make the original decision. The outcome describes the decision and correction route while protecting the people involved.

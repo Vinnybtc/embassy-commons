@@ -1,34 +1,34 @@
-# Aansluiting op het bestaande DBE-platform
+# Integration with the existing DBE platform
 
-Onderzocht op 11 oktober 2026 via de geautoriseerde GitHub-verbinding. Dit is een beperkte, read-only verkenning van repositorystructuur, packagebestanden en de README van de community-app. Geen bestaande backendcode of operationele data is opgenomen in Embassy Commons. De interface gebruikt inmiddels, op verzoek van de opdrachtgever, de actuele DBE-huisstijl en bijbehorende font- en merkassets; zie [BRAND.md](BRAND.md). Beschreven functionaliteit uit een README is geen bevestiging dat die functionaliteit productiegeschikt is.
+Investigated on 11 October 2026 through the authorized GitHub connection. This was a limited, read-only review of repository structure, package files and the community app's README. No existing backend code or operational data has been included in Embassy Commons. At the client's request, the interface now uses the current DBE brand style and its font and brand assets; see [BRAND.md](BRAND.md). Functionality described in a README is no confirmation of production readiness.
 
-## Bestaande website
+## Existing website
 
-[`Vinnybtc/dbe-site`](https://github.com/Vinnybtc/dbe-site) gebruikt Astro, TypeScript en Node 24. Het packagebestand bevat Supabase- en Vercel-bibliotheken en build- en testflows voor beheer, content, media en publicatie. De bronstructuur bevat `src/content`, `src/data`, `src/i18n`, componenten, pagina's en API-bestanden.
+[`Vinnybtc/dbe-site`](https://github.com/Vinnybtc/dbe-site) uses Astro, TypeScript and Node 24. Its package file includes Supabase and Vercel libraries and build and test flows for administration, content, media and publication. Its source structure includes `src/content`, `src/data`, `src/i18n`, components, pages and API files.
 
-Bronnen: [package.json](https://github.com/Vinnybtc/dbe-site/blob/main/package.json), [src](https://github.com/Vinnybtc/dbe-site/tree/main/src), [src/data](https://github.com/Vinnybtc/dbe-site/tree/main/src/data), [api](https://github.com/Vinnybtc/dbe-site/tree/main/api).
+Sources: [package.json](https://github.com/Vinnybtc/dbe-site/blob/main/package.json), [src](https://github.com/Vinnybtc/dbe-site/tree/main/src), [src/data](https://github.com/Vinnybtc/dbe-site/tree/main/src/data), [api](https://github.com/Vinnybtc/dbe-site/tree/main/api).
 
-Een aansluiting kan een nieuwe exportstap in de bestaande publicatieflow gebruiken: geselecteerde educatieve content omzetten naar het Commons-datamodel, vervolgens rechten, schema en publicatiestatus controleren. De bestaande API-bestanden zijn niet inhoudelijk onderzocht; er is dus nog geen bewezen kant-en-klare Commons-API of importcompatibiliteit.
+Integration could add an export step to the existing publication flow: convert selected educational content to the Commons data model, then check rights, schema and publication status. The existing API files were not reviewed in detail, so no ready-made Commons API or import compatibility has been demonstrated.
 
-## Bestaande community-app
+## Existing community app
 
-[`Vinnybtc/dbe-app`](https://github.com/Vinnybtc/dbe-app) is een PWA met vanilla HTML, JavaScript en CSS. De README beschrijft Supabase als backend en Cloudflare Pages als hosting, met LNURL-auth en een magic-link-fallback. De README vermeldt een werkende demo en authenticatie die nog niet live is. Dit is een README-status, geen onafhankelijke liveverificatie.
+[`Vinnybtc/dbe-app`](https://github.com/Vinnybtc/dbe-app) is a PWA using vanilla HTML, JavaScript and CSS. Its README describes Supabase as the backend and Cloudflare Pages as hosting, with LNURL-auth and a magic-link fallback. The README mentions a working demo and authentication that is not yet live. This is a README status, not an independent live verification.
 
-Concepten die bij het internationale model passen zijn events, kennisbank, educatieve leerroutes, lokale groepen en een communitymarktplaats. De Commons-basis levert hierbij een overdraagbaar publiek datamodel en een lokale website; een productiecommunity met gebruikersauthenticatie, chat en RSVP-opslag is een aparte integratiefase.
+Concepts relevant to the international model include events, a knowledge base, educational learning paths, local groups and a community marketplace. Commons supplies a portable public data model and local website; a production community with user authentication, chat and RSVP storage is a separate integration phase.
 
-Bronnen: [README.md](https://github.com/Vinnybtc/dbe-app/blob/main/README.md), [package.json](https://github.com/Vinnybtc/dbe-app/blob/main/package.json), [bronbestanden](https://github.com/Vinnybtc/dbe-app).
+Sources: [README.md](https://github.com/Vinnybtc/dbe-app/blob/main/README.md), [package.json](https://github.com/Vinnybtc/dbe-app/blob/main/package.json), [source files](https://github.com/Vinnybtc/dbe-app).
 
-## Publicatiegrens
+## Publication boundary
 
-Voor hergebruik geschikte kandidaten zijn algemene educatie, evenementtemplates, publieke evenementinformatie, vertalingen en werkprocessen. Per kandidaat moeten het auteursrecht, de bron, de gekozen licentie en de publicatiestatus vaststaan.
+Potentially reusable candidates include general education, event templates, public event information, translations and workflows. Each candidate needs established copyright, provenance, chosen licence and publication status.
 
-Ledengegevens, privéchat, aanmeldingen, persoonsgegevens en operationele configuratie behoren niet automatisch tot de openbare dataset. Landenteams beheren zulke gegevens in hun eigen omgeving. De twee onderzochte repositories waren bij het onderzoek privé; er is geen wijziging aan hun zichtbaarheid of inhoud uitgevoerd. In de onderzochte rootlijsten stond geen afzonderlijk LICENSE-bestand. Een definitieve open-source-release van bestaande DBE-code vereist daarom eerst een expliciete licentie- en inhoudscontrole.
+Member data, private chat, registrations, personal data and operational configuration do not automatically form part of the public dataset. Country teams manage such data in their own environments. Both repositories were private when investigated; their visibility and content were not changed. No separate LICENSE file appeared in the reviewed root listings. A definitive open-source release of existing DBE code therefore first requires an explicit licence and content review.
 
-## Concrete vervolgstap
+## Concrete next step
 
-1. Selecteer een kleine openbare DBE-collectie en leg bron en rechten per record vast.
-2. Bouw een adapter die die collectie naar het Commons-schema exporteert.
-3. Laat de bestaande CI de export valideren; publiceer alleen records die de publicatieregels doorstaan.
-4. Test de export in een onafhankelijke landfork, met eigen domein, branding en lokale data.
+1. Select a small public DBE collection and record provenance and rights for each record.
+2. Build an adapter that exports the collection to the Commons schema.
+3. Have existing CI validate the export; publish only records that pass the publication rules.
+4. Test the export in an independent country fork with its own domain, branding and local data.
 
-De Commons-starter is zelfstandig geschreven en bevat demonstratiedata. Deze verkenning vormt een technisch aansluitingsplan, geen migratie van het bestaande DBE-platform.
+The Commons starter was independently written and contains demonstration data. This review provides a technical integration plan, not a migration of the existing DBE platform.

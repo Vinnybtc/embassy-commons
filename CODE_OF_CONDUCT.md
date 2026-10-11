@@ -1,25 +1,25 @@
-# Gedragscode voor Embassy Commons
+# Embassy Commons code of conduct
 
-Embassy Commons wil dat mensen uit verschillende landen veilig kunnen samenwerken aan software, kennis en lokale gemeenschappen. Deze gedragscode geldt voor de projectkanalen, reviews, evenementen van het gezamenlijke project en deelname onder een projectrol. Een lokale organisatie stelt ook een eigen praktische aanspreekroute vast.
+Embassy Commons aims to let people from different countries safely collaborate on software, knowledge and local communities. This code applies to project channels, reviews, shared project events and participation in a project role. A local organization also establishes its own practical reporting route.
 
-## Samenwerken
+## Working together
 
-Behandel mensen met respect. Bespreek voorstellen en bewijs op inhoud, maak de ruimte voor taalverschillen en leg een fout uit zonder de persoon belachelijk te maken. Wees duidelijk over relevante belangen, respecteer grenzen en bescherm gegevens van anderen.
+Treat people with respect. Discuss proposals and evidence on their merits, allow for language differences and explain mistakes without ridiculing anyone. Be clear about relevant interests, respect boundaries and protect other people's data.
 
-Intimidatie, discriminerende beledigingen, seksuele toenadering zonder instemming, bedreigingen, doxing en herhaald ongewenst contact zijn niet toegestaan. Ook spam, oplichting, misleidende claims van officiële verbondenheid en het publiceren van vertrouwelijke informatie horen niet in de projectomgeving.
+Harassment, discriminatory insults, sexual advances without consent, threats, doxing and repeated unwanted contact are prohibited. Spam, scams, misleading claims of official affiliation and publication of confidential information also have no place in the project environment.
 
-Verschillen van mening over Bitcoin, bestuur en productkeuzes zijn toegestaan. Een onderwerp mag stevig worden besproken zolang deelnemers elkaar niet aanvallen, anderen uitsluiten of een gesprek blijven verstoren na een duidelijke aanwijzing.
+Disagreement about Bitcoin, governance and product choices is allowed. Robust discussion is acceptable while participants avoid personal attacks, exclusion and continued disruption after a clear instruction.
 
-## Meldingen
+## Reports
 
-Een melding bevat waar mogelijk het betrokken kanaal, datum, relevante context en gewenste ondersteuning. Deel geen onnodige persoonsgegevens of gevoelige screenshots in openbare issues. Gebruik het private contactkanaal dat de uitgever vóór de publieke communitylancering bekendmaakt. Tijdens beoordeling van deze private starter kan Vincent een onafhankelijke beoordelaar aanwijzen; het pakket bevat nog geen bemand openbaar meldadres.
+Where possible, a report includes the affected channel, date, relevant context and requested support. Do not share unnecessary personal data or sensitive screenshots in public issues. Use the private contact channel published before the public community launch. During review of this private starter, Vincent can appoint an independent reviewer; the package does not yet provide a staffed public reporting address.
 
-Een melding over een beheerder wordt door iemand anders behandeld. De beoordelaar deelt informatie alleen met personen die deze voor behandeling nodig hebben en belooft geen absolute vertrouwelijkheid die hij niet kan waarmaken. Bij onmiddellijke persoonlijke nood gebruiken betrokkenen passende lokale hulp; het project is geen hulpdienst.
+A report about a maintainer is handled by someone else. The reviewer shares information only with those who need it to handle the report and promises no absolute confidentiality they cannot provide. People facing immediate personal danger use appropriate local assistance; the project is not an emergency service.
 
-## Behandeling en maatregelen
+## Handling and measures
 
-De communitybeheerder beoordeelt de feiten, hoort betrokkenen waar dat passend is en kiest een proportionele maatregel. Mogelijke maatregelen zijn een uitleg, waarschuwing, verwijdering van een bijdrage, tijdelijke beperking of beëindiging van deelname aan projectkanalen. De reden en duur worden aan de betrokkene uitgelegd zonder gegevens van de melder onnodig te delen.
+The community maintainer assesses the facts, hears those involved where appropriate and chooses a proportionate measure. Options include an explanation, warning, removal of a contribution, temporary restriction or termination of participation in project channels. The reason and duration are explained to the affected person without unnecessarily sharing the reporter's data.
 
-Een betrokkene kan herbeoordeling vragen bij een onafhankelijke beheerder. Er is nog geen reactietermijn of permanente moderatiecapaciteit toegezegd; de eerste uitgever stelt die vast bij de lancering.
+An affected person may request reassessment by an independent maintainer. No response time or permanent moderation capacity has been promised; the first publisher establishes these at launch.
 
-Een projectmaatregel beperkt deelname aan beheerde kanalen of een toekomstige directory. Hij neemt de gebruiksrechten op reeds vrijgegeven materiaal niet terug en geeft het gezamenlijke project geen gezag over een onafhankelijke lokale organisatie.
+A project measure limits participation in managed channels or a future directory. It does not revoke usage rights to already released material or give the shared project authority over an independent local organization.

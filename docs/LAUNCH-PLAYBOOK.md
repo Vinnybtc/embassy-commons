@@ -1,73 +1,73 @@
-# Een lokale Bitcoin Embassy starten
+# Start a local Bitcoin Embassy
 
-Met de Embassy Commons starter kan een lokaal team een eigen website en introductieprogramma maken. Het team beheert zijn eigen organisatie, content en publicatie. Het hoeft zich niet bij een centraal netwerk aan te sluiten. Een download verleent geen officiële erkenning of recht op het Dutch Bitcoin Embassy merk.
+With the Embassy Commons starter, a local team can create its own website and introductory programme. The team manages its own organisation, content and publication. It does not need to join a central network. A download grants no official recognition or right to the Dutch Bitcoin Embassy brand.
 
-Dit playbook begint bij een kleine educatiegemeenschap. De eerste website gebruikt openbare bestanden en vraagt geen ledenaccounts, database of betalingsintegratie. Uitbreidingen met registratie of geldstromen worden afzonderlijk ontworpen en beoordeeld.
+This playbook starts with a small educational community. The first website uses public files and needs no member accounts, database or payment integration. Extensions involving registration or money flows are designed and reviewed separately.
 
-## 1 Bepaal het lokale doel en beheer
+## 1 Define the local purpose and management
 
-Kies het probleem dat je wilt oplossen: begrijpelijke Bitcoin educatie, ontmoetingen of ondersteuning bij het zelfstandig leren. Schrijf in enkele zinnen wie je bereikt, welk programma je aanbiedt en wat bezoekers mogen verwachten. Een duidelijk eerste programma is waardevoller dan een groot, ononderhouden register.
+Choose the problem you want to solve: understandable Bitcoin education, meetups or support for independent learning. Write a few sentences about whom you serve, which programme you offer and what visitors can expect. A clear first programme is more valuable than a large, unmaintained register.
 
-Wijs een lokale beheerder en vervanger aan. Verdeel content, website, bijeenkomsten en private meldingen. Bespreek de lokale organisatievorm, praktische vereisten en eventuele lokale beperkingen voordat je operationele diensten aanbiedt. Deze starter bepaalt die lokale keuzes niet.
+Appoint a local maintainer and replacement. Assign responsibility for content, the website, meetups and private reports. Discuss the local organisational structure, practical requirements and any local restrictions before offering operational services. This starter does not determine those local choices.
 
-Maak de onafhankelijke status zichtbaar: 'Onafhankelijk gemeenschapsinitiatief voor Bitcoin educatie. Geen diplomatieke vertegenwoordiging of overheidsorganisatie.' Verwijs waar nodig naar de gebruikte Embassy Commons basis met de toepasselijke bronvermelding, zonder ongeaccordeerde steun of partnerstatus te claimen.
+Make the independent status visible: 'Independent community initiative for Bitcoin education. No diplomatic representation or government organisation.' Where needed, reference the Embassy Commons foundation with the applicable attribution, without claiming unapproved support or partner status.
 
-## 2 Kies een eigen identiteit
+## 2 Choose your own identity
 
-Kies een eigen projectnaam, landcode, stad en hoofdtaal. Controleer of de naam bij de feitelijke lokale organisatie past. De eigen identiteit van een local fork mag herkenbaar anders zijn dan de Nederlandse uitgever. De open licenties verlenen geen algemene toestemming voor Dutch Bitcoin Embassy logo's of erkenningslabels.
+Choose your own project name, country code, city and primary language. Check that the name suits the actual local organisation. A local fork's identity may be visibly different from the Dutch publisher's. The open licences do not grant general permission to use Dutch Bitcoin Embassy logos or recognition labels.
 
-Duitsland, Kenia en Brazilië in het starterregister zijn fictieve demonstraties. Gebruik ze als structuur, niet als bewijs van aangesloten teams. Het Nederlandse bronrecord verwijst naar publiek beschikbare informatie; de onderliggende website-inhoud is niet automatisch gelicentieerd voor kopiëren.
+Germany, Kenya and Brazil in the starter register are fictional demonstrations. Use them as a structure, not as evidence of participating teams. The Dutch source record refers to publicly available information; the underlying website content is not automatically licensed for copying.
 
-## 3 Download en configureer de starter
+## 3 Download and configure the starter
 
-Gebruik de generator in de website om de lokale instellingen in te vullen en het zelfstandige ZIP-pakket te downloaden. Pak het bestand uit en lees de meegeleverde README. Controleer de gegenereerde configuratie vóór publicatie. Plaats hierin uitsluitend publiceerbare projectinstellingen, geen wachtwoorden, seed phrases, privécontacten of tokens.
+Use the website generator to enter the local settings and download the standalone ZIP package. Extract it and read the included README. Check the generated configuration before publication. Include only publishable project settings, never passwords, seed phrases, private contacts or tokens.
 
-Ontwikkelaars kunnen de bronrelease gebruiken. Installeer Node.js 22 of hoger en gebruik de build-, validatie-, start- en create-commando's uit de README. De starter heeft geen externe runtimeafhankelijkheden nodig. Bewaar de gekozen bronversie bij de lokale repository zodat updates later te vergelijken zijn.
+Developers can use the source release. Install Node.js 22 or higher and use the build, validation, start and create commands in the README. The starter needs no external runtime dependencies. Keep the selected source version with the local repository so updates can be compared later.
 
-Maak een eigen kopie of fork. Gebruik een aparte branch voor lokale wijzigingen en houd de gekozen upstreamrelease vast. Bestaande lokale content mag bij een upstreamupdate niet stilzwijgend worden overschreven.
+Make your own copy or fork. Use a separate branch for local changes and pin the selected upstream release. Existing local content must not be silently overwritten by an upstream update.
 
-## 4 Maak een kleine bruikbare kennisbasis
+## 4 Create a small, useful knowledge base
 
-Kies uit de acht originele NL/EN playbooks wat bij de lokale start past. Lees ieder gekozen artikel, vertaal waar nodig en laat iemand de vertaling beoordelen. Vermeld het oorspronkelijke materiaal, de licentie en relevante wijzigingen. Een taalkeuze in de interface maakt nog geen vertaling van alle lokale inhoud.
+Choose from the eight original NL/EN playbooks according to your local needs. Read each selected article, translate where necessary and have someone review the translation. Credit the original material, licence and relevant changes. The Commons interface is in English, and generated starters default to English; this does not translate all local content. Existing Dutch and English resource and source-data translations remain available for compatibility and reuse.
 
-Begin met een introductie, een eerste bijeenkomst, de rollen van vrijwilligers en een route voor vragen. Gebruik lokale voorbeelden en leg de handelingen concreet uit. Publiceer geen beleggingsbeloften. Lesmateriaal over financiële, juridische of tijdgevoelige veiligheidsonderwerpen vraagt extra broncontrole en lokale beoordeling.
+Start with an introduction, a first meetup, volunteer roles and a route for questions. Use local examples and explain actions concretely. Publish no investment promises. Educational material covering financial, legal or time-sensitive safety topics requires additional source checks and local review.
 
-## 5 Beoordeel openbare gegevens
+## 5 Review public data
 
-Gebruik de publicatiepoort in [DATA-POLICY.md](DATA-POLICY.md). Controleer bron, eigenaar, licentie, actualiteit en nut van ieder record. Nieuwe echte data krijgt een tweede beoordeling. Verzamel geen ledenadministratie in de publieke JSON.
+Use the publication gate in [DATA-POLICY.md](DATA-POLICY.md). Check the source, owner, licence, currency and purpose of every record. New real data receives a second review. Do not collect membership administration in public JSON.
 
-Markeer eigen voorbeeldrecords als voorbeeld. Laat de juiste licentie met de data meegaan: de generieke eigen templates zijn CC0; de eigen kennis is CC BY 4.0; externe bronnen behouden hun eigen rechten. Kopieer geen tekst, afbeeldingen of logo's onder een nieuwe licentie zonder passende rechten.
+Mark your own example records as examples. Include the correct licence with the data: original generic templates use CC0; original knowledge uses CC BY 4.0; external sources retain their own rights. Do not copy text, images or logos under a new licence without the appropriate rights.
 
-## 6 Controleer en publiceer de website
+## 6 Check and publish the website
 
-Valideer de bronbestanden en genereer de site met de README-commando's. Open de site lokaal en doorloop het bezoekerstraject met een browser: startpagina, lokale identiteit, kennis, bronverwijzingen en downloads. Controleer toetsenbordbediening, leesbaarheid op mobiel en duidelijke labels bij voorbeelden.
+Validate the source files and generate the site with the README commands. Open the site locally and follow the visitor journey in a browser: homepage, local identity, knowledge, source references and downloads. Check keyboard operation, readability on mobile and clear labels for examples.
 
-Pak de gegenereerde ZIP uit in een aparte map. Controleer dat het pakket zelfstandig werkt en geen privébestanden bevat. Vergelijk de gedownloade configuratie en data met de gekozen instellingen. Laat een tweede persoon het resultaat lezen voordat echte data openbaar gaat.
+Extract the generated ZIP into a separate folder. Check that the package works independently and contains no private files. Compare the downloaded configuration and data with your chosen settings. Have a second person read the result before making real data public.
 
-De uitgepakte site kan op een eigen statische host staan. Kies zelf het domein en de host, configureer HTTPS en beperk beheerrechten tot noodzakelijke beheerders. Noteer hoe je de laatste werkende versie terugzet. De exacte kosten hangen af van je keuzes; het Commons pakket vraagt geen abonnement op een centraal platform.
+The extracted site can run on your own static host. Choose your own domain and host, configure HTTPS and limit management access to necessary maintainers. Record how to restore the last working version. Exact costs depend on your choices; the Commons package requires no subscription to a central platform.
 
-Voor een openbare communitylancering moeten private contactkanalen voor gedrag, inhoud en veiligheid werken. De meegeleverde beleidsdocumenten bevatten rolafspraken, geen reeds bemande openbare helpdesk. Vul je lokale private contactroute in en test deze.
+Private contact channels for conduct, content and security must work before a public community launch. The included policy documents define roles, not an already staffed public help desk. Fill in your local private contact route and test it.
 
-## 7 Organiseer een eerste bijeenkomst
+## 7 Organise a first meetup
 
-Kies een haalbaar publiek, locatie, tijd en educatief doel. Verdeel gastheer, begeleiding en logistiek. Gebruik het playbook voor de eerste bijeenkomst en leg vast hoe bezoekers praktische vragen kunnen stellen. Een educatieve bijeenkomst hoeft geen persoonsgegevens te verzamelen om bruikbaar te zijn.
+Choose an achievable audience, location, time and educational goal. Assign hosting, guidance and logistics. Use the first-meetup playbook and record how visitors can ask practical questions. An educational meetup does not need to collect personal data to be useful.
 
-Als registratie nodig is, gebruik een afzonderlijke besloten administratie met een eigen doel en beheer. Publiceer geen deelnemerslijsten, foto's of contactgegevens automatisch. Vraag gerichte feedback over het programma en verbeter het materiaal. Maak alleen een openbare, niet herleidbare samenvatting als dat zinvol is.
+If registration is necessary, use a separate private administration with its own purpose and management. Do not automatically publish participant lists, photographs or contact details. Ask for focused feedback on the programme and improve the material. Create a public summary that cannot identify people only when it is useful.
 
-## 8 Geef verbeteringen terug
+## 8 Contribute improvements back
 
-Een inhoudelijke fout, vertaald artikel of beter draaiboek kan als pull request naar upstream. Volg [CONTRIBUTING.md](../CONTRIBUTING.md). Beschrijf wat veranderde, waarom het ook andere teams helpt, welke bronversie je gebruikte en welke licentie geldt.
+A factual error, translated article or improved playbook can be submitted upstream as a pull request. Follow [CONTRIBUTING.md](../CONTRIBUTING.md). Describe what changed, why it also helps other teams, which source version you used and which licence applies.
 
-Een lokale aanpassing die alleen je eigen team raakt, mag lokaal blijven. Terugkoppeling is vrijwillig. De gezamenlijke beheerder beoordeelt bijdragen voor opname; je eigen site hoeft niet op die beslissing te wachten.
+A local adaptation that affects only your own team may remain local. Contributing back is voluntary. The shared maintainer reviews contributions for inclusion; your own site does not have to wait for that decision.
 
-## 9 Onderhoud en update
+## 9 Maintain and update
 
-Maak iedere maand tijd voor links, actueel programma, open meldingen en versiecontrole. Tijdgevoelige artikelen krijgen een concreet volgend reviewmoment. Noteer lokale wijzigingen en de gebruikte upstreamversie.
+Make time each month to check links, the current programme, open reports and versions. Time-sensitive articles receive a concrete next review date. Record local changes and the upstream version in use.
 
-Test een upstreamupdate eerst in een eigen branch. Lees het changelog, vergelijk gedeelde bestanden, volg migratie-instructies, valideer lokale configuratie en test de downloads opnieuw. Houd een werkende vorige release beschikbaar zodat een mislukte update teruggedraaid kan worden. Vertalingen worden opnieuw beoordeeld wanneer het oorspronkelijke artikel verandert.
+Test an upstream update in your own branch first. Read the changelog, compare shared files, follow migration instructions, validate the local configuration and test downloads again. Keep a working previous release available so a failed update can be rolled back. Translations are reviewed again when the original article changes.
 
-## Bewijs dat de lokale start werkt
+## Evidence that the local launch works
 
-Een lokale pilot is geslaagd wanneer een ander teamlid vanaf de gedocumenteerde bestanden de website kan starten, de onafhankelijke identiteit begrijpt, een artikel kan vinden en downloaden, een contentfout kan herstellen en een update kan testen zonder Nederlandse accounts. Een eerste echte bijeenkomst levert bruikbare feedback op. Geen van deze resultaten geeft automatisch erkenning door een netwerk.
+A local pilot succeeds when another team member can start the website from the documented files, understand the independent identity, find and download an article, correct a content error and test an update without Dutch accounts. A first real meetup provides useful feedback. None of these results automatically grants recognition by a network.
 
-Het gezamenlijke 90-dagenplan staat in [VOORSTEL.md](VOORSTEL.md). Deelname en eventuele directoryaanmelding worden afzonderlijk afgesproken.
+The shared 90-day plan is in [VOORSTEL.md](VOORSTEL.md). Participation and any directory registration are agreed separately.

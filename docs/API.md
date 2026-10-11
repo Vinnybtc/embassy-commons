@@ -16,6 +16,8 @@ This is a static public JSON interface. It requires no API key, account, databas
 | `schema/*.schema.json` | JSON Schema 2020-12 documents | Validate and integrate the five public datasets |
 | `docs/*.md` | Public documentation | Architecture, governance, licenses and this interface |
 
+The website, documentation and browser-generated starters use English. Dutch translations remain in the public data contracts for reuse.
+
 GET and HEAD are supported by the included server. It rejects mutation methods, hidden files, directory traversal and symlink paths outside `dist/`. These files do not implement a live registry submission, login, payments, messaging, member management or synchronized editing.
 
 ## Example: retrieve the educational resources
@@ -59,4 +61,4 @@ The localhost server sends `Cache-Control: no-store` for iteration. On a public 
 
 ## Rights
 
-Code is MIT. Original playbooks are CC BY 4.0, requiring attribution, a license link and disclosure of adaptations. Original demonstration templates use CC0-1.0. The Dutch Bitcoin Embassy public record is an independently written summary of external facts with source rights recorded separately. No license here grants third-party brand, logo, website content, personal data or unpublished-material rights. See `docs/LICENSES.md`.
+Code is MIT. Original playbooks are CC BY 4.0, requiring attribution, a license link and disclosure of adaptations. Original demonstration templates use CC0-1.0. The Dutch Bitcoin Embassy public record is an independently written summary of external facts with source rights recorded separately. No license here grants third-party brand, logo, website content, personal data or unpublished-material rights. See `CONTENT-LICENSE.md`, `DATA-LICENSE.md` and `docs/BRAND.md`.

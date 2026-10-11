@@ -1,33 +1,33 @@
-# Licenties voor openbare datasets
+# Public dataset licences
 
-Embassy Commons hanteert de licentie die bij de gegevensset en het record staat. De bronvermelding en rechteninformatie in het manifest en de records zijn onderdeel van de export. Deze verklaring geeft geen nieuwe rechten op informatie van derden.
+Embassy Commons applies the licence stated for the dataset and record. Provenance and rights information in the manifest and records form part of the export. This statement grants no new rights to third-party information.
 
-## Eigen generieke template-data
+## Original generic template data
 
 SPDX identifier: **CC0-1.0**.
 
-De eigen fictieve landtemplates voor Duitsland, Kenia en Brazilië en uitsluitend als CC0 aangeduide eigen generieke configuratierecords worden aangeboden met de CC0 1.0 Universal public domain dedication, tenzij bij een onderdeel anders is aangegeven. Deze templates stellen geen bestaande partners of lokale organisaties voor. Eigen namen, teksten en instellingen die een lokaal team toevoegt, zijn niet automatisch door de oorspronkelijke uitgever onder CC0 vrijgegeven.
+The original fictional country templates for Germany, Kenya and Brazil, and only original generic configuration records explicitly identified as CC0, are offered with the CC0 1.0 Universal public domain dedication unless a component states otherwise. These templates represent no existing partners or local organizations. Names, text and settings added by a local team are not automatically released under CC0 by the original publisher.
 
-Samenvatting: [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+Summary: [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
 
-Volledige voorwaarden: [CC0 1.0 legal code](https://creativecommons.org/publicdomain/zero/1.0/legalcode).
+Full terms: [CC0 1.0 legal code](https://creativecommons.org/publicdomain/zero/1.0/legalcode).
 
-## Nederlands bronrecord
+## Netherlands source record
 
-Het Nederlandse record verwijst naar publiek beschikbare feiten over Dutch Bitcoin Embassy. De beschrijving in de starter is onafhankelijk geformuleerd. De bron-URL en datum maken die herkomst zichtbaar. Dit record beweert niet dat de inhoud, foto's, logo's, merknaam of privédata van de oorspronkelijke website onder CC0 of een andere nieuwe open licentie vallen.
+The Netherlands record references publicly available facts about Dutch Bitcoin Embassy. Its description was independently written for the starter. The source URL and date identify its provenance. This record does not claim that the original website's content, photographs, logos, brand name or private data fall under CC0 or any new open licence.
 
-De verwijzing naar de oorspronkelijke bron is geen rechtenverlening door die bron. Bestaande Dutch Bitcoin Embassy datasets en materialen worden pas aan een echte open datarelease toegevoegd na de rechten- en publicatiecontrole in [DATA-POLICY.md](docs/DATA-POLICY.md).
+Referencing the original source grants no rights from that source. Existing Dutch Bitcoin Embassy datasets and materials are added to a real open data release only after the rights and publication checks in [DATA-POLICY.md](docs/DATA-POLICY.md).
 
-## Openbare DBE-bronreferentie
+## Public DBE origin reference
 
-`dist/data/dbe-public.json` bevat organisatiegegevens, drie circles en twee historische bijeenkomsten als openbare bronreferentie. De onafhankelijk geschreven beschrijvingen in dit bestand en het Nederlandse registry-record worden door deze starter aangeboden onder **CC-BY-4.0**. De datum-, plaats- en naamgegevens zijn openbare feitelijke metadata; de bron en rechteninformatie blijven bij hergebruik zichtbaar. Dit verleent geen rechten op de achterliggende website, beeldmateriaal of merken. Deze gegevens zijn een bronreferentie, geen lokale eventagenda.
+`dist/data/dbe-public.json` contains organization facts, three circles and two historical gatherings as a public origin reference. This starter offers the independently written descriptions in that file and the Netherlands registry record under **CC-BY-4.0**. Dates, places and names are public factual metadata; preserve source and rights information when reusing them. This grants no rights to the underlying website, imagery or brands. These data are an origin reference, not a local event calendar.
 
-## Eigen kennis in de resource-export
+## Original knowledge in the resource export
 
-De acht originele NL/EN playbooks en hun inhoudelijke beschrijvingen gebruiken **CC-BY-4.0**, zoals uitgelegd in [CONTENT-LICENSE.md](CONTENT-LICENSE.md). Het opslaan van kennis in JSON maakt deze inhoud geen CC0 dataset.
+The eight original Dutch/English playbooks and their substantive descriptions use **CC-BY-4.0**, as explained in [CONTENT-LICENSE.md](CONTENT-LICENSE.md). Storing knowledge in JSON does not make it a CC0 dataset. The interface presents the English versions; Dutch translations remain available in the source data.
 
-## Exports en aanvullingen
+## Exports and additions
 
-Behoud de herkomst en licentiemetadata bij het kopiëren of bundelen van records. Een dataset met verschillende bronnen krijgt een zichtbare licentieverdeling; een enkele algemene CC0 aanduiding mag niet worden gebruikt om externe inhoud of CC BY kennis als vrij van voorwaarden te presenteren.
+Preserve provenance and licensing metadata when copying or bundling records. A dataset with different sources needs a visible licence breakdown; do not use a single blanket CC0 label to present external content or CC BY knowledge as free of conditions.
 
-CC0 heeft geen gevolgen voor merkrechten en eventuele privacyrechten. Het pakket publiceert geen leden, donateurs, deelnemers, walletsecrets of privécontactgegevens. Een lokale uitgever controleert zelf of eigen aanvullingen mogen worden gedeeld en welke licentie hij daar bewust aan verbindt. [CC0 informatie](https://creativecommons.org/publicdomain/zero/1.0/).
+CC0 does not affect trademark rights or any privacy rights. The package publishes no members, donors, participants, wallet secrets or private contact details. A local publisher checks whether its own additions may be shared and deliberately chooses their licence. [CC0 information](https://creativecommons.org/publicdomain/zero/1.0/).

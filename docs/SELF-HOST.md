@@ -51,7 +51,7 @@ The separate `dist/data/dbe-public.json` remains an origin-reference dataset in 
 
 ## Edit and publish
 
-Edit `dist/data/config.json` for name, country, city, mission, language and accent. Dutch and English are currently supported; new country codes work with either available interface language. Additional interface languages need corresponding UI strings, resource translations, schemas and validators.
+Edit `dist/data/config.json` for name, country, city, mission, language and accent. The interface and generated guidance are English. The language field still accepts Dutch and English as content metadata for compatibility, and the resource datasets retain both translations. Changing the language field does not switch the interface. Additional interface languages need corresponding UI behavior, resource translations, schemas and validators.
 
 Edit original lessons in `dist/data/resources.json`. Keep both `nl` and `en` fields complete, retain IDs, and credit adaptations under CC BY 4.0. Before publishing, check source rights, local rules and whether any contact data is approved for publication. This starter includes no private member directory, authentication, wallet custody or payment collection.
 

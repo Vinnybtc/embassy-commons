@@ -53,7 +53,7 @@
   ],
   "membership": "Independent local forks do not automatically become network members or gain endorsement.",
   "integrity": {
-    "data/config.json": "d554fd332a9a04f023d0ae8e56b36ba8c6cacc7cbabb2b06648112093ac36a8d",
+    "data/config.json": "a92c093fb884981f7e12cc65789e78bd24c7f11e9fbd64e37c6a23a0e67df22b",
     "data/registry.json": "05032e955d8b4fb0420e96555a6de1fd7e612c1de25b411000e5c3a810ae98c1",
     "data/resources.json": "12d0955e6e4bd9860180de10987e0074162d84d048d952f8c2d80e9fb9d8febe",
     "data/dbe-public.json": "21d19388f794f58b9a4e7e87bc54b5a4f74620f1125245680704b4cf7eb5486d"

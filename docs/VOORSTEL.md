@@ -1,139 +1,139 @@
-# Embassy Commons voorstel voor Dutch Bitcoin Embassy
+# Embassy Commons proposal for Dutch Bitcoin Embassy
 
-Embassy Commons maakt de werkwijze, kennis en software van Dutch Bitcoin Embassy herbruikbaar voor lokale Bitcoin gemeenschappen. Een team in ieder land kan een eigen repository, website en programma starten, het materiaal vertalen en zelfstandig beheren. Dutch Bitcoin Embassy wordt de eerste uitgever van de gezamenlijke basis, zonder een centrale eigenaar te worden van buitenlandse organisaties.
+Embassy Commons makes Dutch Bitcoin Embassy's methods, knowledge and software reusable for local Bitcoin communities. A team in any country can start its own repository, website and programme, translate the material and manage it independently. Dutch Bitcoin Embassy becomes the first publisher of the shared foundation without becoming a central owner of organisations abroad.
 
-Het voorstel is om te beginnen met een kleine, zelfstandig te hosten starterrelease en een pilot van 90 dagen. Die release bevat een openbare kennisbasis, voorbeelddata, een landenstarter en afspraken voor bijdragen en publicatie. De huidige oplevering is een gebouwde starter en demonstratie met eigen voorbeeldmateriaal, acht nieuwe originele NL/EN playbooks en één Nederlands openbaar bronrecord. De interface sluit exact aan op het actuele DBE-ontwerpsysteem, met dezelfde fonts, kleuren, componentmaten en ringvormen; zie [BRAND.md](BRAND.md). Een aparte herbruikbare DBE-bronreferentie bevat de drie circles en twee historische bijeenkomsten uit de openbare website, met herkomst en rechten. De playbooks zijn conceptmateriaal voor inhoudelijke beoordeling, geen migratie van bestaande officiële lesinhoud. De bestaande interne data van Dutch Bitcoin Embassy is nog geen onderdeel van deze publicatie. Een inventarisatie, rechtencontrole en inhoudelijke beoordeling gaan vooraf aan de eerste echte Nederlandse datarelease.
+The proposal is to begin with a small starter release that teams can host themselves and a 90-day pilot. That release contains a public knowledge base, example data, a country starter and agreements for contributions and publication. The current delivery is a built starter and demonstration with original example material, eight new original NL/EN playbooks and one Dutch public source record. The interface follows the current DBE design system exactly, with the same fonts, colours, component dimensions and ring shapes; see [BRAND.md](BRAND.md). The interface is entirely in English, and generated starters default to English. Existing Dutch and English resource and source-data translations remain available for compatibility and reuse. A separate reusable DBE source reference contains the three circles and two historical meetups from the public website, with provenance and rights information. The playbooks are draft material for substantive review, rather than a migration of existing official educational content. Dutch Bitcoin Embassy's existing internal data is not yet part of this publication. An inventory, rights check and substantive review precede the first real Dutch data release.
 
-## Het product en de gebruikers
+## The product and its users
 
-Een lokale organisator moet zonder toestemming voor het gebruik van de gelicentieerde software en kennis kunnen beginnen. Het team kiest een eigen naam, taal, domein, rechtsvorm en werkwijze. Het mag een afgeleide versie gebruiken zonder zich aan te sluiten bij een netwerk of verbeteringen terug te sturen. Het oorspronkelijke materiaal behoudt de vermeldingen die de toepasselijke licentie vraagt.
+A local organiser must be able to start without seeking permission to use the licensed software and knowledge. The team chooses its own name, language, domain, legal structure and methods. It may use a derivative version without joining a network or contributing improvements back. The original material retains the notices required by the applicable licence.
 
-De kennisbasis dient drie gebruikersgroepen. Organisatoren krijgen praktische draaiboeken voor een eerste bijeenkomst, vrijwilligers, educatie en het bijhouden van openbare informatie. Bezoekers krijgen uitlegbaar lesmateriaal en een zichtbare route naar lokale activiteiten. Bijdragers krijgen eenvoudige bestanden, herleidbare bronnen en een reviewproces om een vertaling of verbetering voor te stellen.
+The knowledge base serves three user groups. Organisers receive practical playbooks for a first meetup, volunteers, education and maintaining public information. Visitors receive understandable educational material and a visible route to local activities. Contributors receive simple files, traceable sources and a review process for proposing a translation or improvement.
 
-De naam Bitcoin Embassy duidt hier op een onafhankelijk gemeenschapsinitiatief. De website en lokale afgeleiden moeten dat zichtbaar uitleggen. Het product verleent geen diplomatieke status, overheidsmandaat of officiële vertegenwoordiging. Lokale partijen mogen geen aansluiting, certificering of steun van Dutch Bitcoin Embassy suggereren die niet afzonderlijk is afgesproken.
+The name Bitcoin Embassy describes an independent community initiative here. The website and local derivatives must explain that visibly. The product grants no diplomatic status, government mandate or official representation. Local parties must not suggest affiliation, certification or support from Dutch Bitcoin Embassy that has not been separately agreed.
 
-## Wat de eerste release levert
+## What the first release delivers
 
-| Onderdeel | Starterrelease | Uitbreiding na de pilot |
+| Component | Starter release | Expansion after the pilot |
 | --- | --- | --- |
-| Publieke website | Zes views: overzicht, landregister, bibliotheek, landenstarter, open data en voorstel | Meer talen, toegankelijkheidsaudit en uitgebreidere lokale content |
-| Landenstarter | Generator met drie stappen naar een volledige zelfstandig te hosten ZIP; CLI voor config en uitvoermap | Import van bestaande lokale repositories en begeleide migratie |
-| Kennis | Acht originele NL/EN conceptplaybooks met lezen en Markdown downloaden | Gecontroleerde echte Dutch Bitcoin Embassy kennis en nieuwe lokale bijdragen |
-| Open data | Manifest, JSON, schema's, versie en downloads; eigen templates en één apart Nederlands bronrecord | Goedgekeurde echte datasets, correcties en versies |
-| Publicatiecontrole | Validatie van releasebestanden en expliciete afspraken over rechten en gevoelige informatie | Automatische publicatiecontrole met een traceerbare reviewgeschiedenis |
-| Samenwerking | Gedocumenteerde pull request workflow en optionele terugkoppeling | Een vrijwillige openbare directory en een federatieprotocol |
-| Beheer | Bestanden en Git als bron; geen centrale accountverplichting | Een optionele redactieomgeving voor teams die dat nodig hebben |
+| Public website | Six English views: overview, country register, library, country starter, open data and proposal | Additional local translations, an accessibility audit and more extensive local content |
+| Country starter | Three-step generator for a complete standalone ZIP that teams can host themselves; CLI for configuration and output directory | Import of existing local repositories and guided migration |
+| Knowledge | Eight original NL/EN draft playbooks with reading and Markdown downloads | Reviewed real Dutch Bitcoin Embassy knowledge and new local contributions |
+| Open data | Manifest, JSON, schemas, version and downloads; original templates and one separate Dutch source record | Approved real datasets, corrections and versions |
+| Publication checks | Validation of release files and explicit agreements on rights and sensitive information | Automated publication checks with a traceable review history |
+| Collaboration | Documented pull request workflow and optional contributions back | A voluntary public directory and federation protocol |
+| Management | Files and Git as the source; no central account requirement | An optional editorial environment for teams that need one |
 
-Een download of voorbeeldland is geen bestaande lokale partner. Landvoorbeelden illustreren hoe een afgeleide versie werkt. De site behandelt ze niet als erkende ambassades, pilotdeelnemers of aangesloten organisaties.
+A download or example country is not an existing local partner. Country examples illustrate how a derivative version works. The site does not treat them as recognised embassies, pilot participants or affiliated organisations.
 
-Het landregister bevat Nederland als openbaar bronrecord en Duitsland, Kenia en Brazilië als demonstratietemplates. De basis werkt met Node.js 22 of hoger en zonder externe runtimeafhankelijkheden. De openbare interface is een statische website. De zelfstandige landen-ZIP en de volledige bronrelease maken de werking zonder centrale dienst overdraagbaar. De preview is privé en voor beoordeling. De nieuwe, zelfstandig geschreven broncode staat openbaar op [Vinnybtc/embassy-commons](https://github.com/Vinnybtc/embassy-commons).
+The country register contains the Netherlands as a public source record and Germany, Kenya and Brazil as demonstration templates. The foundation works with Node.js 22 or higher and has no external runtime dependencies. The public interface is a static website. The standalone country ZIP and full source release make the system transferable without a central service. The preview is private and intended for review. The new, independently written source code is public at [Vinnybtc/embassy-commons](https://github.com/Vinnybtc/embassy-commons).
 
-De starterrelease int geen geld, beheert geen wallets, bewaart geen privésleutels, verwerkt geen ledenregistratie en verzorgt geen evenementbetalingen. Een lokale organisatie kan later eigen diensten toevoegen en is dan verantwoordelijk voor de bijbehorende operationele en lokale vereisten. Voor de basis is een statische website genoeg; er is geen database, centrale aanmelding of commerciële API nodig.
+The starter release does not collect money, manage wallets, store private keys, process membership registrations or handle event payments. A local organisation may add its own services later and then becomes responsible for the associated operational and local requirements. A static website is sufficient for the foundation; no database, central sign-in or commercial API is needed.
 
-## De dagelijkse gebruiksroute
+## The everyday user journey
 
-1. Een lokaal team bekijkt de kennis en kiest een eigen land, taal en projectnaam.
-2. Het downloadt het starterpakket en maakt een eigen kopie of fork van de repository.
-3. Het stelt de lokale configuratie in, vervangt voorbeelden en zet zijn eigen onafhankelijke identiteit zichtbaar op de website.
-4. Het controleert rechten, herkomst, kwaliteit en publiceerbaarheid van ieder eigen record.
-5. Het valideert de bestanden, publiceert de website en organiseert een eerste activiteit met het draaiboek.
-6. Het kan een vertaling, foutcorrectie of verbeterd draaiboek als pull request aan de gezamenlijke basis aanbieden. Deelname daaraan is vrijwillig.
+1. A local team explores the knowledge and chooses its own country, language and project name.
+2. It downloads the starter package and makes its own copy or fork of the repository.
+3. It sets the local configuration, replaces examples and makes its independent identity visible on the website.
+4. It checks the rights, provenance, quality and suitability for publication of every local record.
+5. It validates the files, publishes the website and organises a first activity using the playbook.
+6. It may offer a translation, error correction or improved playbook to the shared foundation as a pull request. Participation is voluntary.
 
-Volledige toegang betekent toegang tot alle publiek vrijgegeven broncode, bronbestanden en kennis, met het recht om deze binnen hun licentie te gebruiken en te wijzigen. Het betekent geen toegang tot bestaande privéaccounts, wachtwoorden, interne correspondentie, ledenlijsten of gegevens van anderen.
+Full access means access to all publicly released source code, source files and knowledge, with the right to use and modify them within their licences. It does not mean access to existing private accounts, passwords, internal correspondence, membership lists or other people's data.
 
-## Architectuur voor onafhankelijke landen
+## Architecture for independent countries
 
-De gezamenlijke basis, ook upstream genoemd, bevat de software, gedeelde kennis, gegevensschema's, governance en releases. Iedere lokale afgeleide, ook downstream genoemd, bevat een eigen configuratie, eigen lokale content en de gekozen versie van de basis. Een lokaal team kan wijzigingen teruggeven zonder zijn hele repository of interne administratie te delen.
+The shared foundation, also called upstream, contains the software, shared knowledge, data schemas, governance and releases. Each local derivative, also called downstream, contains its own configuration, local content and selected foundation version. A local team can contribute changes back without sharing its entire repository or internal administration.
 
-Bestanden blijven de bron. Openbare data wordt als leesbare JSON opgeslagen; kennis en werkwijzen als Markdown. Een website gebruikt deze bestanden om ze te presenteren. Exports moeten zonder de oorspronkelijke website bruikbaar blijven. Git geschiedenis maakt zichtbaar wie wat veranderde. Releasebestanden bundelen de exacte versie van code, schema, content en licenties.
+Files remain the source. Public data is stored as readable JSON; knowledge and methods as Markdown. A website uses these files to present them. Exports must remain usable without the original website. Git history shows who changed what. Release files bundle the exact versions of code, schema, content and licences.
 
-De MVP gebruikt lokale bestanden en downloads. Er is nog geen automatische synchronisatie tussen landen, geen live register met geverifieerde organisaties en geen centraal beheer van lokale websites. Het federatiemodel hieronder beschrijft hoe dat later kan groeien zonder landen afhankelijk te maken van de Nederlandse website.
+The MVP uses local files and downloads. There is no automatic synchronisation between countries yet, no live register of verified organisations and no central management of local websites. The federation model below describes how this can grow later without making countries dependent on the Dutch website.
 
-De nieuwe openbare bronrepository is `Vinnybtc/embassy-commons`, met starterversie 0.1.0. Vincent kan die later overdragen aan een door hem gekozen Dutch Bitcoin Embassy organisatie. Er is geen nieuwe GitHub-organisatie aangemaakt. De starter is onafhankelijk geschreven; privétoegang tot bestaande DBE repositories is geen besluit om die repositories openbaar te maken.
+The new public source repository is `Vinnybtc/embassy-commons`, with starter version 0.1.0. Vincent may later transfer it to a Dutch Bitcoin Embassy organisation of his choice. No new GitHub organisation has been created. The starter is independently written; private access to existing DBE repositories is not a decision to make those repositories public.
 
-Een latere vrijwillige federatie laat een lokale organisatie een openbare manifest-URL registreren. Zo'n manifest bevat alleen de projectidentiteit, landcode, website, versie, licenties en de verwijzing naar eigen publiceerbare datasets. De directory haalt uitsluitend die expliciet vrijgegeven informatie op. Wijzigingen worden eerst zichtbaar als te beoordelen voorstellen. Geen enkel land krijgt automatisch schrijfrechten op andermans data. Uittreden verwijdert de vermelding uit de directory; de lokale repository en website blijven bruikbaar.
+A later voluntary federation allows a local organisation to register a public manifest URL. Such a manifest contains only the project identity, country code, website, version, licences and references to its own publishable datasets. The directory retrieves only that explicitly released information. Changes first appear as proposals to review. No country automatically receives write access to another country's data. Leaving removes the directory listing; the local repository and website remain usable.
 
-## Compatibiliteit en updates
+## Compatibility and updates
 
-Softwareversie, datasetschema en contentversie krijgen afzonderlijke versies. Een patch verhelpt fouten; een minor versie voegt compatibele mogelijkheden toe; een major versie kan een migratie vragen. Bij iedere major versie hoort een leesbaar migratiepad, een voorbeeld en een controle die incompatibele bestanden afwijst.
+The software, dataset schema and content receive separate versions. A patch fixes errors; a minor version adds compatible features; a major version may require migration. Each major version includes a readable migration path, an example and a check that rejects incompatible files.
 
-Een lokale organisatie houdt de gekozen upstreamversie vast en houdt lokale content gescheiden van gedeelde bestanden. Updates gaan via een lokale branch en review, nooit via een verplichte centrale push. De beheerder vergelijkt de wijziging, valideert zijn eigen configuratie en publiceert pas daarna. Binnen de pilot is er één ondersteunde starterlijn. De capaciteit voor onderhoud van oudere versies wordt besloten voordat meerdere lijnen worden aangeboden.
+A local organisation pins its chosen upstream version and keeps local content separate from shared files. Updates go through a local branch and review, never a mandatory central push. The maintainer compares the change, validates the local configuration and publishes only afterwards. One starter line is supported during the pilot. Capacity for maintaining older versions is decided before multiple lines are offered.
 
-Vertalingen noemen hun brontaal en de versie of hash van het vertaalde origineel. Bij wijziging van dat origineel krijgt de vertaling de status 'review nodig'. Een verouderde vertaling verdwijnt niet stilzwijgend; lezers kunnen zien welke versie ze lezen.
+Translations state their source language and the version or hash of the translated original. When that original changes, the translation receives a 'needs review' status. An outdated translation does not disappear silently; readers can see which version they are reading.
 
-## Licenties en eigen merk
+## Licences and local branding
 
-| Materiaal | Keuze | Praktische toepassing |
+| Material | Choice | Practical use |
 | --- | --- | --- |
-| Eigen software | MIT | Gebruiken, aanpassen en verspreiden met behoud van de vereiste licentie- en auteursvermelding |
-| Eigen kennis en draaiboeken | CC BY 4.0 | Hergebruiken en vertalen met bron, licentielink en vermelding van wijzigingen |
-| Eigen gecontroleerde open datasets | CC0 1.0 | Alleen voor expliciet vrijgegeven records waarvan de uitgever de benodigde rechten heeft gecontroleerd |
-| Materiaal van derden | De oorspronkelijke licentie | Alleen bundelen als de voorwaarden hergebruik toestaan en de bronvermelding is opgenomen |
-| Naam, logo en erkenningslabels | Afzonderlijk merkbeleid | De softwarelicentie is geen toestemming om verbondenheid of erkenning te claimen |
+| Original software | MIT | Use, adapt and distribute while retaining the required licence and copyright notices |
+| Original knowledge and playbooks | CC BY 4.0 | Reuse and translate with attribution, a licence link and an indication of changes |
+| Original reviewed open datasets | CC0 1.0 | Only for explicitly released records whose necessary rights have been checked by the publisher |
+| Third-party material | Original licence | Bundle only when its terms allow reuse and attribution is included |
+| Name, logo and recognition labels | Separate brand policy | The software licence does not grant permission to claim affiliation or recognition |
 
-MIT staat ruim softwarehergebruik toe en vraagt behoud van de licentie- en copyrighttekst. Het verplicht afgeleide software niet tot dezelfde licentie. Als Vincent wil dat alle gepubliceerde codewijzigingen ook open blijven, hoort een andere licentiekeuze vóór de openbare eerste release op tafel. [MIT licentie](https://opensource.org/license/mit).
+MIT permits broad software reuse and requires retention of the licence and copyright text. It does not require derivative software to use the same licence. If Vincent wants all published code changes to remain open as well, a different licence choice should be considered before the first public release. [MIT licence](https://opensource.org/license/mit).
 
-CC BY 4.0 ondersteunt hergebruik en bewerking van de eigen kennis met naamsvermelding, een licentielink en vermelding van wijzigingen. CC0 is uitsluitend voor bewust vrijgegeven data; het verleent geen merkrechten en heft eventuele privacyrechten niet op. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+CC BY 4.0 supports reuse and adaptation of original knowledge with attribution, a licence link and an indication of changes. CC0 applies only to deliberately released data; it grants no trademark rights and does not remove any privacy rights. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
 
-Alle gegenereerde voorbeeldrecords worden als voorbeeld gemarkeerd. Data op een openbare website van een ander wordt niet automatisch onze data. Het team controleert per bron of het informatie mag kopiëren en onder welke licentie. Waar rechten onduidelijk zijn, kan de catalogus naar de bron linken zonder het materiaal opnieuw te publiceren.
+All generated example records are marked as examples. Data on someone else's public website does not automatically become our data. The team checks each source to establish whether information may be copied and under which licence. Where rights are unclear, the catalogue can link to the source without republishing the material.
 
-## Kwaliteit en vertrouwen
+## Quality and trust
 
-Voor de pilot zijn inhoudelijke labels voorgesteld met een duidelijke betekenis: 'voorbeeld', 'ingediend', 'inhoudelijk gecontroleerd' en 'review nodig'. Een label noemt waar relevant de reviewdatum, scope en reviewerrol. 'Inhoudelijk gecontroleerd' betekent dat een concrete inhoudelijke controle plaatsvond. Het is geen vergunning, organisatiecertificaat, veiligheidsbelofte of overheidsstatus. De eerste interface onderscheidt het bronrecord van demonstratietemplates; het volledige reviewproces groeit tijdens de pilot.
+Content labels with clear meanings are proposed for the pilot: 'example', 'submitted', 'content reviewed' and 'needs review'. Where relevant, a label states the review date, scope and reviewer role. 'Content reviewed' means a specific substantive check took place. It is not a permit, organisation certificate, safety promise or government status. The initial interface distinguishes the source record from demonstration templates; the full review process develops during the pilot.
 
-Voor organisatievermeldingen geldt apart 'zelf aangemeld' of, wanneer daar een werkelijk proces en besluit voor bestaan, 'door het netwerk bevestigd'. In de starter zijn geen organisaties door het netwerk bevestigd. De landelijke voorbeelden blijven voorbeelden. Een lokaal team dat de gedeelde code gebruikt, wordt daarmee niet automatisch opgenomen in de directory.
+Organisation listings separately use 'self-registered' or, when an actual process and decision exist, 'network confirmed'. No organisations are network confirmed in the starter. Country examples remain examples. A local team using the shared code is not automatically included in the directory.
 
-## Aansluiting op het bestaande Nederlandse platform
+## Connecting to the existing Dutch platform
 
-Een read-only verkenning van de bestaande website en community-app ondersteunt een gefaseerde aansluiting. De site kan later een exportadapter krijgen voor geselecteerde kennis en openbare records. De community-app kan de overdraagbare kennis en lokale configuratie gebruiken, terwijl gebruikers, chat en registraties in de eigen operationele omgeving blijven.
+A read-only exploration of the existing website and community app supports a phased connection. The website may later receive an export adapter for selected knowledge and public records. The community app can use the transferable knowledge and local configuration while users, chat and registrations remain in its own operational environment.
 
-Er is nog geen bestaande code gekopieerd, geen private operationele data opgenomen en geen bestaande livefunctie als Commons-integratie bewezen. De adapter is een vervolgfase: selecteer materiaal, controleer rechten, exporteer naar het Commons-schema en test de output in een onafhankelijke landfork. De concrete bronverkenning en beperkingen staan in [EXISTING-SOURCES.md](EXISTING-SOURCES.md).
+No existing application code has been copied, no private operational data has been included and no existing live feature has been proven as a Commons integration. The adapter is a later phase: select material, check rights, export to the Commons schema and test the output in an independent country fork. The concrete source exploration and its limitations are in [EXISTING-SOURCES.md](EXISTING-SOURCES.md).
 
-## Organisatie en verantwoordelijkheden
+## Organisation and responsibilities
 
-Vincent besluit over de Nederlandse publicatie, de eerste rechthebbende en merkhouder, de pilotcapaciteit en welke eigen bronbestanden vrijgegeven mogen worden. Een releasebeheerder controleert tests, bundels, versies en licenties. Een inhoudsbeheerder beoordeelt lesmateriaal, bronnen en vertalingen. Een databeheerder bewaakt herkomst, publiceerbaarheid en correcties. Lokale teams zijn verantwoordelijk voor hun eigen organisatie en lokale publicaties.
+Vincent decides on the Dutch publication, the initial rights holder and brand owner, pilot capacity and which original source files may be released. A release maintainer checks tests, bundles, versions and licences. A content maintainer reviews educational material, sources and translations. A data maintainer monitors provenance, suitability for publication and corrections. Local teams are responsible for their own organisations and local publications.
 
-In de eerste pilot kan één persoon meerdere rollen vervullen, maar een publicatie met nieuwe data krijgt een tweede inhoudelijke controle. Open discussie vindt plaats in issues en pull requests. Kwetsbaarheden en gevoelige informatie gaan via het private meldproces. De Nederlandse beheerder kan een lokale kopie niet terugnemen; hij kan wel verkeerde informatie in de gezamenlijke basis corrigeren of een directoryvermelding verwijderen.
+In the first pilot, one person may perform several roles, but a publication containing new data receives a second substantive review. Public discussion takes place in issues and pull requests. Vulnerabilities and sensitive information go through the private reporting process. The Dutch maintainer cannot take back a local copy, but can correct inaccurate information in the shared foundation or remove a directory listing.
 
-De governance krijgt pas een netwerkraad wanneer er daadwerkelijk onafhankelijke deelnemers zijn. De pilot nodigt mogelijke teams uit zonder deelname te veronderstellen. Meer landen op een scherm is geen bewijs van adoptie.
+The governance gains a network council only when independent participants actually exist. The pilot invites potential teams without assuming participation. More countries on a screen are not evidence of adoption.
 
-## Pilot van 90 dagen
+## A 90-day pilot
 
-De pilot start wanneer Vincent het publicatiepakket en de eigenaren van de rollen vaststelt. Dagen zijn kalenderdagen vanaf die start; er zijn nog geen deelnemers of startdatum bevestigd.
+The pilot starts when Vincent establishes the publication package and assigns the roles. Days are calendar days from that start; no participants or start date have been confirmed yet.
 
-| Periode | Werk | Resultaat om te beoordelen |
+| Period | Work | Result to review |
 | --- | --- | --- |
-| Dag 1 tot 14 | Inventariseer Nederlandse bronnen; beslis rechten, naam en rollen; controleer starter en publicatieproces | Rechtenmatrix, releasekandidaat, eigen dataselectie en heldere aansprakelijke beheerders |
-| Dag 15 tot 30 | Zoek twee onafhankelijke pilotteams; laat ze de starter gebruiken en het eerste lokale draaiboek invullen | Twee werkende lokale proefkopieën als er twee teams deelnemen; knelpunten en benodigde ondersteuning |
-| Dag 31 tot 60 | Laat ieder deelnemend team materiaal vertalen of aanpassen en één echte activiteit voorbereiden | Lokale content, minimaal één beoordeelde upstreambijdrage per actief team en gedocumenteerde verbeteringen |
-| Dag 61 tot 90 | Test een update, herstel en publicatie; evalueer gebruik en onderhoud | Releasebesluit, aangepaste handleidingen en een besluit over een vrijwillige directory |
+| Days 1 to 14 | Inventory Dutch sources; decide rights, name and roles; check the starter and publication process | Rights matrix, release candidate, local data selection and clearly accountable maintainers |
+| Days 15 to 30 | Find two independent pilot teams; have them use the starter and complete their first local playbook | Two working local trial copies if two teams participate; obstacles and support needs |
+| Days 31 to 60 | Have each participating team translate or adapt material and prepare one real activity | Local content, at least one reviewed upstream contribution per active team and documented improvements |
+| Days 61 to 90 | Test an update, recovery and publication; evaluate use and maintenance | Release decision, revised guides and a decision on a voluntary directory |
 
-Pilotdoelen zijn vooraf te meten: een team kan vanaf een schone download zonder Nederlandse accounts een eigen site starten; een relevante bijdrage kan worden teruggegeven; een upstreamupdate beschadigt lokale content niet; een fout kan worden gecorrigeerd met een nieuwe release. De inhoudelijke doelen zijn een bruikbaar lokaal introductieprogramma en duidelijke uitleg van de onafhankelijke status.
+Pilot goals can be measured in advance: a team can start its own website from a clean download without Dutch accounts; a relevant contribution can be returned upstream; an upstream update does not damage local content; an error can be corrected with a new release. The content goals are a useful local introductory programme and a clear explanation of independent status.
 
-De metingen zijn eenvoudige projectregistraties: doorlooptijd van eerste download tot lokale publicatie, gevonden blokkades, geaccepteerde bijdragen, geslaagde updatetests en actieve beheerders per team. Er is geen individuele bezoekerstracking nodig. Na 90 dagen wordt besloten door te gaan, de scope te verkleinen of ondersteuning te pauzeren. Bestaande vrijgegeven materialen blijven volgens hun licentie bruikbaar.
+Measurements are simple project records: time from first download to local publication, identified obstacles, accepted contributions, successful update tests and active maintainers per team. No individual visitor tracking is needed. After 90 days, a decision is made to continue, reduce the scope or pause support. Previously released material remains usable under its licence.
 
-## Kosten en duurzaamheid
+## Costs and sustainability
 
-De basis vermijdt vaste softwareabonnementen. De grootste inzet is tijd voor inhoud, vertaling, review en onderhoud. Lokale teams bepalen zelf hun hosting en domein. Betaalde ondersteuning is optioneel; toegang tot de gelicentieerde basis blijft vrij.
+The foundation avoids fixed software subscriptions. The main commitment is time for content, translation, review and maintenance. Local teams choose their own hosting and domain. Paid support is optional; access to the licensed foundation remains free.
 
-Voor de pilot maakt Vincent een capaciteitsoverzicht met uren voor releasebeheer, inhoud, datacontrole, begeleiding en evaluatie. Zonder dat overzicht is er geen betrouwbare begroting. Domeinen, hosting, opslag, bijeenkomsten en eventuele onafhankelijke controles worden als aparte posten met actuele offertes opgenomen. Dit voorstel bevat geen harde leveranciersprijzen of toegezegde inkomsten.
+For the pilot, Vincent prepares a capacity plan with hours for release management, content, data checks, guidance and evaluation. Without that plan, there is no reliable budget. Domains, hosting, storage, meetups and any independent reviews are listed separately using current quotes. This proposal contains no fixed vendor prices or promised income.
 
-Sponsoring, vrijwillige donaties of betaalde workshops kunnen later bijdragen aan onderhoud. Een sponsor krijgt daarmee geen controle over lesinhoud, erkenning of data. Inkomsten en uitgaven van de gezamenlijke organisatie kunnen als eigen samenvattingen worden gepubliceerd, terwijl individuele donorgegevens privé blijven. Het MVP bevat geen betalingsverwerking.
+Sponsorship, voluntary donations or paid workshops may later help fund maintenance. A sponsor does not gain control over educational content, recognition or data. The shared organisation's income and expenses can be published as its own summaries while individual donor details remain private. The MVP contains no payment processing.
 
-## Belangrijkste beslissingen voor Vincent
+## Key decisions for Vincent
 
-1. Bevestig Embassy Commons als werknaam en de gewenste relatie met Dutch Bitcoin Embassy. Stel merkgebruik en de zichtbare onafhankelijke status vast.
-2. Bepaal welke partij de eerste materialen uitgeeft, welke eigenaren en bijdragen de rechten dekken en of MIT de gewenste vrijheid biedt.
-3. Kies de eerste werkelijk vrij te geven Nederlandse kennis en datasets. Laat interne persoonsgegevens en geheime informatie buiten het pakket.
-4. Wijs de release-, inhouds- en datarollen toe en reserveer pilotcapaciteit.
-5. Kies na die voorbereiding maximaal twee eerste pilotteams; leg hun deelname afzonderlijk vast.
-6. Besluit na de pilot over een directory, meertalige ondersteuning en aanvullende beheerfuncties.
+1. Confirm Embassy Commons as the working name and its intended relationship with Dutch Bitcoin Embassy. Establish brand use and visible independent status.
+2. Determine which party publishes the first material, which owners and contributions cover the rights and whether MIT provides the desired freedom.
+3. Choose the first Dutch knowledge and datasets to actually release. Keep internal personal data and secrets outside the package.
+4. Assign release, content and data roles and reserve pilot capacity.
+5. After that preparation, choose at most two initial pilot teams; record their participation separately.
+6. After the pilot, decide on a directory, support for local translations and additional management features.
 
-Een concrete eerste publieke starterrelease bestaat uit het gevalideerde starterpakket, het voorstel, de governance, de toepasselijke licenties, de expliciet gelicentieerde eigen templates en kennis, het afzonderlijke bronrecord en een werkende onafhankelijke voorbeeldsite. Het huidige pakket maakt die software en werkwijze beoordeelbaar. De eerste echte Nederlandse datarelease kan daarna afzonderlijk volgen en voldoet aan de publicatiecriteria in [het databeleid](DATA-POLICY.md).
+A concrete first public starter release consists of the validated starter package, proposal, governance, applicable licences, explicitly licensed original templates and knowledge, the separate source record and a working independent example website. The current package makes this software and approach reviewable. The first real Dutch data release can follow separately and must meet the publication criteria in [the data policy](DATA-POLICY.md).
 
-## Bijbehorende documenten
+## Related documents
 
-- [Governance](GOVERNANCE.md) legt rollen, besluiten, federatie en kwaliteitslabels vast.
-- [Databeleid](DATA-POLICY.md) beschrijft welke records openbaar mogen en hoe fouten worden gecorrigeerd.
-- [Launch playbook](LAUNCH-PLAYBOOK.md) voert een lokaal team van download naar de eerste activiteit.
-- [Bijdragen](../CONTRIBUTING.md), [gedragscode](../CODE_OF_CONDUCT.md) en [veiligheidsmeldingen](../SECURITY.md) ondersteunen dagelijks onderhoud.
+- [Governance](GOVERNANCE.md) defines roles, decisions, federation and quality labels.
+- [Data policy](DATA-POLICY.md) describes which records may be made public and how errors are corrected.
+- [Launch playbook](LAUNCH-PLAYBOOK.md) takes a local team from download to its first activity.
+- [Contributing](../CONTRIBUTING.md), [code of conduct](../CODE_OF_CONDUCT.md) and [security reports](../SECURITY.md) support everyday maintenance.

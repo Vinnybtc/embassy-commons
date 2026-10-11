@@ -1,71 +1,71 @@
-# Databeleid van Embassy Commons
+# Embassy Commons data policy
 
-Embassy Commons publiceert alleen gegevens die bewust voor hergebruik zijn geselecteerd. Open broncode maakt de bestaande privédata van Dutch Bitcoin Embassy niet automatisch openbaar. Een openbare website als bron maakt het recht op het opnieuw publiceren of herlicentiëren van de inhoud evenmin automatisch duidelijk.
+Embassy Commons publishes only data deliberately selected for reuse. Open source code does not automatically make Dutch Bitcoin Embassy's existing private data public. Using a public website as a source does not automatically establish the right to republish or relicense its content either.
 
-Dit beleid geldt voor de gezamenlijke repository, releasebundels en een toekomstige directory. Ieder lokaal team past dezelfde publicatiecontrole toe op eigen bestanden. Het beleid is een operationele afspraak; lokale organisaties beoordelen hun eigen verantwoordelijkheden en eventuele aanvullende vereisten.
+This policy applies to the shared repository, release bundles and a future directory. Each local team applies the same publication checks to its own files. The policy is an operational agreement; local organisations assess their own responsibilities and any additional requirements.
 
-## Scheid drie soorten materiaal
+## Separate three types of material
 
-| Soort | Voorbeelden | Publicatie |
+| Type | Examples | Publication |
 | --- | --- | --- |
-| Open kennis | Eigen lessen, draaiboeken, uitleg en vertalingen | Alleen met herleidbare rechten en de toepasselijke kennislicentie |
-| Open data | Eigen generieke templates, expliciet vrijgegeven organisatiegegevens, publiceerbare programmabeschrijvingen | Alleen na controle van ieder record en de datalicentie |
-| Privéadministratie | Leden, deelnemers, donateurs, personeelszaken, contracten en interne berichten | Buiten publieke repositories, exports, issues en releasebundels |
+| Open knowledge | Original lessons, playbooks, explanations and translations | Only with traceable rights and the applicable knowledge licence |
+| Open data | Original generic templates, explicitly released organisation details, publishable programme descriptions | Only after checking each record and its data licence |
+| Private administration | Members, participants, donors, personnel matters, contracts and internal messages | Outside public repositories, exports, issues and release bundles |
 
-Sleutels, seed phrases, herstelcodes, inloggegevens, API tokens, privécontactgegevens en financiële persoonsinformatie horen nooit in de open publicatie. Walletadressen kunnen herleidbaar zijn en zijn geen standaardveld van de basisdataset. Een toekomstig lokaal donatiesysteem krijgt een afzonderlijk ontwerp en gecontroleerde publicatieprocedure.
+Keys, seed phrases, recovery codes, login credentials, API tokens, private contact details and personal financial information must never appear in the open publication. Wallet addresses may identify people and are not a standard field in the base dataset. A future local donation system requires a separate design and a reviewed publication procedure.
 
-## Licenties op recordniveau
+## Licences at record level
 
-Eigen generieke template-data kan onder CC0 1.0 worden vrijgegeven wanneer de uitgever de benodigde rechten heeft. Eigen kennis staat onder CC BY 4.0. Voor materiaal van derden blijft de oorspronkelijke licentie gelden. De data-export moet die verschillen zichtbaar houden. Een algemene licentie op de repository overschrijft geen rechten van een derde.
+Original generic template data may be released under CC0 1.0 when the publisher holds the necessary rights. Original knowledge uses CC BY 4.0. Third-party material retains its original licence. The data export must keep those differences visible. A general repository licence does not override a third party's rights.
 
-Een record met openbare bronverwijzingen naar Dutch Bitcoin Embassy is een bronvermelding of beschrijving. De gekoppelde website-inhoud wordt daarmee niet onder CC0 vrijgegeven. Kopiëren van logo's, foto's, volledige teksten, presentaties of samengestelde datasets vraagt een afzonderlijke rechtencontrole. Waar de rechten niet duidelijk zijn, publiceert de catalogus alleen een zorgvuldig gekozen verwijzing of sluit het materiaal uit.
+A record with public source references to Dutch Bitcoin Embassy is an attribution or description. It does not release the linked website content under CC0. Copying logos, photographs, full texts, presentations or compiled datasets requires a separate rights review. Where rights are unclear, the catalogue publishes only a carefully selected reference or excludes the material.
 
-CC0 verleent geen toestemming voor het gebruik van merken en heft privacyrechten niet op. CC BY vraagt onder meer bronvermelding, een licentielink en aanduiding van wijzigingen. [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+CC0 does not grant permission to use trademarks or remove privacy rights. CC BY requires, among other things, attribution, a licence link and an indication of changes. [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-## Publicatiepoort voor ieder echt record
+## Publication gate for every real record
 
-Een schrijver controleert onderstaande criteria; een tweede persoon beoordeelt de vrijgave van nieuwe echte data. Een ontbrekend of negatief antwoord houdt het record uit de openbare bundel.
+An author checks the criteria below; a second person reviews the release of new real data. A missing or negative answer keeps the record out of the public bundle.
 
-1. Het record heeft een nuttig openbaar doel en bevat alleen velden die dat doel nodig heeft.
-2. Auteur, bron, beoogde licentie en reden voor publiceerbaarheid zijn herleidbaar.
-3. De rechten op tekst, beelden en eventuele bijlagen zijn gecontroleerd. Het record impliceert geen rechten die de uitgever niet bezit.
-4. Het bevat geen privécontactgegevens, accountgegevens, geheimen, ledenlijsten of verborgen persoonsgegevens in vrije tekst, metadata of bestanden.
-5. Informatie is controleerbaar en voldoende actueel; tijdgevoelige inhoud krijgt een datum en reviewmoment.
-6. Een voorbeeld is expliciet als voorbeeld gemarkeerd. Een ingediend record suggereert geen review die niet plaatsvond.
-7. Afbeeldingen, URL's, downloads en vrije tekst worden als onbetrouwbare invoer behandeld en technisch gecontroleerd.
-8. Het record voldoet aan het schema en kan met de bijbehorende versie worden geëxporteerd en teruggelezen.
-9. Een verantwoordelijke beheerder en correctieroute zijn bekend.
+1. The record has a useful public purpose and contains only the fields that purpose needs.
+2. The author, source, intended licence and reason the record may be published are traceable.
+3. Rights to text, images and any attachments have been checked. The record does not imply rights the publisher does not hold.
+4. It contains no private contact details, account information, secrets, membership lists or hidden personal data in free text, metadata or files.
+5. Information is verifiable and sufficiently current; time-sensitive content has a date and a review point.
+6. An example is explicitly marked as an example. A submitted record does not imply a review that did not take place.
+7. Images, URLs, downloads and free text are treated as untrusted input and technically checked.
+8. The record meets the schema and can be exported and read back with the corresponding version.
+9. A responsible maintainer and correction route are known.
 
-De technische validator controleert structurele eisen en bekende verboden patronen. Hij kan niet vaststellen dat rechten, bronwaarheid, toestemming of alle persoonsgegevens in vrije tekst correct zijn. Een geslaagde validatie vervangt de inhoudelijke publicatiepoort niet.
+The technical validator checks structural requirements and known prohibited patterns. It cannot establish that rights, source accuracy, consent or all personal data in free text are correct. Successful validation does not replace the substantive publication gate.
 
-## Herkomst en actualiteit
+## Provenance and currency
 
-Een gegevensset beschrijft versie, datum, licenties en de gebruikte bronnen. Voor records met gecontroleerde feiten hoort een herkomstregistratie met minimaal bron-URL of intern bronbewijs, controledatum, reviewstatus en verantwoordelijke rol. Privébewijs wordt apart bewaard; het hoort niet in de openbare JSON.
+A dataset describes its version, date, licences and sources. Records containing checked facts need a provenance record with at least a source URL or internal source evidence, review date, review status and responsible role. Private evidence is stored separately; it does not belong in public JSON.
 
-De starter gebruikt schema's om de structuur te bewaken. Een toekomstig schema kan uitgebreidere per-recordmetadata toevoegen. De publicatiepoort geldt vanaf de eerste echte datarelease, ook als een deel van de beoordeling voorlopig in een reviewregister staat.
+The starter uses schemas to protect the structure. A future schema may add more detailed metadata per record. The publication gate applies from the first real data release, even if part of the assessment is initially kept in a review register.
 
-Bij zelf aangemelde lokale organisaties wordt zichtbaar wie de informatie heeft aangeleverd en welke scope daadwerkelijk is beoordeeld. Geen automatische verrijking met persoonlijke sociale profielen of contactgegevens. Een kopieerbare zakelijke rolmail wordt alleen opgenomen wanneer het lokale team die bewust openbaar wil maken en de betreffende publicatie beoordeeld is.
+For local organisations that register themselves, it must be visible who supplied the information and what scope was actually reviewed. There is no automatic enrichment with personal social profiles or contact details. A reusable organisational role email is included only when the local team deliberately wants to make it public and that publication has been reviewed.
 
-## Exports en een toekomstige federatie
+## Exports and a future federation
 
-De release-export bevat alleen publiceerbare bestanden. Intern reviewbewijs, toegangssleutels en private administratie staan in een afzonderlijke omgeving en worden niet meegenomen. Downloads vermelden de versie en de licenties. Een downstreamteam dat data toevoegt, herhaalt de publicatiecontrole en wordt de uitgever van zijn eigen aanvullingen.
+The release export contains only publishable files. Internal review evidence, access keys and private administration are held in a separate environment and are not included. Downloads state the version and licences. A downstream team adding data repeats the publication checks and becomes the publisher of its own additions.
 
-Een toekomstige federatie haalt alleen manifesten en datasets op die het lokale team expliciet aanbiedt. De ingestuurde inhoud wordt behandeld als onbetrouwbare invoer en vóór publicatie beoordeeld. Opt-in voor de directory is geen toestemming voor het ophalen van alle pagina's, privédata of sociale profielen van dat team.
+A future federation retrieves only manifests and datasets that the local team explicitly offers. Submitted content is treated as untrusted input and reviewed before publication. Opting into the directory does not grant permission to retrieve all that team's pages, private data or social profiles.
 
-## Correcties, verwijdering en incidenten
+## Corrections, removal and incidents
 
-Normale feitelijke fouten krijgen een issue zonder gevoelige bijlagen. De beheerder corrigeert het bronbestand en brengt een nieuwe versie uit; de releasebeschrijving benoemt wat is aangepast. Tijdgevoelige onjuistheden krijgen direct 'review nodig' of worden uit de actuele publicatie gehaald.
+Ordinary factual errors receive an issue without sensitive attachments. The maintainer corrects the source file and publishes a new version; the release description identifies the changes. Time-sensitive inaccuracies immediately receive a 'needs review' label or are removed from the current publication.
 
-Een melding over persoonsgegevens, geheimen of schadelijke ongewenste publicatie gebruikt het private kanaal in [SECURITY.md](../SECURITY.md). Het team stopt verdere verspreiding, verwijdert het record uit de actuele export en bepaalt of ook Git geschiedenis of releasebestanden moeten worden opgeschoond. Gelekte credentials worden ingetrokken of vervangen; alleen verwijderen uit de repository is onvoldoende.
+A report involving personal data, secrets or harmful unwanted publication uses the private channel in [SECURITY.md](../SECURITY.md). The team stops further distribution, removes the record from the current export and determines whether Git history or release files also need to be cleaned. Leaked credentials are revoked or replaced; removing them from the repository alone is insufficient.
 
-Reeds openbare kopieën kunnen blijven bestaan. De beheerder vermeldt bij een relevante correctie welke versies zijn getroffen en vraagt bekende downstreamteams hun kopieën bij te werken. Er wordt geen garantie gegeven dat alle externe kopieën kunnen worden verwijderd.
+Copies already made public may remain available. For a relevant correction, the maintainer identifies the affected versions and asks known downstream teams to update their copies. There is no guarantee that all external copies can be removed.
 
-## Voorbereiding van de Nederlandse datarelease
+## Preparing the Dutch data release
 
-De databeheerder maakt een inventaris van eigen teksten, lessen, processen, afbeeldingen, organisatiegegevens en eventuele openbare activiteiten. Iedere bron krijgt een eigenaar, licentie, publicatiedoel en uitkomst: vrijgeven, beperkt vrijgeven, alleen linken of privé houden.
+The data maintainer inventories original texts, lessons, processes, images, organisation details and any public activities. Each source receives an owner, licence, publication purpose and outcome: release, limited release, link only or keep private.
 
-De eerste release kiest een kleine gecontroleerde set. Daarna volgen aanvullende versies. Interne repositorytoegang of een eerdere publieke website is voldoende om materiaal te onderzoeken, maar geen zelfstandig bewijs dat alle inhoud onder een nieuwe open licentie mag worden verspreid.
+The first release selects a small reviewed set. Further versions follow. Internal repository access or an earlier public website is sufficient to investigate material, but is not independent evidence that all content may be distributed under a new open licence.
 
-## Verantwoordelijke rollen
+## Responsible roles
 
-De schrijver is verantwoordelijk voor bron en gewenste wijziging. De databeheerder beheert de rechten- en publicatiecontrole. De releasebeheerder zorgt dat de beoordeelde versie de enige versie in de nieuwe bundel is. De lokale beheerder is verantwoordelijk voor eigen aanvullingen. De eerste uitgever bepaalt vóór publieke ingebruikname het bereikbare private meldkanaal.
+The author is responsible for the source and requested change. The data maintainer manages the rights and publication checks. The release maintainer ensures the reviewed version is the only version in the new bundle. The local maintainer is responsible for local additions. Before public use, the initial publisher establishes a reachable private reporting channel.

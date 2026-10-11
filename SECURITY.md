@@ -1,40 +1,40 @@
-# Veiligheidsbeleid voor Embassy Commons
+# Embassy Commons security policy
 
-De starter werkt met openbare bestanden, een statische interface en een lokale generator. Hij beheert geen wallets, ledenadministratie of betalingen. Beveiliging richt zich op veilige publicatie, invoer, downloads, broncode en het voorkomen van verspreiding van gevoelige gegevens.
+The starter uses public files, a static interface and a local generator. It manages no wallets, member administration or payments. Security focuses on safe publication, input, downloads, source code and preventing disclosure of sensitive data.
 
-## Private meldroute
+## Private reporting route
 
-Zet een kwetsbaarheid, token, seed phrase of ongewenst gepubliceerd persoonsgegeven niet in een openbaar issue. Deel in een private melding de getroffen versie, beschrijving, minimaal reproduceerbaar voorbeeld en verwachte impact. Gebruik kunstmatige gegevens waar mogelijk en deel geen geheim om te bewijzen dat het bestaat.
+Do not put a vulnerability, token, seed phrase or unwanted published personal data in a public issue. A private report should include the affected version, description, minimal reproducible example and expected impact. Use artificial data where possible and share no secret merely to prove it exists.
 
-De eerste uitgever moet vóór een openbare communitylancering een werkend privaat contactkanaal en een onafhankelijke vervanger publiceren. Dat kanaal is nog niet toegewezen in deze starter. Tijdens de private review van dit pakket is Vincent de aanspreekpersoon voor het organiseren van die behandeling. Zodra er een publieke repository is, kan een geconfigureerde private vulnerability reporting functie als aanvullende route dienen. Veronderstel niet dat die functie nu bestaat.
+Before a public community launch, the first publisher must publish a working private contact channel and an independent backup contact. This starter has not assigned that channel yet. During private review of this package, Vincent is the contact for organizing its handling. Once a public repository exists, configured private vulnerability reporting can provide an additional route. Do not assume that feature currently exists.
 
-Het project heeft nog geen bemande responstermijn, bug bounty of ondersteuning voor eerdere releaselijnen vastgesteld. Het pilotteam bepaalt dit op basis van beschikbare capaciteit. Onderzoek beperkt zich tot eigen of uitdrukkelijk toegestane omgevingen; verstoor geen websites van anderen.
+The project has not established a staffed response time, bug bounty or support for older release lines. The pilot team determines these from available capacity. Research is limited to environments you own or are explicitly authorized to assess; do not disrupt others' websites.
 
-## Wat meldbaar is
+## What to report
 
-- Uitvoering van onbetrouwbare data of tekst in de interface.
-- Onveilige bestandsnamen, paden of inhoud in gegenereerde downloads.
-- Verspreiding van sleutels, tokens, wachtwoorden of persoonsgegevens.
-- Onbedoeld bundelen van privébestanden of bronnen zonder passende rechten.
-- Releasebestanden die afwijken van de beoordeelde bronversie.
+- Execution of untrusted data or text in the interface.
+- Unsafe filenames, paths or content in generated downloads.
+- Disclosure of keys, tokens, passwords or personal data.
+- Accidental inclusion of private files or sources without appropriate rights.
+- Release files that differ from the reviewed source version.
 
-Een normale inhoudsfout zonder gevoelige informatie gaat via een issue. Een fout die mensen of gegevens direct schaadt kan via het private kanaal worden gemeld.
+A normal content error without sensitive information belongs in an issue. An error directly harming people or data may use the private channel.
 
-## Behandeling van een incident
+## Incident handling
 
-1. Bevestig de melding via het private kanaal en bepaal betrokken versies en bestanden.
-2. Stop getroffen publicatie of download waar nodig en beperk verdere verspreiding.
-3. Trek gelekte credentials in of vervang ze bij de betreffende eigenaar. Verwijderen uit Git maakt een credential niet opnieuw veilig.
-4. Corrigeer bron en exports, beoordeel of releasebestanden of Git geschiedenis moeten worden opgeschoond en valideer de reparatie.
-5. Publiceer een nieuwe release en een passende beschrijving met betrokken versies en benodigde acties, zonder gevoelige informatie.
-6. Informeer bekende downstreambeheerders via geautoriseerde projectkanalen en verbeter het publicatieproces.
+1. Acknowledge the report through the private channel and identify affected versions and files.
+2. Stop affected publication or downloads where needed and limit further distribution.
+3. Revoke or replace leaked credentials with their owner. Removing them from Git does not make them safe again.
+4. Correct source and exports, assess whether release files or Git history need cleanup, and validate the repair.
+5. Publish a new release and appropriate description identifying affected versions and required actions without sensitive information.
+6. Inform known downstream maintainers through authorized project channels and improve the publication process.
 
-Reeds gedownloade kopieën kunnen blijven bestaan. Het project garandeert geen verwijdering van externe kopieën. Een local fork controleert zijn eigen historie en hosting en beslist over de eigen herstelactie.
+Previously downloaded copies may remain. The project guarantees no removal of external copies. A local fork checks its own history and hosting and decides its own recovery action.
 
-## Praktische eisen voor publicatie
+## Practical publication requirements
 
-Behandel ingeladen records als onbetrouwbare invoer. Toon tekst als tekst, controleer URL-schema's en gebruik uitsluitend gecontroleerde lokale paden voor gegenereerde bestanden. Gebruik geen invoer om shellcommando's samen te stellen. De statische basis vraagt geen credentials; voeg ze niet toe aan configbestanden.
+Treat loaded records as untrusted input. Render text as text, validate URL schemes and use only reviewed local paths for generated files. Do not construct shell commands from input. The static foundation needs no credentials; do not add them to configuration files.
 
-Voer de validator en relevante tests uit vóór een release, controleer de complete download en beperk hostingtoegang tot noodzakelijke beheerders. Houd privéadministratie en publieke bronbestanden in aparte omgevingen. Nieuwe externe afhankelijkheden vragen een reden, licentiecontrole en beoordeling van het extra onderhoud.
+Run the validator and relevant tests before a release, inspect the complete download and restrict hosting access to necessary maintainers. Keep private administration and public source files in separate environments. New external dependencies need a reason, licence check and assessment of added maintenance.
 
-Een automatische controle ondersteunt deze eisen; zij bewijst niet dat iedere inhoudelijke, privacy- of licentiekwestie is opgelost. De publicatiepoort in [het databeleid](docs/DATA-POLICY.md) blijft noodzakelijk.
+Automated checks support these requirements; they do not prove every content, privacy or licensing issue has been resolved. The publication gate in the [data policy](docs/DATA-POLICY.md) remains necessary.

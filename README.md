@@ -1,10 +1,10 @@
 # Embassy Commons
 
-Een open fundament waarmee een lokaal team zijn eigen Bitcoin Embassy kan starten. Gebouwd als voorstel voor Dutch Bitcoin Embassy. Versie **0.1.0** is een zelfstandig werkende starter, met originele voorbeeldcontent en een onderbouwd plan om openbare DBE-data later gecontroleerd beschikbaar te stellen.
+An open foundation that lets a local team start its own Bitcoin Embassy. Built as a proposal for Dutch Bitcoin Embassy. Version **0.1.0** is a working, independent starter with original example content and a documented plan to make public DBE data available through a controlled release process.
 
-## Probeer het
+## Try it
 
-Vereist: Node.js 22 of nieuwer. Er zijn geen externe runtime- of npm-dependencies.
+Requires Node.js 22 or later. There are no external runtime or npm dependencies.
 
 ```sh
 npm run build
@@ -12,73 +12,73 @@ npm test
 npm start
 ```
 
-Open `http://127.0.0.1:4173`. De HTTP-server serveert alleen `dist/`. Dubbelklikken op `index.html` werkt niet voor het ophalen van JSON-data; gebruik de server.
+Open `http://127.0.0.1:4173`. The HTTP server serves only `dist/`. Opening `index.html` directly does not support fetching the JSON data; use the server.
 
-## Wat werkt
+## What works
 
-- Dezelfde DBE-huisstijl: originele typografie, kleuren, logo, ringen, navigatie en componentmaten. Fonts werken lokaal en hun OFL-licenties worden meegeleverd; DBE-merkassets zijn afzonderlijk gereserveerd. Zie [BRAND.md](docs/BRAND.md).
-- Responsive website met Nederlands en Engels en zes pagina’s: overzicht, landregister, kennisbank, startergenerator, open data en voorstel.
-- Zoekbaar landregister met een openbare Nederlandse bronverwijzing en drie expliciet gemarkeerde voorbeeldtemplates. Er zijn geen bevestigde internationale partners opgenomen.
-- Gestructureerde openbare DBE-brondata: de drie circles en twee historische bijeenkomsten, inclusief herkomst en rechten. Dit is een afzonderlijke bronreferentie en bevat geen ledengegevens.
-- Acht originele playbooks in beide talen, met leesvenster en Markdown-download.
-- Drie stappen om naam, land, stad, taal, kleur en missie in te vullen. De generator levert de volledige broncode, documentatie en een lokale landconfiguratie als ZIP.
-- Openbare JSON-bestanden, JSON Schema’s, datavalidatie en een onafhankelijke CLI voor het genereren van een starter.
-- Een volledig voorstel, governance, bijdragehandleiding, licentiebeleid en een draaiboek voor de eerste 90 dagen.
+- The DBE brand style: original typography, colours, logo, rings, navigation and component dimensions. Fonts work locally and include their OFL licences; DBE brand assets have separately reserved rights. See [BRAND.md](docs/BRAND.md).
+- A responsive English interface with six pages: overview, country registry, library, starter generator, open data and proposal. Public guidance and documentation are in English.
+- A searchable country registry with one public Netherlands source reference and three explicitly marked example templates. No confirmed international partners are listed.
+- Structured public DBE source data: three circles and two historical gatherings, with provenance and rights. This is a separate origin reference and contains no member data.
+- Eight original playbooks, displayed and downloaded in English. Existing Dutch/English translations remain in the source datasets as reusable material.
+- Three steps to enter a name, country, city, colour and mission. The generator provides the complete source, documentation and an English local country configuration as a ZIP. The data schema and CLI retain support for Dutch configurations.
+- Public JSON files, JSON Schemas, data validation and an independent CLI for generating a starter.
+- A complete proposal, governance, contribution guide, licensing policy and a playbook for the first 90 days.
 
-## Maak een lokale embassy
+## Create a local embassy
 
-Gebruik de startergenerator op de website of de CLI:
+Use the website's starter generator or the CLI:
 
 ```sh
 npm run create -- --config ./my-country.json --out ./my-embassy
 ```
 
-Voorbeeldconfiguratie:
+Example configuration:
 
 ```json
 {
   "schemaVersion": "1.0.0",
   "name": "Belgian Bitcoin Embassy",
   "countryCode": "BE",
-  "country": "België",
-  "city": "Brussel",
-  "language": "nl",
+  "country": "Belgium",
+  "city": "Brussels",
+  "language": "en",
   "accent": "#f7931a",
-  "mission": "Een lokale ontmoetingsplek om samen over Bitcoin te leren en te bouwen.",
+  "mission": "A local meeting place to learn and build together around Bitcoin.",
   "status": "draft"
 }
 ```
 
-Het nieuwe pakket bevat alleen jouw lokale concept in het landregister. Het maakt geen account, publiceert niets en meldt geen organisatie aan. Daarna kun je de website en openbare inhoud zelfstandig aanpassen en hosten.
+The new package contains only your local draft in the country registry. It creates no account, publishes nothing and registers no organization. You can then adapt and host the website and public content independently.
 
-## Structuur
+## Structure
 
 ```text
-dist/               Website, originele kennis en openbare voorbeelddata
-  data/             Configuratie, register, resources en manifest
-  lib/              Configvalidatie, startergenerator en ZIP-schrijfmodule
-schema/             JSON Schema-contracten
-scripts/            Build, lokale server, CLI en datavalidatie
-tests/              Functionele tests
-docs/               Voorstel, governance, hosting, databeleid en pilot
+dist/               Website, original knowledge and public example data
+  data/             Configuration, registry, resources and manifest
+  lib/              Config validation, starter generator and ZIP writer
+schema/             JSON Schema contracts
+scripts/            Build, local server, CLI and data validation
+tests/              Functional tests
+docs/               Proposal, governance, hosting, data policy and pilot
 ```
 
-`npm run build` valideert de data en maakt de bron-template en downloadbare ZIP. Het kopieert de canonieke documentatie en schema’s naar de website. Bewerk de oorspronkelijke bestanden in `docs/` en `schema/`, daarna bouw je opnieuw.
+`npm run build` validates the data and creates the source template and downloadable ZIP. It copies canonical documentation and schemas to the website. Edit the original files in `docs/` and `schema/`, then rebuild.
 
-## Licenties en bronrechten
+## Licences and source rights
 
-- **Code:** MIT, zie [LICENSE](LICENSE).
-- **Originele kennis en documentatie:** CC BY 4.0, zie [CONTENT-LICENSE.md](CONTENT-LICENSE.md).
-- **Eigen voorbeelddata:** CC0 1.0, zie [DATA-LICENSE.md](DATA-LICENSE.md).
-- **Externe bronmetadata:** behoud de bron- en rechteninformatie. Een verwijzing naar een website verleent geen rechten op de oorspronkelijke teksten of foto’s.
-- Namen en bestaande DBE-merken worden niet automatisch onder deze licenties vrijgegeven. Een lokaal initiatief gebruikt zijn eigen identiteit, tenzij afzonderlijk merkgebruik is afgesproken.
+- **Code:** MIT; see [LICENSE](LICENSE).
+- **Original knowledge and documentation:** CC BY 4.0; see [CONTENT-LICENSE.md](CONTENT-LICENSE.md).
+- **Original example data:** CC0 1.0; see [DATA-LICENSE.md](DATA-LICENSE.md).
+- **External source metadata:** preserve provenance and rights information. A website reference grants no rights to its original text or photographs.
+- Names and existing DBE brands are not automatically released under these licences. A local initiative uses its own identity unless separate brand use has been agreed.
 
-De openbare DBE-website is bekeken als bron voor het bestaande circle-model. Bestaande private DBE-code, ledenlijsten, chat, wallets, presentaties, foto’s en databases zijn niet in deze starter opgenomen. De bestaande repositories zijn niet veranderd of openbaar gemaakt. Zie [onderzoek en aansluiting](docs/EXISTING-SOURCES.md).
+The public DBE website was consulted as a source for the existing circle model. Existing private DBE code, member lists, chat, wallets, presentations, photographs and databases are not included in this starter. The existing repositories were neither changed nor made public. See [research and integration](docs/EXISTING-SOURCES.md).
 
-## Publiceren en samenwerken
+## Publish and collaborate
 
-Upload na het bouwen de inhoud van `dist/` naar een statische host. De website heeft geen serverdatabase nodig. De complete broncode hoort in een eigen repository; verwijder eventuele eigenaargebonden `.openai/`-hostconfiguratie bij een fork. De gegenereerde downloads sluiten zulke hostidentiteiten uit.
+After building, upload the contents of `dist/` to a static host. The website needs no server database. Keep the complete source in your own repository; remove any owner-specific `.openai/` hosting configuration when forking. Generated downloads exclude such hosting identities.
 
-De oorspronkelijke starter staat openbaar op [GitHub: Vinnybtc/embassy-commons](https://github.com/Vinnybtc/embassy-commons). De eigenaarpreview is privé. Het downloadbare bronpakket is zelfstandig bruikbaar. Gecontroleerde vrijgave van bestaande DBE-content is een afzonderlijke vervolgstap.
+The original starter is public on [GitHub: Vinnybtc/embassy-commons](https://github.com/Vinnybtc/embassy-commons). The owner's preview is private. The downloadable source package works independently. Controlled release of existing DBE content is a separate next step.
 
-Lees het [volledige voorstel](docs/VOORSTEL.md), het [beheerplan](docs/GOVERNANCE.md), [bijdragen](CONTRIBUTING.md), [databeleid](docs/DATA-POLICY.md) en het [pilotdraaiboek](docs/LAUNCH-PLAYBOOK.md).
+Read the [full proposal](docs/VOORSTEL.md), [governance](docs/GOVERNANCE.md), [contribution guide](CONTRIBUTING.md), [data policy](docs/DATA-POLICY.md) and [launch playbook](docs/LAUNCH-PLAYBOOK.md).

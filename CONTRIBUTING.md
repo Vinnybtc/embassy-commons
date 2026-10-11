@@ -1,58 +1,58 @@
-# Bijdragen aan Embassy Commons
+# Contributing to Embassy Commons
 
-Je kunt bijdragen met software, een vertaling, een les, een draaiboek, een foutcorrectie of gecontroleerde open data. Ieder land mag zelfstandig de basis gebruiken. Een bijdrage aan de gezamenlijke repository is vrijwillig en wordt beoordeeld voordat ze deel van een release wordt.
+You can contribute software, a translation, a lesson, a playbook, a correction or reviewed open data. Every country may use the foundation independently. Contributions to the shared repository are voluntary and reviewed before inclusion in a release.
 
-Lees eerst de [README](README.md), [governance](docs/GOVERNANCE.md), [het databeleid](docs/DATA-POLICY.md) en [de gedragscode](CODE_OF_CONDUCT.md). Gebruik [SECURITY.md](SECURITY.md) voor geheimen, kwetsbaarheden en ongewenste persoonsgegevens; zet die niet in een openbaar issue.
+Read the [README](README.md), [governance](docs/GOVERNANCE.md), [data policy](docs/DATA-POLICY.md) and [code of conduct](CODE_OF_CONDUCT.md) first. Use [SECURITY.md](SECURITY.md) for secrets, vulnerabilities and unwanted personal data; do not put them in a public issue.
 
-## Een goede eerste bijdrage
+## A good first contribution
 
-Begin met een afgebakende wijziging: een onjuiste link, een ontbrekende uitleg, een vertaling van één artikel of een fout in de startergenerator. Voor een nieuwe feature, groter schema of beleidswijziging maak je eerst een voorstel. Beschrijf het concrete gebruikersprobleem en de gevolgen voor bestaande lokale projecten.
+Start with a bounded change: an incorrect link, missing explanation, translation of one article or bug in the starter generator. Propose a new feature, larger schema or policy change first. Describe the concrete user problem and consequences for existing local projects.
 
-De openbare upstream staat op https://github.com/Vinnybtc/embassy-commons. De normale route verloopt via issues, forks en pull requests. De privépreview dient om het product te beoordelen; gevoelige meldingen volgen SECURITY.md.
+The public upstream is https://github.com/Vinnybtc/embassy-commons. The usual route is through issues, forks and pull requests. The private preview supports product review; sensitive reports follow SECURITY.md.
 
-## Werkstappen
+## Workflow
 
-1. Maak een eigen kopie of fork en gebruik de lokale start- en validatiecommando's uit de README.
-2. Maak een branch voor één samenhangende wijziging.
-3. Pas het relevante bronbestand aan; wijzig een gegenereerde export via zijn bron zodat een nieuwe build de wijziging behoudt.
-4. Voeg bron, licentie en status toe waar de inhoud dat vraagt. Houd lokale gegevens gescheiden van de gemeenschappelijke basis.
-5. Voer de validator en relevante tests uit. Controleer de website in een browser bij wijzigingen aan de interface en lees de gegenereerde download terug bij wijzigingen aan exports.
-6. Dien de wijziging in met het probleem, resultaat, controles, rechten en eventuele migratie.
+1. Make your own copy or fork and use the local start and validation commands in the README.
+2. Create a branch for one coherent change.
+3. Edit the relevant source file. Change generated exports through their source so a new build preserves the change.
+4. Add provenance, licence and status where the content requires them. Keep local data separate from the shared foundation.
+5. Run the validator and relevant tests. Check the website in a browser for interface changes and inspect generated downloads for export changes.
+6. Submit the change with its problem, result, checks, rights and any migration.
 
-De starter is bedoeld voor Node.js 22 of hoger en heeft geen externe runtimeafhankelijkheden nodig. De README is de bron voor de actuele bestandsnamen en commando's.
+The starter targets Node.js 22 or later and needs no external runtime dependencies. The README is the source for current filenames and commands.
 
-## Wat een pull request beschrijft
+## What a pull request describes
 
-- Het gebruikersprobleem en het concrete resultaat.
-- Of de wijziging code, kennis, template-data of materiaal van derden betreft.
-- Welke bron en licentie gelden en waarom jij dit mag bijdragen.
-- Welke controles zijn uitgevoerd en wat nog niet is gecontroleerd.
-- De gevolgen voor bestaande configuraties, vertalingen en downstreamprojecten.
+- The user problem and concrete result.
+- Whether the change concerns code, knowledge, template data or third-party material.
+- The applicable source and licence, and why you may contribute the material.
+- The checks performed and what remains unchecked.
+- Effects on existing configurations, translations and downstream projects.
 
-Een reviewer beoordeelt juistheid, bruikbaarheid, toegankelijkheid, compatibiliteit en publiceerbaarheid. Nieuwe echte data en grotere inhoudelijke wijzigingen vragen een tweede beoordeling. Een review kan om kleinere scope of bronbewijs vragen. De uiteindelijke beslissing en reden blijven zichtbaar bij de wijziging.
+A reviewer assesses correctness, usefulness, accessibility, compatibility and suitability for publication. New real data and larger content changes require a second review. A review may request a smaller scope or source evidence. The final decision and reason remain visible with the change.
 
-## Licenties en rechten
+## Licences and rights
 
-Door een bijdrage ter opname aan te bieden, bevestig je dat je die bijdrage mag leveren onder de licentie die voor het betreffende materiaal geldt. Je houdt je eigen auteursrechten voor zover van toepassing. Er is in de starter geen afzonderlijke overdracht van auteursrechten of contributor license agreement voorzien.
+By offering a contribution for inclusion, you confirm that you may provide it under the licence applicable to that material. You retain your own copyright where applicable. This starter includes no separate copyright assignment or contributor licence agreement.
 
-Eigen code gebruikt MIT. Eigen kennis gebruikt CC BY 4.0; vermeld naam of gekozen publieke auteursvermelding en de bron als je bestaand materiaal bewerkt. Eigen template-data kan CC0 1.0 gebruiken na rechten- en publicatiecontrole. Voor materiaal van derden is de oorspronkelijke licentie leidend; vermijd het kopiëren wanneer de hergebruikrechten onduidelijk zijn.
+Original code uses MIT. Original knowledge uses CC BY 4.0; include your name or chosen public attribution and the source when adapting existing material. Original template data may use CC0 1.0 after rights and publication checks. Third-party material keeps its original licence; avoid copying it when reuse rights are unclear.
 
-Voeg geen logo, foto, collectie of tekst toe onder een nieuwe licentie alleen omdat het origineel ergens publiek staat. Het Dutch Bitcoin Embassy merk en eventuele toekomstige erkenningslabels vallen onder afzonderlijke afspraken. Een bijdrage aan code verleent geen recht om officiële verbondenheid te claimen.
+Do not add a logo, photograph, collection or text under a new licence merely because the original is public somewhere. The Dutch Bitcoin Embassy brand and any future recognition labels require separate arrangements. A code contribution grants no right to claim official affiliation.
 
-## Kennis en vertalingen
+## Knowledge and translations
 
-Schrijf voor iemand die een lokale gemeenschap begint. Leg de handeling en het doel uit; vermijd beleggingsbeloften en algemene claims die niet door de inhoud worden onderbouwd. Voor tijdgevoelige financiële, juridische of beveiligingsinformatie zijn een duidelijke scope, actuele primaire bron en review nodig. Een operationeel draaiboek mag uitleggen dat het lokale team specifieke zaken moet beoordelen, zonder uitkomsten voor alle landen te veronderstellen.
+Write for someone starting a local community. Explain the action and its purpose; avoid investment promises and broad claims unsupported by the content. Time-sensitive financial, legal or security information requires a clear scope, current primary source and review. An operational playbook may explain what the local team must assess without assuming the same outcome for every country.
 
-Een vertaling noemt de brontaal, het originele bestand en de gebruikte versie of hash. Verander geen betekenis om de lokale organisatie officieuzer te laten klinken. Een inhoudelijke lokale aanpassing mag, maar markeer het als een bewerking en leg relevante afwijkingen uit. Zodra het origineel verandert, moet de vertaling opnieuw worden beoordeeld.
+A translation identifies its source language, original file and source version or hash. Do not change the meaning to make a local organization sound more official. Local content adaptations are allowed, but mark them as adaptations and explain relevant differences. Review the translation again when the original changes.
 
-## Data en veiligheid
+## Data and safety
 
-Volg de publicatiepoort in het databeleid. Gebruik alleen eigen gecontroleerde templates of werkelijk vrijgegeven records. Voorbeeldlanden en fictieve records moeten als voorbeeld herkenbaar blijven. De validator kan de waarheid van een record of alle privacyrisico's in vrije tekst niet bepalen.
+Follow the publication gate in the data policy. Use only original, reviewed templates or genuinely released records. Example countries and fictional records must remain identifiable as examples. The validator cannot determine a record's truth or every privacy risk in free text.
 
-Plaats nooit seed phrases, sleutels, tokens, wachtwoorden, privécontactgegevens, ledenlijsten of interne berichten in een bijdrage. Een test gebruikt kunstmatige fixtures. Link niet naar privébestanden als bewijs in een openbare pull request; bied noodzakelijk bewijs via de afgesproken private reviewroute aan.
+Never contribute seed phrases, keys, tokens, passwords, private contact details, member lists or internal messages. Tests use artificial fixtures. Do not link private evidence files in a public pull request; provide necessary evidence through the agreed private review route.
 
-## Compatibiliteit en lokale verschillen
+## Compatibility and local differences
 
-Wijzig een bestaand vereist veld of de betekenis ervan niet zonder een migratievoorstel. Houd software-, schema- en contentversie apart. Een major versie bevat migratie-instructies en een voorbeeld. Landelijke verschillen die alleen een lokaal team betreffen blijven in zijn eigen configuratie of content; een algemene mogelijkheid kan als herbruikbare verbetering worden aangeboden.
+Do not change a required field or its meaning without a migration proposal. Version software, schemas and content separately. A major version includes migration instructions and an example. Country differences that concern only one local team stay in its own configuration or content; a general capability can be offered as a reusable improvement.
 
-Voor een lokale update: pin de gekozen upstreamrelease, maak een updatebranch, vergelijk gedeelde bestanden, valideer de lokale configuratie en test de lokale website. Publiceer pas na lokale review. Upstream kan geen automatische updates op een lokale website afdwingen.
+For a local update, pin the chosen upstream release, create an update branch, compare shared files, validate local configuration and test the local website. Publish after local review. Upstream cannot force automatic updates on a local website.
