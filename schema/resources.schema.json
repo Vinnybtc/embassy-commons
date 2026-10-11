@@ -1,0 +1,210 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Embassy Commons resources 1.0.0",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0.0"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date"
+    },
+    "resources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "title": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "nl": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 2000
+              },
+              "en": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 2000
+              }
+            },
+            "required": [
+              "nl",
+              "en"
+            ]
+          },
+          "summary": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "nl": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 2000
+              },
+              "en": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 2000
+              }
+            },
+            "required": [
+              "nl",
+              "en"
+            ]
+          },
+          "category": {
+            "enum": [
+              "community",
+              "education",
+              "operations",
+              "business",
+              "governance",
+              "localization"
+            ]
+          },
+          "format": {
+            "const": "playbook"
+          },
+          "durationMinutes": {
+            "type": "integer",
+            "minimum": 5,
+            "maximum": 480
+          },
+          "level": {
+            "enum": [
+              "beginner",
+              "intermediate",
+              "advanced"
+            ]
+          },
+          "license": {
+            "const": "CC-BY-4.0"
+          },
+          "sections": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "title": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "nl": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 2000
+                    },
+                    "en": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 2000
+                    }
+                  },
+                  "required": [
+                    "nl",
+                    "en"
+                  ]
+                },
+                "paragraphs": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "nl": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 2000
+                      },
+                      "minItems": 1,
+                      "maxItems": 1000
+                    },
+                    "en": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 2000
+                      },
+                      "minItems": 1,
+                      "maxItems": 1000
+                    }
+                  },
+                  "required": [
+                    "nl",
+                    "en"
+                  ]
+                }
+              },
+              "required": [
+                "title",
+                "paragraphs"
+              ]
+            },
+            "minItems": 1,
+            "maxItems": 40
+          },
+          "checklist": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "nl": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 2000
+                },
+                "minItems": 1,
+                "maxItems": 1000
+              },
+              "en": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 2000
+                },
+                "minItems": 1,
+                "maxItems": 1000
+              }
+            },
+            "required": [
+              "nl",
+              "en"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "summary",
+          "category",
+          "format",
+          "durationMinutes",
+          "level",
+          "license",
+          "sections",
+          "checklist"
+        ]
+      },
+      "minItems": 1,
+      "maxItems": 1000
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "updatedAt",
+    "resources"
+  ]
+}

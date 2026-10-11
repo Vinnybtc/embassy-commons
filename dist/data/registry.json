@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.0.0",
+  "updatedAt": "2026-10-11",
+  "chapters": [
+    {
+      "id": "nl-dutch-bitcoin-embassy",
+      "countryCode": "NL",
+      "country": {
+        "nl": "Nederland",
+        "en": "Netherlands"
+      },
+      "name": "Dutch Bitcoin Embassy",
+      "city": "Den Haag",
+      "status": "source",
+      "languages": [
+        "nl",
+        "en"
+      ],
+      "summary": {
+        "nl": "Publiek bronvoorbeeld: een initiatief in Den Haag rond Bitcoin-educatie en ontmoeting. Dit record meldt geen deelname aan Embassy Commons.",
+        "en": "Public source example: an initiative in The Hague focused on Bitcoin education and meeting others. This record does not claim membership of Embassy Commons."
+      },
+      "website": "https://www.dutchbitcoinembassy.com/",
+      "source": {
+        "url": "https://www.dutchbitcoinembassy.com/",
+        "accessedAt": "2026-10-11",
+        "rights": "Externally sourced public facts. Descriptive summary written independently. No claim that website content, logo, brand or private data is openly licensed."
+      },
+      "coordinates": [
+        4.3007,
+        52.0705
+      ]
+    },
+    {
+      "id": "de-berlin-demo",
+      "countryCode": "DE",
+      "country": {
+        "nl": "Duitsland",
+        "en": "Germany"
+      },
+      "name": "Berlin Embassy — demo template",
+      "city": "Berlijn",
+      "status": "template",
+      "languages": [
+        "nl",
+        "en"
+      ],
+      "summary": {
+        "nl": "Fictief demonstratiesjabloon voor een lokale community. Geen bestaande partner of ambassade; pas naam, taal en locatie aan.",
+        "en": "Fictional demonstration template for a local community. No existing partner or embassy; adapt the name, language and location."
+      },
+      "website": null,
+      "source": {
+        "url": null,
+        "accessedAt": "2026-10-11",
+        "rights": "Original fictional demo template, CC0-1.0. No partnership or endorsement."
+      },
+      "coordinates": [
+        13.405,
+        52.52
+      ]
+    },
+    {
+      "id": "ke-nairobi-demo",
+      "countryCode": "KE",
+      "country": {
+        "nl": "Kenia",
+        "en": "Kenya"
+      },
+      "name": "Nairobi Embassy — demo template",
+      "city": "Nairobi",
+      "status": "template",
+      "languages": [
+        "nl",
+        "en"
+      ],
+      "summary": {
+        "nl": "Fictief demonstratiesjabloon voor een lokale community. Geen bestaande partner of ambassade; inhoud vraagt lokale vertaling en toetsing.",
+        "en": "Fictional demonstration template for a local community. No existing partner or embassy; content needs local translation and review."
+      },
+      "website": null,
+      "source": {
+        "url": null,
+        "accessedAt": "2026-10-11",
+        "rights": "Original fictional demo template, CC0-1.0. No partnership or endorsement."
+      },
+      "coordinates": [
+        36.8219,
+        -1.2921
+      ]
+    },
+    {
+      "id": "br-saopaulo-demo",
+      "countryCode": "BR",
+      "country": {
+        "nl": "Brazilië",
+        "en": "Brazil"
+      },
+      "name": "São Paulo Embassy — demo template",
+      "city": "São Paulo",
+      "status": "template",
+      "languages": [
+        "nl",
+        "en"
+      ],
+      "summary": {
+        "nl": "Fictief demonstratiesjabloon voor een lokale community. Geen bestaande partner of ambassade; inhoud vraagt lokale vertaling en toetsing.",
+        "en": "Fictional demonstration template for a local community. No existing partner or embassy; content needs local translation and review."
+      },
+      "website": null,
+      "source": {
+        "url": null,
+        "accessedAt": "2026-10-11",
+        "rights": "Original fictional demo template, CC0-1.0. No partnership or endorsement."
+      },
+      "coordinates": [
+        -46.6333,
+        -23.5505
+      ]
+    }
+  ]
+}

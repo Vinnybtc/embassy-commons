@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "1.0.0",
+  "name": "Embassy Commons",
+  "version": "0.1.0",
+  "updatedAt": "2026-10-11",
+  "languages": [
+    "nl",
+    "en"
+  ],
+  "description": {
+    "nl": "Open startpakket voor onafhankelijke Bitcoin-educatiegemeenschappen; geen bestaande private DBE-data.",
+    "en": "Open starter for independent Bitcoin education communities; no existing private DBE data."
+  },
+  "licenses": {
+    "code": {
+      "id": "MIT",
+      "url": "https://opensource.org/license/mit"
+    },
+    "originalContent": {
+      "id": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "externalFacts": "Rights are stated per source. No third-party content, brands or private data are relicensed.",
+    "originalData": {
+      "id": "CC0-1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  },
+  "endpoints": {
+    "manifest": "data/manifest.json",
+    "registry": "data/registry.json",
+    "resources": "data/resources.json",
+    "config": "data/config.json",
+    "sourceTemplate": "source-template.json",
+    "sourceArchive": "downloads/embassy-commons.zip"
+  },
+  "schemas": {
+    "registry": "schema/registry.schema.json",
+    "resources": "schema/resources.schema.json",
+    "config": "schema/config.schema.json",
+    "manifest": "schema/manifest.schema.json"
+  },
+  "capabilities": [
+    "public-json",
+    "country-starter",
+    "offline-local-content",
+    "nl-en-resources",
+    "static-self-host",
+    "source-download"
+  ],
+  "membership": "Independent local forks do not automatically become network members or gain endorsement.",
+  "integrity": {
+    "data/config.json": "d554fd332a9a04f023d0ae8e56b36ba8c6cacc7cbabb2b06648112093ac36a8d",
+    "data/registry.json": "05032e955d8b4fb0420e96555a6de1fd7e612c1de25b411000e5c3a810ae98c1",
+    "data/resources.json": "12d0955e6e4bd9860180de10987e0074162d84d048d952f8c2d80e9fb9d8febe"
+  },
+  "stats": {
+    "chapters": 4,
+    "resources": 8,
+    "sourceRecords": 1,
+    "demoTemplates": 3
+  }
+}

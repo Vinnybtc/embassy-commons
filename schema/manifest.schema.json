@@ -1,0 +1,261 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Embassy Commons manifest 1.0.0",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0.0"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date"
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "nl",
+          "en"
+        ]
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "description": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "nl": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2000
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2000
+        }
+      },
+      "required": [
+        "nl",
+        "en"
+      ]
+    },
+    "licenses": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "code": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "id": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 2000
+            },
+            "url": {
+              "type": "string",
+              "format": "uri"
+            }
+          },
+          "required": [
+            "id",
+            "url"
+          ]
+        },
+        "originalContent": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "id": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 2000
+            },
+            "url": {
+              "type": "string",
+              "format": "uri"
+            }
+          },
+          "required": [
+            "id",
+            "url"
+          ]
+        },
+        "externalFacts": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2000
+        },
+        "originalData": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "id": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 2000
+            },
+            "url": {
+              "type": "string",
+              "format": "uri"
+            }
+          },
+          "required": [
+            "id",
+            "url"
+          ]
+        }
+      },
+      "required": [
+        "code",
+        "originalContent",
+        "externalFacts",
+        "originalData"
+      ]
+    },
+    "endpoints": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "manifest": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*\\.\\.)(?!.*\\\\)[a-zA-Z0-9_./-]+$"
+        },
+        "registry": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*\\.\\.)(?!.*\\\\)[a-zA-Z0-9_./-]+$"
+        },
+        "resources": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*\\.\\.)(?!.*\\\\)[a-zA-Z0-9_./-]+$"
+        },
+        "config": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*\\.\\.)(?!.*\\\\)[a-zA-Z0-9_./-]+$"
+        },
+        "sourceTemplate": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*\\.\\.)(?!.*\\\\)[a-zA-Z0-9_./-]+$"
+        },
+        "sourceArchive": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*\\.\\.)(?!.*\\\\)[a-zA-Z0-9_./-]+$"
+        }
+      },
+      "required": [
+        "manifest",
+        "registry",
+        "resources",
+        "config",
+        "sourceTemplate",
+        "sourceArchive"
+      ]
+    },
+    "schemas": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "registry": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*\\.\\.)(?!.*\\\\)[a-zA-Z0-9_./-]+$"
+        },
+        "resources": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*\\.\\.)(?!.*\\\\)[a-zA-Z0-9_./-]+$"
+        },
+        "config": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*\\.\\.)(?!.*\\\\)[a-zA-Z0-9_./-]+$"
+        },
+        "manifest": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*\\.\\.)(?!.*\\\\)[a-zA-Z0-9_./-]+$"
+        }
+      },
+      "required": [
+        "registry",
+        "resources",
+        "config",
+        "manifest"
+      ]
+    },
+    "capabilities": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 2000
+      },
+      "minItems": 1,
+      "maxItems": 1000
+    },
+    "membership": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000
+    },
+    "integrity": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^[a-f0-9]{64}$"
+      }
+    },
+    "stats": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "chapters": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "resources": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "sourceRecords": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "demoTemplates": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "chapters",
+        "resources",
+        "sourceRecords",
+        "demoTemplates"
+      ]
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "name",
+    "version",
+    "updatedAt",
+    "languages",
+    "description",
+    "licenses",
+    "endpoints",
+    "schemas",
+    "capabilities",
+    "membership",
+    "integrity",
+    "stats"
+  ]
+}

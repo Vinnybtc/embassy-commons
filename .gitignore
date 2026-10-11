@@ -1,0 +1,12 @@
+node_modules/
+.DS_Store
+.env
+.env.*
+!.env.example
+.openai/local/
+dist/source-template.json
+dist/downloads/
+dist/docs/
+dist/schema/
+coverage/
+*.log

@@ -1,0 +1,646 @@
+{
+  "schemaVersion": "1.0.0",
+  "updatedAt": "2026-10-11",
+  "resources": [
+    {
+      "id": "first-meeting",
+      "title": {
+        "nl": "Je eerste communitybijeenkomst",
+        "en": "Your first community meeting"
+      },
+      "summary": {
+        "nl": "Organiseer een toegankelijke eerste bijeenkomst en spreek één haalbare vervolgstap af.",
+        "en": "Host an accessible first meeting and agree on one practical next step."
+      },
+      "category": "community",
+      "format": "playbook",
+      "durationMinutes": 90,
+      "level": "beginner",
+      "license": "CC-BY-4.0",
+      "sections": [
+        {
+          "title": {
+            "nl": "Vooraf: een kleine belofte",
+            "en": "Before: make a small promise"
+          },
+          "paragraphs": {
+            "nl": [
+              "Kies een openbare, toegankelijke plek en een tijdstip van maximaal negentig minuten. Vraag twee mensen om samen te organiseren: één begeleidt het gesprek, één houdt tijd en praktische zaken bij. Maak helder dat voorkennis, een wallet of Bitcoinbezit niet nodig zijn.",
+              "Publiceer een korte uitnodiging met plaats, tijd, taal, toegankelijkheid en contactroute. Vraag alleen gegevens die je voor de bijeenkomst nodig hebt. Maak geen publieke deelnemerslijst en leg vooraf uit of er foto’s worden gemaakt."
+            ],
+            "en": [
+              "Choose an accessible public venue and a meeting of no more than ninety minutes. Have two people host together: one guides the discussion, the other manages time and logistics. Explain that no prior knowledge, wallet or Bitcoin ownership is needed.",
+              "Publish a short invitation with location, time, language, accessibility and contact route. Ask only for details needed to run the meeting. Do not publish an attendee list and explain any photography beforehand."
+            ]
+          }
+        },
+        {
+          "title": {
+            "nl": "Een agenda die ruimte laat",
+            "en": "An agenda with room for people"
+          },
+          "paragraphs": {
+            "nl": [
+              "Gebruik deze indeling: tien minuten welkom, vijftien minuten kennismaken, twintig minuten een eenvoudige uitleg, dertig minuten vragen en vijftien minuten afronden. Laat iedereen passen bij een introductieronde. Vraag wat mensen willen leren, niet hoeveel geld zij hebben.",
+              "De begeleider bewaakt respect, voorkomt verkooppraatjes en nodigt stille deelnemers uit zonder druk. Schrijf open vragen op. Als een antwoord onzeker is, noteer een betrouwbare bron die later gecontroleerd kan worden."
+            ],
+            "en": [
+              "Use this agenda: ten minutes of welcome, fifteen of introductions, twenty of simple explanation, thirty of questions and fifteen to close. Anyone may skip introductions. Ask what people want to learn, never how much money they hold.",
+              "The host maintains respectful discussion, prevents sales pitches and invites quiet attendees without pressure. Record unanswered questions. When uncertain, name a reliable source to check later instead of improvising certainty."
+            ]
+          }
+        },
+        {
+          "title": {
+            "nl": "Na afloop: maak herhaling mogelijk",
+            "en": "Afterwards: make it repeatable"
+          },
+          "paragraphs": {
+            "nl": [
+              "Spreek één volgende datum en één verantwoordelijke per actie af. Deel een korte samenvatting zonder namen of persoonlijke verhalen. Bied vrijwillige inschrijving voor nieuws aan met een duidelijke afmeldroute.",
+              "Evalueer samen drie vragen: voelde iedereen zich welkom, was de uitleg begrijpelijk en was de organisatie vol te houden? Verbeter één ding voor de volgende keer. Een kleine terugkerende bijeenkomst is een bruikbaar eerste resultaat."
+            ],
+            "en": [
+              "Agree on one next date and one responsible person per action. Share a short summary without names or personal stories. Offer an optional mailing list with a clear way to unsubscribe.",
+              "Review three questions together: did people feel welcome, was the explanation clear and was the workload sustainable? Improve one thing next time. A small recurring meeting is a useful first outcome."
+            ]
+          }
+        }
+      ],
+      "checklist": {
+        "nl": [
+          "Kies twee hosts en een toegankelijke plek.",
+          "Publiceer een uitnodiging met doel, taal en fotografiebeleid.",
+          "Leg een korte agenda en gespreksregels klaar.",
+          "Noteer vervolgdatum, acties en verantwoordelijken."
+        ],
+        "en": [
+          "Choose two hosts and an accessible venue.",
+          "Publish an invitation with purpose, language and photo policy.",
+          "Prepare a short agenda and discussion rules.",
+          "Record the next date, actions and responsible people."
+        ]
+      }
+    },
+    {
+      "id": "three-circles",
+      "title": {
+        "nl": "Drie kringen, één gemeenschap",
+        "en": "Three circles, one community"
+      },
+      "summary": {
+        "nl": "Geef nieuwsgierigen, bouwers en ondernemers ieder een passende ingang.",
+        "en": "Give curious newcomers, builders and businesses a suitable entry point."
+      },
+      "category": "community",
+      "format": "playbook",
+      "durationMinutes": 60,
+      "level": "beginner",
+      "license": "CC-BY-4.0",
+      "sections": [
+        {
+          "title": {
+            "nl": "Open kring",
+            "en": "Open circle"
+          },
+          "paragraphs": {
+            "nl": [
+              "De open kring draait om vragen, ontmoeting en begrip. Plan één vaste laagdrempelige bijeenkomst per maand. Bied dezelfde introductie vaker aan en verzamel vragen voor een volgende sessie.",
+              "Meet succes aan terugkerende deelnemers en duidelijke leerervaringen. Laat bezit, technische kennis en donaties nooit bepalen of iemand welkom is."
+            ],
+            "en": [
+              "The open circle focuses on questions, meeting others and understanding. Schedule one accessible meeting each month. Repeat the introduction and collect questions for the next session.",
+              "Measure success by returning participants and clear learning experiences. Holdings, technical knowledge and donations must never determine who is welcome."
+            ]
+          }
+        },
+        {
+          "title": {
+            "nl": "Bouwerskring",
+            "en": "Builders circle"
+          },
+          "paragraphs": {
+            "nl": [
+              "De bouwerskring werkt aan een concreet project: een vertaling, lesdemo of verbetering van deze software. Houd taken klein en zet het resultaat in een openbare repository met de juiste licentie.",
+              "Begin elke sessie met het beoogde resultaat en sluit af met een werkende demonstratie. Zorg voor documentatie zodat een nieuwe vrijwilliger het werk kan overnemen."
+            ],
+            "en": [
+              "The builders circle works on a concrete project: a translation, teaching demo or software improvement. Keep tasks small and publish the result in a repository with the appropriate license.",
+              "Start each session with the desired outcome and end with a working demonstration. Document the work so a new volunteer can continue it."
+            ]
+          }
+        },
+        {
+          "title": {
+            "nl": "Ondernemerskring en overdracht",
+            "en": "Business circle and handover"
+          },
+          "paragraphs": {
+            "nl": [
+              "De ondernemerskring verkent praktijkvragen zonder verkoopdruk: betaalprocessen, administratie en klantcommunicatie. Gebruik fictieve casussen en laat lokale deskundigen juridische en fiscale vragen beoordelen.",
+              "Elke kring kiest twee aanspreekpunten voor een beperkte termijn. Houd agenda’s open voor kruisbestuiving. Eén maandelijkse gezamenlijke terugblik voorkomt dat drie losse clubs ontstaan."
+            ],
+            "en": [
+              "The business circle explores practical questions without sales pressure: payment processes, records and customer communication. Use fictional cases and have local specialists review legal and tax questions.",
+              "Each circle chooses two contacts for a limited term. Keep schedules open to collaboration. One shared monthly review prevents the circles from becoming isolated groups."
+            ]
+          }
+        }
+      ],
+      "checklist": {
+        "nl": [
+          "Bepaal per kring één doel en frequentie.",
+          "Kies twee aanspreekpunten per kring.",
+          "Maak agenda’s en resultaten openbaar.",
+          "Plan een gezamenlijke maandelijkse terugblik."
+        ],
+        "en": [
+          "Choose one goal and frequency per circle.",
+          "Select two contacts per circle.",
+          "Publish schedules and results.",
+          "Plan a shared monthly review."
+        ]
+      }
+    },
+    {
+      "id": "bitcoin-basics",
+      "title": {
+        "nl": "Bitcoin in gewone taal",
+        "en": "Bitcoin in plain language"
+      },
+      "summary": {
+        "nl": "Een eerste uitleg over transacties, sleutels, regels en risico’s.",
+        "en": "An introduction to transactions, keys, rules and risks."
+      },
+      "category": "education",
+      "format": "playbook",
+      "durationMinutes": 45,
+      "level": "beginner",
+      "license": "CC-BY-4.0",
+      "sections": [
+        {
+          "title": {
+            "nl": "Een gedeeld transactieregister",
+            "en": "A shared transaction record"
+          },
+          "paragraphs": {
+            "nl": [
+              "Bitcoin is een digitaal netwerk dat transacties volgens openbare regels verwerkt. Deelnemers kunnen met eigen software controleren of transacties aan die regels voldoen. Het netwerk werkt zonder één centrale beheerder.",
+              "Een blockchain groepeert transacties in opeenvolgende blokken. Mining helpt een gemeenschappelijke volgorde vast te leggen. Een bevestiging vermindert onzekerheid; het is geen magische garantie tegen elk risico."
+            ],
+            "en": [
+              "Bitcoin is a digital network that processes transactions under public rules. Participants can use their own software to check that transactions follow those rules. The network operates without one central administrator.",
+              "A blockchain groups transactions into successive blocks. Mining helps establish a common order. A confirmation reduces uncertainty; it is not a magical guarantee against every risk."
+            ]
+          }
+        },
+        {
+          "title": {
+            "nl": "Sleutels en verantwoordelijkheid",
+            "en": "Keys and responsibility"
+          },
+          "paragraphs": {
+            "nl": [
+              "Een wallet beheert sleutels waarmee transacties kunnen worden ondertekend. Wie een geheime sleutel of herstelzin krijgt, kan controle over de bijbehorende middelen krijgen. Deel die informatie nooit met een organisator, docent of supportmedewerker.",
+              "Een ontvangstadres is iets anders dan een geheime sleutel. Controleer het doelnetwerk en adres zorgvuldig. Gebruik voor een les alleen testmunten, en bespreek verlies, vergissingen en herstel voordat echte middelen ter sprake komen."
+            ],
+            "en": [
+              "A wallet manages keys used to sign transactions. Someone who obtains a private key or recovery phrase can gain control over the associated funds. Never share this information with an organizer, teacher or support worker.",
+              "A receiving address differs from a private key. Carefully check the network and address. Use only test coins for a lesson, and discuss loss, mistakes and recovery before talking about real funds."
+            ]
+          }
+        },
+        {
+          "title": {
+            "nl": "Vragen zonder koersbelofte",
+            "en": "Questions without price promises"
+          },
+          "paragraphs": {
+            "nl": [
+              "Bitcoin heeft technische, operationele en marktrisico’s. Waarde en transactiekosten kunnen veranderen. Deze les biedt educatie en geeft geen persoonlijk financieel advies of koopaanbeveling.",
+              "Vraag deelnemers het verschil uit te leggen tussen een adres, een sleutel en een transactie. Bespreek vervolgens een fictieve fout: een docent vraagt om de herstelzin. Het juiste antwoord is weigeren en de oefening stoppen."
+            ],
+            "en": [
+              "Bitcoin has technical, operational and market risks. Value and transaction fees can change. This lesson provides education, not personal financial advice or a purchase recommendation.",
+              "Ask attendees to explain the difference between an address, a key and a transaction. Then discuss a fictional mistake: a teacher asks for a recovery phrase. The correct response is to refuse and stop the exercise."
+            ]
+          }
+        }
+      ],
+      "checklist": {
+        "nl": [
+          "Leg register, sleutel en transactie los van elkaar uit.",
+          "Gebruik geen koersgrafieken als overtuigingsmiddel.",
+          "Vraag deelnemers nooit om herstelzinnen.",
+          "Sluit af met vragen en controle van begrip."
+        ],
+        "en": [
+          "Explain records, keys and transactions separately.",
+          "Do not use price charts as persuasion.",
+          "Never ask attendees for recovery phrases.",
+          "Finish with questions and a comprehension check."
+        ]
+      }
+    },
+    {
+      "id": "test-coin-workshop",
+      "title": {
+        "nl": "Walletworkshop met testmunten",
+        "en": "Wallet workshop with test coins"
+      },
+      "summary": {
+        "nl": "Oefen een transactie zonder echt geld of overdracht van geheime sleutels.",
+        "en": "Practice a transaction without real money or handing over secret keys."
+      },
+      "category": "education",
+      "format": "playbook",
+      "durationMinutes": 75,
+      "level": "beginner",
+      "license": "CC-BY-4.0",
+      "sections": [
+        {
+          "title": {
+            "nl": "Bereid een afzonderlijke testomgeving voor",
+            "en": "Prepare a separate test environment"
+          },
+          "paragraphs": {
+            "nl": [
+              "Kies vooraf een expliciet testnetwerk en software die dat netwerk duidelijk toont. Controleer actuele officiële documentatie voor de gekozen software. Gebruik een aparte oefenwallet zonder echt saldo en zonder bestaande herstelzin.",
+              "Bereid testmunten en een geprinte stapkaart voor. Test de oefening op dezelfde apparaten als in de zaal. Laat iemand zonder ervaring de instructie proberen. Een papieren transactiedemo is een goede uitwijkmogelijkheid wanneer apparatuur niet werkt."
+            ],
+            "en": [
+              "Choose an explicit test network and software that clearly displays it. Check current official documentation for that software. Use a separate practice wallet with no real balance and no existing recovery phrase.",
+              "Prepare test coins and a printed instruction card. Test the exercise on the devices used in the room. Have someone new try the instructions. A paper transaction demo is a useful fallback when equipment fails."
+            ]
+          }
+        },
+        {
+          "title": {
+            "nl": "Laat deelnemers zelf bedienen",
+            "en": "Let attendees operate their own devices"
+          },
+          "paragraphs": {
+            "nl": [
+              "Laat deelnemers zelf een oefenwallet aanmaken. Begeleiders kijken nooit mee bij geheime gegevens en verzamelen geen schermafbeeldingen, sleutels of herstelzinnen. Werk in tweetallen: de één beschrijft de stap, de ander voert hem uit.",
+              "Controleer samen dat de wallet het testnetwerk toont. Ontvang testmunten, maak een klein testbedrag over en bekijk status en kosten. Bespreek waarom een verkeerd adres of netwerk problematisch is zonder een echte betaling te laten uitvoeren."
+            ],
+            "en": [
+              "Let attendees create their own practice wallets. Helpers never observe secret information or collect screenshots, keys or recovery phrases. Work in pairs: one describes the step and the other performs it.",
+              "Check together that the wallet shows the test network. Receive test coins, send a small test amount and inspect status and fees. Explain wrong-address and wrong-network problems without making a real payment."
+            ]
+          }
+        },
+        {
+          "title": {
+            "nl": "Stop en evalueer",
+            "en": "Stop and review"
+          },
+          "paragraphs": {
+            "nl": [
+              "Stop de oefening als echt saldo verschijnt, iemand om een geheime sleutel vraagt of onduidelijk is welk netwerk wordt gebruikt. Laat de deelnemer het apparaat zelf beheren en neem geen controle op afstand over.",
+              "Eindig met een korte terugblik over veiligheid en eigen verantwoordelijkheid. Een testwallet is geen aanbeveling voor dezelfde software met echt geld. Noteer alleen algemene verbeterpunten; bewaar geen walletgegevens."
+            ],
+            "en": [
+              "Stop if real funds appear, anyone asks for a private key or the network is unclear. The attendee keeps control of their device; do not take remote control.",
+              "End with a short review of safety and personal responsibility. A practice wallet is not a recommendation to use the same software with real funds. Record general improvements only; retain no wallet information."
+            ]
+          }
+        }
+      ],
+      "checklist": {
+        "nl": [
+          "Controleer software en testnetwerk vooraf.",
+          "Gebruik uitsluitend afzonderlijke testwallets en testmunten.",
+          "Neem geen geheime sleutels of herstelzinnen in.",
+          "Hanteer de stopregel en bewaar geen walletgegevens."
+        ],
+        "en": [
+          "Check software and test network beforehand.",
+          "Use separate practice wallets and test coins only.",
+          "Collect no private keys or recovery phrases.",
+          "Apply the stop rule and retain no wallet data."
+        ]
+      }
+    },
+    {
+      "id": "event-runbook",
+      "title": {
+        "nl": "Een event van plan tot terugblik",
+        "en": "An event from plan to review"
+      },
+      "summary": {
+        "nl": "Een herhaalbare werkwijze voor locatie, programma, hosts en evaluatie.",
+        "en": "A repeatable approach to venue, programme, hosts and review."
+      },
+      "category": "operations",
+      "format": "playbook",
+      "durationMinutes": 90,
+      "level": "intermediate",
+      "license": "CC-BY-4.0",
+      "sections": [
+        {
+          "title": {
+            "nl": "Vier weken vooraf",
+            "en": "Four weeks beforehand"
+          },
+          "paragraphs": {
+            "nl": [
+              "Schrijf doel, doelgroep, maximale capaciteit en budget op één pagina. Boek pas een locatie wanneer de kosten en voorwaarden helder zijn. Spreek af wie programma, locatie, financiën en communicatie beheert.",
+              "Controleer toegankelijkheid, nooduitgangen, geluidsniveau en vervoer. Gebruik een eenvoudige openbare programmaweergave. Vermeld taal, kosten, eventuele sponsoring en hoe bezoekers vragen kunnen stellen."
+            ],
+            "en": [
+              "Write purpose, audience, capacity and budget on one page. Book a venue only after costs and terms are clear. Assign responsibility for programme, venue, finances and communication.",
+              "Check accessibility, exits, sound level and transport. Publish a simple programme. State language, costs, sponsorship and how guests can ask questions."
+            ]
+          }
+        },
+        {
+          "title": {
+            "nl": "Tijdens het event",
+            "en": "During the event"
+          },
+          "paragraphs": {
+            "nl": [
+              "Brief hosts over agenda, gedragscode en contact bij problemen. Reserveer een rustige plek voor vragen. Scheid educatie van commerciële bijdragen en maak sponsorschap zichtbaar.",
+              "Vraag toestemming voordat herkenbare foto’s worden gepubliceerd. Registreer aanwezigen alleen als dat nodig is en publiceer geen persoonsgegevens. Laat een host de tijd bewaken en houd ruimte voor deelnemersvragen."
+            ],
+            "en": [
+              "Brief hosts on schedule, code of conduct and whom to contact with problems. Provide a quiet place for questions. Distinguish educational sessions from commercial contributions and disclose sponsorship.",
+              "Get permission before publishing identifiable photographs. Record attendance only when necessary and do not publish personal data. Have a host manage time and leave room for questions."
+            ]
+          }
+        },
+        {
+          "title": {
+            "nl": "Binnen zeven dagen erna",
+            "en": "Within seven days afterwards"
+          },
+          "paragraphs": {
+            "nl": [
+              "Deel presentaties alleen als de maker publicatie heeft toegestaan en de licentie bekend is. Publiceer een korte samenvatting en de belangrijkste antwoorden, zonder persoonlijke gegevens.",
+              "Vergelijk werkelijke kosten met het budget, noteer incidenten in een afgeschermd proces en bespreek drie verbeteringen. Wis tijdelijke registraties volgens het vooraf gedeelde bewaarbeleid."
+            ],
+            "en": [
+              "Share presentations only with the creator’s permission and a known license. Publish a short summary and key answers without personal information.",
+              "Compare actual costs with budget, record incidents through a restricted process and discuss three improvements. Delete temporary registrations under the retention policy shared in advance."
+            ]
+          }
+        }
+      ],
+      "checklist": {
+        "nl": [
+          "Leg doel, budget en verantwoordelijkheden vast.",
+          "Controleer locatie en toegankelijkheid.",
+          "Publiceer programma, sponsoring en fotobeleid.",
+          "Maak een terugblik en verwijder tijdelijke registraties."
+        ],
+        "en": [
+          "Record purpose, budget and responsibilities.",
+          "Check venue and accessibility.",
+          "Publish programme, sponsorship and photo policy.",
+          "Review the event and delete temporary registrations."
+        ]
+      }
+    },
+    {
+      "id": "business-introduction",
+      "title": {
+        "nl": "Bitcoin verkennen als ondernemer",
+        "en": "Exploring Bitcoin as a business"
+      },
+      "summary": {
+        "nl": "Gebruik een fictieve klantreis om operationele vragen in kaart te brengen.",
+        "en": "Use a fictional customer journey to map operational questions."
+      },
+      "category": "business",
+      "format": "playbook",
+      "durationMinutes": 60,
+      "level": "intermediate",
+      "license": "CC-BY-4.0",
+      "sections": [
+        {
+          "title": {
+            "nl": "Begin met het probleem",
+            "en": "Start with the problem"
+          },
+          "paragraphs": {
+            "nl": [
+              "Laat de ondernemer eerst de klantreis beschrijven: bestellen, betalen, bevestigen, terugbetaling en boekhouding. Vraag welk concreet probleem verbetering nodig heeft. Een technische oplossing zonder duidelijk probleem levert extra werk op.",
+              "Gebruik een fictief product en een fictieve betaling. Zet bekende aannames en open vragen apart op papier. Deze sessie is geen persoonlijk financieel, juridisch of fiscaal advies."
+            ],
+            "en": [
+              "Have the business describe its customer journey: ordering, paying, confirmation, refunds and bookkeeping. Ask which specific problem needs improvement. A technical solution without a clear problem adds work.",
+              "Use a fictional product and payment. Record known assumptions separately from open questions. This session is not personal financial, legal or tax advice."
+            ]
+          }
+        },
+        {
+          "title": {
+            "nl": "Teken het operationele proces",
+            "en": "Draw the operating process"
+          },
+          "paragraphs": {
+            "nl": [
+              "Bespreek wie een betaalstatus controleert, wat er gebeurt bij een te late of onjuiste betaling en wie een terugbetaling mag uitvoeren. Maak duidelijk hoe klanten ondersteuning krijgen.",
+              "Bespreek beveiliging, verantwoordelijkheden en eventuele dienstverleners. Verzamel geen echte betaalgegevens en verbind geen productieaccount tijdens de introductie."
+            ],
+            "en": [
+              "Discuss who checks payment status, how late or incorrect payments are handled and who may authorize a refund. Explain how customers obtain support.",
+              "Discuss security, responsibilities and possible service providers. Collect no real payment details and connect no production account during the introduction."
+            ]
+          }
+        },
+        {
+          "title": {
+            "nl": "Een klein vervolgexperiment",
+            "en": "A small follow-up experiment"
+          },
+          "paragraphs": {
+            "nl": [
+              "Schrijf één proefscenario, één verantwoordelijke en één stopcriterium op. Laat lokale deskundigen actuele juridische, fiscale en administratieve eisen beoordelen voordat een echte betaalmogelijkheid wordt ingevoerd.",
+              "Evalueer begrijpelijkheid voor de klant, tijd voor medewerkers en foutafhandeling. Presenteer de uitkomst met beperkingen, zonder omzet- of koersbelofte."
+            ],
+            "en": [
+              "Write down one trial scenario, one responsible person and one stop condition. Have local specialists review current legal, tax and accounting requirements before implementing real payments.",
+              "Evaluate customer understanding, staff time and error handling. Present results with their limitations and without revenue or price promises."
+            ]
+          }
+        }
+      ],
+      "checklist": {
+        "nl": [
+          "Beschrijf eerst een concreet klantprobleem.",
+          "Gebruik fictieve betalingen en gegevens.",
+          "Leg ondersteuning, terugbetaling en rollen vast.",
+          "Laat lokale deskundigen de vervolgstap toetsen."
+        ],
+        "en": [
+          "Describe a concrete customer problem first.",
+          "Use fictional payments and data.",
+          "Define support, refunds and responsibilities.",
+          "Have local specialists review the next step."
+        ]
+      }
+    },
+    {
+      "id": "local-governance",
+      "title": {
+        "nl": "Een lokale community besturen",
+        "en": "Running a local community"
+      },
+      "summary": {
+        "nl": "Maak verantwoordelijkheden, besluiten, belangen en overdracht zichtbaar.",
+        "en": "Make responsibilities, decisions, interests and handover visible."
+      },
+      "category": "governance",
+      "format": "playbook",
+      "durationMinutes": 60,
+      "level": "intermediate",
+      "license": "CC-BY-4.0",
+      "sections": [
+        {
+          "title": {
+            "nl": "Een klein openbaar charter",
+            "en": "A short public charter"
+          },
+          "paragraphs": {
+            "nl": [
+              "Schrijf missie, doelgroep, gedragscode en lidmaatschapsvorm op één pagina. Vermeld dat de community onafhankelijk is en dat het open startpakket geen officiële vertegenwoordiging, merktoestemming of netwerktoelating geeft.",
+              "Kies een beheerteam van minstens twee mensen en leg termijnen en vervanging vast. Eén persoon mag niet alleen de financiën, publicatie en toegang tot alle systemen beheren."
+            ],
+            "en": [
+              "Write mission, audience, code of conduct and membership model on one page. State that the community is independent and that the open starter grants no official representation, brand permission or network admission.",
+              "Choose a team of at least two people and define terms and replacements. One person should not alone control finances, publication and access to every system."
+            ]
+          }
+        },
+        {
+          "title": {
+            "nl": "Besluiten en belangen",
+            "en": "Decisions and interests"
+          },
+          "paragraphs": {
+            "nl": [
+              "Leg besluiten vast met datum, voorstel, verantwoordelijke en reden. Publiceer alleen de noodzakelijke informatie. Maak sponsoring en zakelijke belangen vooraf zichtbaar; wie belang heeft bij een keuze stapt terug uit die beslissing.",
+              "Spreek een eenvoudige bezwaarroute af met twee aanspreekpunten. Houd meldingen van persoonlijke incidenten buiten het publieke besluitlogboek. Publiceer algemene lessen zonder betrokkenen herkenbaar te maken."
+            ],
+            "en": [
+              "Record decisions with date, proposal, owner and reason. Publish only necessary information. Disclose sponsorship and commercial interests in advance; someone with an interest steps back from that decision.",
+              "Define a simple appeal route with two contacts. Keep personal incident reports outside the public decision log. Publish general lessons without identifying those involved."
+            ]
+          }
+        },
+        {
+          "title": {
+            "nl": "Overdracht en controle",
+            "en": "Handover and review"
+          },
+          "paragraphs": {
+            "nl": [
+              "Bewaar openbare documentatie, inventaris en overdrachtsinstructies op een vaste plek. Neem wachtwoorden, herstelzinnen en privéledenlijsten nooit op in een openbare repository of fork.",
+              "Evalueer elk kwartaal werkdruk, kosten, gedrag en besluitvorming. Geef nieuwe vrijwilligers een kleine eerste taak en een begeleider. Werk charter en rollen bij op basis van die terugblik."
+            ],
+            "en": [
+              "Keep public documentation, inventory and handover instructions in one place. Never put passwords, recovery phrases or private member lists in a public repository or fork.",
+              "Review workload, costs, conduct and decisions each quarter. Give new volunteers a small first task and a mentor. Update the charter and roles based on that review."
+            ]
+          }
+        }
+      ],
+      "checklist": {
+        "nl": [
+          "Publiceer een kort charter en gedragscode.",
+          "Verdeel rollen over minstens twee mensen.",
+          "Houd een besluitlogboek en belangenverklaringen bij.",
+          "Test overdracht en evalueer ieder kwartaal."
+        ],
+        "en": [
+          "Publish a short charter and code of conduct.",
+          "Divide responsibilities among at least two people.",
+          "Maintain a decision log and interest declarations.",
+          "Test handover and review each quarter."
+        ]
+      }
+    },
+    {
+      "id": "translation-workflow",
+      "title": {
+        "nl": "Vertalen zonder betekenisverlies",
+        "en": "Translate without losing meaning"
+      },
+      "summary": {
+        "nl": "Maak een lokale vertaling met bron, termenlijst, controle en duidelijke wijzigingen.",
+        "en": "Create a local translation with a source, glossary, review and clear changes."
+      },
+      "category": "localization",
+      "format": "playbook",
+      "durationMinutes": 60,
+      "level": "intermediate",
+      "license": "CC-BY-4.0",
+      "sections": [
+        {
+          "title": {
+            "nl": "Bron en scope",
+            "en": "Source and scope"
+          },
+          "paragraphs": {
+            "nl": [
+              "Kies één les en noteer versie, taal, licentie en bron. Controleer dat vertaling is toegestaan. Werk met openbare educatieve teksten; een privébestand wordt niet open doordat het vertaald wordt.",
+              "Maak een kleine termenlijst voor wallet, sleutel, herstelzin, adres, transactie en bevestiging. Leg per term een gewone uitleg vast die bij lokale deelnemers past."
+            ],
+            "en": [
+              "Choose one lesson and record version, language, license and source. Check that translation is permitted. Work with public educational texts; translating a private file does not make it open.",
+              "Create a small glossary for wallet, key, recovery phrase, address, transaction and confirmation. Give each term a plain explanation suitable for local attendees."
+            ]
+          }
+        },
+        {
+          "title": {
+            "nl": "Twee mensen, twee controles",
+            "en": "Two people, two checks"
+          },
+          "paragraphs": {
+            "nl": [
+              "Laat een moedertaalspreker vertalen en een tweede persoon betekenis en leesbaarheid controleren. Bewaar waarschuwingen en voorwaarden volledig. Pas voorbeelden aan, maar verander geen technisch feit zonder broncontrole.",
+              "Laat een beginner de les navertellen. Noteer waar misverstanden ontstaan en verbeter die passages. Markeer ontbrekende vertalingen expliciet; presenteer Engels niet als een afgeronde lokale vertaling."
+            ],
+            "en": [
+              "Have a native speaker translate and a second person check meaning and readability. Preserve warnings and conditions. Adapt examples, but do not change technical facts without checking a source.",
+              "Ask a beginner to explain the lesson back. Record misunderstandings and revise those passages. Explicitly mark missing translations; do not present English as a completed local translation."
+            ]
+          }
+        },
+        {
+          "title": {
+            "nl": "Publiceer met herkomst",
+            "en": "Publish with provenance"
+          },
+          "paragraphs": {
+            "nl": [
+              "Vermeld oorspronkelijke makers, CC BY 4.0, de licentielink, taal, datum en dat het een aangepaste versie is. Voeg een korte wijzigingslijst toe. Houd de oorspronkelijke versie bereikbaar.",
+              "Voeg nieuwe taalvelden pas toe nadat de schema’s, validator en interface die taal ondersteunen. De startversie ondersteunt Nederlands en Engels; andere landen kunnen de tekst eerst in hun gekozen beschikbare taal aanpassen en daarna een taaluitbreiding bijdragen."
+            ],
+            "en": [
+              "Credit the original creators, CC BY 4.0, license link, language, date and the fact that this is an adaptation. Add a short change list. Keep the original version accessible.",
+              "Add new language fields only after the schemas, validator and interface support the language. This starter supports Dutch and English; other countries can first adapt text in an available language, then contribute a language extension."
+            ]
+          }
+        }
+      ],
+      "checklist": {
+        "nl": [
+          "Noteer bronversie, rechten en termenlijst.",
+          "Laat een tweede persoon betekenis controleren.",
+          "Test de uitleg met een beginner.",
+          "Publiceer attributie en een wijzigingslijst."
+        ],
+        "en": [
+          "Record source version, rights and glossary.",
+          "Have another person check meaning.",
+          "Test the explanation with a beginner.",
+          "Publish attribution and a change list."
+        ]
+      }
+    }
+  ]
+}
