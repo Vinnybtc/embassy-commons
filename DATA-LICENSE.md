@@ -18,6 +18,10 @@ Het Nederlandse record verwijst naar publiek beschikbare feiten over Dutch Bitco
 
 De verwijzing naar de oorspronkelijke bron is geen rechtenverlening door die bron. Bestaande Dutch Bitcoin Embassy datasets en materialen worden pas aan een echte open datarelease toegevoegd na de rechten- en publicatiecontrole in [DATA-POLICY.md](docs/DATA-POLICY.md).
 
+## Openbare DBE-bronreferentie
+
+`dist/data/dbe-public.json` bevat organisatiegegevens, drie circles en twee historische bijeenkomsten als openbare bronreferentie. De onafhankelijk geschreven beschrijvingen in dit bestand en het Nederlandse registry-record worden door deze starter aangeboden onder **CC-BY-4.0**. De datum-, plaats- en naamgegevens zijn openbare feitelijke metadata; de bron en rechteninformatie blijven bij hergebruik zichtbaar. Dit verleent geen rechten op de achterliggende website, beeldmateriaal of merken. Deze gegevens zijn een bronreferentie, geen lokale eventagenda.
+
 ## Eigen kennis in de resource-export
 
 De acht originele NL/EN playbooks en hun inhoudelijke beschrijvingen gebruiken **CC-BY-4.0**, zoals uitgelegd in [CONTENT-LICENSE.md](CONTENT-LICENSE.md). Het opslaan van kennis in JSON maakt deze inhoud geen CC0 dataset.
