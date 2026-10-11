@@ -25,3 +25,7 @@ Een bronlink verleent geen open licentie op de inhoud achter die link. Voor geci
 Deze licentie is geen algemene toestemming voor het gebruik van de Dutch Bitcoin Embassy naam, logo's of toekomstige erkenningslabels. Bronvermelding mag geen steun, partnerstatus, officiële vertegenwoordiging of review suggereren die niet plaatsvond. Voor merkgebruik gelden afzonderlijke afspraken.
 
 De eerste uitgever moet voor opname van bestaande Dutch Bitcoin Embassy content de rechten en bijbehorende auteursvermeldingen vaststellen. Deze starter geeft geen licentie op bestaande privébestanden, externe website-inhoud of materialen die niet in de eigen kennisrelease zijn opgenomen.
+
+## Huisstijl-assets en lettertypen
+
+De interface bevat DBE-logo’s en een verwijzing naar een publiek DBE-hero-beeld om de eigen DBE-huisstijl te tonen. Deze merkassets en fotografie vallen buiten de kennislicentie. De drie lettertypen hebben afzonderlijke OFL-1.1-licenties en copyrightnotices in `dist/font-licenses/`. Zie [BRAND.md](docs/BRAND.md).

@@ -1,6 +1,6 @@
 # Aansluiting op het bestaande DBE-platform
 
-Onderzocht op 11 oktober 2026 via de geautoriseerde GitHub-verbinding. Dit is een beperkte, read-only verkenning van repositorystructuur, packagebestanden en de README van de community-app. Geen bestaande code of operationele data is opgenomen in Embassy Commons. Beschreven functionaliteit uit een README is geen bevestiging dat die functionaliteit productiegeschikt is.
+Onderzocht op 11 oktober 2026 via de geautoriseerde GitHub-verbinding. Dit is een beperkte, read-only verkenning van repositorystructuur, packagebestanden en de README van de community-app. Geen bestaande backendcode of operationele data is opgenomen in Embassy Commons. De interface gebruikt inmiddels, op verzoek van de opdrachtgever, de actuele DBE-huisstijl en bijbehorende font- en merkassets; zie [BRAND.md](BRAND.md). Beschreven functionaliteit uit een README is geen bevestiging dat die functionaliteit productiegeschikt is.
 
 ## Bestaande website
 

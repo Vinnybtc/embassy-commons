@@ -16,6 +16,7 @@ Open `http://127.0.0.1:4173`. De HTTP-server serveert alleen `dist/`. Dubbelklik
 
 ## Wat werkt
 
+- Dezelfde DBE-huisstijl: originele typografie, kleuren, logo, ringen, navigatie en componentmaten. Fonts werken lokaal en hun OFL-licenties worden meegeleverd; DBE-merkassets zijn afzonderlijk gereserveerd. Zie [BRAND.md](docs/BRAND.md).
 - Responsive website met Nederlands en Engels en zes pagina’s: overzicht, landregister, kennisbank, startergenerator, open data en voorstel.
 - Zoekbaar landregister met een openbare Nederlandse bronverwijzing en drie expliciet gemarkeerde voorbeeldtemplates. Er zijn geen bevestigde internationale partners opgenomen.
 - Gestructureerde openbare DBE-brondata: de drie circles en twee historische bijeenkomsten, inclusief herkomst en rechten. Dit is een afzonderlijke bronreferentie en bevat geen ledengegevens.
